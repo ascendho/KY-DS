@@ -12,3 +12,8 @@ target_link_libraries(Inverse InverseLib)
 add_executable(Max Max.cpp Max.h Max-main.cpp)
 add_library(MaxLib ../TextBook/LinkList.h ../TextBook/LinkList.cpp)
 target_link_libraries(Max MaxLib)
+
+# Difference
+add_executable(Difference Difference.cpp Difference.h Difference-main.cpp)
+add_library(DifferenceLib ../TextBook/LinkList.h ../TextBook/LinkList.cpp)
+target_link_libraries(Difference DifferenceLib)

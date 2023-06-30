@@ -180,6 +180,76 @@ build libMaxLib.a: CXX_STATIC_LIBRARY_LINKER__MaxLib_Debug CMakeFiles/MaxLib.dir
   TARGET_FILE = libMaxLib.a
   TARGET_PDB = MaxLib.a.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Difference
+
+
+#############################################
+# Order-only phony target for Difference
+
+build cmake_object_order_depends_target_Difference: phony || cmake_object_order_depends_target_DifferenceLib
+
+build CMakeFiles/Difference.dir/Difference.cpp.obj: CXX_COMPILER__Difference_Debug D$:/data/duotone/repo/02-Linear$ List/Exercise/Difference.cpp || cmake_object_order_depends_target_Difference
+  DEP_FILE = CMakeFiles\Difference.dir\Difference.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Difference.dir
+  OBJECT_FILE_DIR = CMakeFiles\Difference.dir
+
+build CMakeFiles/Difference.dir/Difference-main.cpp.obj: CXX_COMPILER__Difference_Debug D$:/data/duotone/repo/02-Linear$ List/Exercise/Difference-main.cpp || cmake_object_order_depends_target_Difference
+  DEP_FILE = CMakeFiles\Difference.dir\Difference-main.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Difference.dir
+  OBJECT_FILE_DIR = CMakeFiles\Difference.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Difference
+
+
+#############################################
+# Link the executable Difference.exe
+
+build Difference.exe: CXX_EXECUTABLE_LINKER__Difference_Debug CMakeFiles/Difference.dir/Difference.cpp.obj CMakeFiles/Difference.dir/Difference-main.cpp.obj | libDifferenceLib.a || libDifferenceLib.a
+  FLAGS = -g
+  LINK_LIBRARIES = libDifferenceLib.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Difference.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Difference.exe
+  TARGET_IMPLIB = libDifference.dll.a
+  TARGET_PDB = Difference.exe.dbg
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target DifferenceLib
+
+
+#############################################
+# Order-only phony target for DifferenceLib
+
+build cmake_object_order_depends_target_DifferenceLib: phony || CMakeFiles/DifferenceLib.dir
+
+build CMakeFiles/DifferenceLib.dir/D_/data/duotone/repo/02-Linear_List/TextBook/LinkList.cpp.obj: CXX_COMPILER__DifferenceLib_Debug D$:/data/duotone/repo/02-Linear$ List/TextBook/LinkList.cpp || cmake_object_order_depends_target_DifferenceLib
+  DEP_FILE = CMakeFiles\DifferenceLib.dir\D_\data\duotone\repo\02-Linear_List\TextBook\LinkList.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\DifferenceLib.dir
+  OBJECT_FILE_DIR = CMakeFiles\DifferenceLib.dir\D_\data\duotone\repo\02-Linear_List\TextBook
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target DifferenceLib
+
+
+#############################################
+# Link the static library libDifferenceLib.a
+
+build libDifferenceLib.a: CXX_STATIC_LIBRARY_LINKER__DifferenceLib_Debug CMakeFiles/DifferenceLib.dir/D_/data/duotone/repo/02-Linear_List/TextBook/LinkList.cpp.obj
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = CMakeFiles\DifferenceLib.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = libDifferenceLib.a
+  TARGET_PDB = DifferenceLib.a.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -206,6 +276,10 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build Difference: phony Difference.exe
+
+build DifferenceLib: phony libDifferenceLib.a
+
 build Inverse: phony Inverse.exe
 
 build InverseLib: phony libInverseLib.a
@@ -222,7 +296,7 @@ build MaxLib: phony libMaxLib.a
 #############################################
 # Folder: D:/data/duotone/repo/02-Linear List/Exercise/cmake-build-debug
 
-build all: phony Inverse.exe libInverseLib.a Max.exe libMaxLib.a
+build all: phony Inverse.exe libInverseLib.a Max.exe libMaxLib.a Difference.exe libDifferenceLib.a
 
 # =============================================================================
 # Built-in targets
