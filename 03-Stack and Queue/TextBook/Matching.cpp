@@ -7,6 +7,9 @@
 // 教材中没有'{'和'}'的匹配，这里添加上了
 // 检验表达式中所含括号是否正确匹配，如果匹配，则返回true，否则返回false
 
+// 时间复杂度：O(n)
+// 空间复杂度：O(n)
+
 Status Matching() {
     // 表达式以“#”结束
     char ch;
@@ -21,12 +24,14 @@ Status Matching() {
 
     // 读入第一个字符
     std::cin >> ch;
-    while (ch != '#' && flag)      // 假设表达式以“#”结尾
+
+    // 假设表达式以“#”结尾
+    while (ch != '#' && flag)
     {
         switch (ch) {
             case '{':
             case '[' :
-            case '(':              // 若是左括号，则将其压入栈
+            case '(':                                    // 若是左括号，则将其压入栈
                 Push(S, ch);
                 break;
 
