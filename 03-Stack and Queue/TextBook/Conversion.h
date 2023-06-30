@@ -6,4 +6,6 @@
 
 void Conversion(int N, int base);
 
+void Conversion_Recursive(int N, int base);
+
 #endif //INC_03_STACK_AND_QUEUE_CONVERSION_H

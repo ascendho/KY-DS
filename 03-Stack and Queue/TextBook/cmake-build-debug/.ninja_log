@@ -13,3 +13,8 @@
 600	763	7098160070405638	Matching.exe	35db16b1d76e43a2
 5	506	7098161337374144	CMakeFiles/Matching.dir/Matching.cpp.obj	56f59a0cbb70b007
 507	677	7098161339063209	Matching.exe	35db16b1d76e43a2
+5	593	7098395468774899	CMakeFiles/Conversion.dir/Conversion.cpp.obj	3c67454e1f103008
+11	602	7098395468849064	CMakeFiles/Conversion.dir/Conversion-main.cpp.obj	ff9f670d7049b237
+602	782	7098395470640876	Conversion.exe	7daf05ede4e73ace
+4	488	7098395691824798	CMakeFiles/Conversion.dir/Conversion-main.cpp.obj	ff9f670d7049b237
+489	657	7098395693485172	Conversion.exe	7daf05ede4e73ace

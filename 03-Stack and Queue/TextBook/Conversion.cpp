@@ -36,3 +36,32 @@ void Conversion(int N, int base) {
         std::cout << e;
     }
 }
+
+// 递归版本：参考邓书，修改为严书风格代码
+// 整数n的1<base<=16进制打印（递归版）
+
+void Conversion_Recursive(int N, int base) {
+    // 1<base<=16,base新进制下的数位符号，可视base取值范围适当扩充
+    static char digit[] = {'0', '1', '2', '3',
+                           '4', '5', '6', '7',
+                           '8', '9', 'A', 'B',
+                           'C', 'D', 'E', 'F'};
+
+    SElemType e;
+
+    // 初始化空栈S
+    LinkStack S;
+    InitStack(S);
+
+    if (0 < N) { //在尚有余数之前，反复地
+        Conversion_Recursive(N / base, base); // 通过递归得到所有更高位
+        Push(S, digit[N % base]);          // 逆向记录当前最低位
+
+    }
+
+    while (!StackEmpty(S))                   // 当栈S非空时，循环
+    {
+        Pop(S, e);                     // 弹出栈顶元素e
+        std::cout << e;
+    }
+}

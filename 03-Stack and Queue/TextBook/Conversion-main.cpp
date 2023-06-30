@@ -15,6 +15,8 @@ int main() {
     cin >> base;
 
     Conversion(N, base);
+    cout << endl;
+    Conversion_Recursive(N, base);
 
     return 0;
 }
