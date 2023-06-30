@@ -242,6 +242,76 @@ build libConversionLib.a: CXX_STATIC_LIBRARY_LINKER__ConversionLib_Debug CMakeFi
   TARGET_FILE = libConversionLib.a
   TARGET_PDB = ConversionLib.a.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Matching
+
+
+#############################################
+# Order-only phony target for Matching
+
+build cmake_object_order_depends_target_Matching: phony || cmake_object_order_depends_target_MatchingLib
+
+build CMakeFiles/Matching.dir/Matching.cpp.obj: CXX_COMPILER__Matching_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/TextBook/Matching.cpp || cmake_object_order_depends_target_Matching
+  DEP_FILE = CMakeFiles\Matching.dir\Matching.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Matching.dir
+  OBJECT_FILE_DIR = CMakeFiles\Matching.dir
+
+build CMakeFiles/Matching.dir/Matching-main.cpp.obj: CXX_COMPILER__Matching_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/TextBook/Matching-main.cpp || cmake_object_order_depends_target_Matching
+  DEP_FILE = CMakeFiles\Matching.dir\Matching-main.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Matching.dir
+  OBJECT_FILE_DIR = CMakeFiles\Matching.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Matching
+
+
+#############################################
+# Link the executable Matching.exe
+
+build Matching.exe: CXX_EXECUTABLE_LINKER__Matching_Debug CMakeFiles/Matching.dir/Matching.cpp.obj CMakeFiles/Matching.dir/Matching-main.cpp.obj | libMatchingLib.a || libMatchingLib.a
+  FLAGS = -g
+  LINK_LIBRARIES = libMatchingLib.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Matching.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Matching.exe
+  TARGET_IMPLIB = libMatching.dll.a
+  TARGET_PDB = Matching.exe.dbg
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target MatchingLib
+
+
+#############################################
+# Order-only phony target for MatchingLib
+
+build cmake_object_order_depends_target_MatchingLib: phony || CMakeFiles/MatchingLib.dir
+
+build CMakeFiles/MatchingLib.dir/LinkStack.cpp.obj: CXX_COMPILER__MatchingLib_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/TextBook/LinkStack.cpp || cmake_object_order_depends_target_MatchingLib
+  DEP_FILE = CMakeFiles\MatchingLib.dir\LinkStack.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\MatchingLib.dir
+  OBJECT_FILE_DIR = CMakeFiles\MatchingLib.dir
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target MatchingLib
+
+
+#############################################
+# Link the static library libMatchingLib.a
+
+build libMatchingLib.a: CXX_STATIC_LIBRARY_LINKER__MatchingLib_Debug CMakeFiles/MatchingLib.dir/LinkStack.cpp.obj
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = CMakeFiles\MatchingLib.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = libMatchingLib.a
+  TARGET_PDB = MatchingLib.a.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -276,6 +346,10 @@ build LinkQueue: phony LinkQueue.exe
 
 build LinkStack: phony LinkStack.exe
 
+build Matching: phony Matching.exe
+
+build MatchingLib: phony libMatchingLib.a
+
 build SqQueue: phony SqQueue.exe
 
 build SqStack: phony SqStack.exe
@@ -288,7 +362,7 @@ build SqStack: phony SqStack.exe
 #############################################
 # Folder: D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug
 
-build all: phony SqStack.exe LinkStack.exe SqQueue.exe LinkQueue.exe Conversion.exe libConversionLib.a
+build all: phony SqStack.exe LinkStack.exe SqQueue.exe LinkQueue.exe Conversion.exe libConversionLib.a Matching.exe libMatchingLib.a
 
 # =============================================================================
 # Built-in targets

@@ -4,5 +4,7 @@ D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug/CMakeFiles/Sq
 D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug/CMakeFiles/LinkQueue.dir
 D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug/CMakeFiles/Conversion.dir
 D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug/CMakeFiles/ConversionLib.dir
+D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug/CMakeFiles/Matching.dir
+D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug/CMakeFiles/MatchingLib.dir
 D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug/CMakeFiles/rebuild_cache.dir

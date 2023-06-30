@@ -13,3 +13,7 @@ add_executable(Conversion Conversion.cpp Conversion.h Conversion-main.cpp)
 add_library(ConversionLib LinkStack.cpp)
 target_link_libraries(Conversion ConversionLib)
 
+# Parenthesis Matching
+add_executable(Matching Matching.cpp Matching.h Matching-main.cpp)
+add_library(MatchingLib LinkStack.cpp)
+target_link_libraries(Matching MatchingLib)
