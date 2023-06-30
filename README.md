@@ -38,7 +38,8 @@ typora-copy-images-to: ./img
 
 |                            线性表                            | 栈和队列 | 串、数组和广义表 | 树和二叉树 |  图  | 查找 | 排序 |
 | :----------------------------------------------------------: | :------: | :--------------: | :--------: | :--: | :--: | :--: |
-| <a href="02-Linear List/Exercise/Inverse.cpp">单链表原地逆置</a> |          |                  |            |      |      |      |
+| <a href="02-Linear List/Exercise/Max.cpp">2.6-求单链表最大值结点</a> |          |                  |            |      |      |      |
+| <a href="02-Linear List/Exercise/Inverse.cpp">2.7-单链表原地逆置</a> |          |                  |            |      |      |      |
 
 ------
 

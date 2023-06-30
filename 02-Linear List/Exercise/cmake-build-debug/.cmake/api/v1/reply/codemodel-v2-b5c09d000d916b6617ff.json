@@ -16,7 +16,9 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3
 					]
 				}
 			],
@@ -32,7 +34,9 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3
 					]
 				}
 			],
@@ -50,6 +54,20 @@
 					"id" : "InverseLib::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-InverseLib-Debug-fba40c9d6dbe7b242a2e.json",
 					"name" : "InverseLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Max::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Max-Debug-9055d60dea82fc4f29c6.json",
+					"name" : "Max",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MaxLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MaxLib-Debug-d323239376959d403b71.json",
+					"name" : "MaxLib",
 					"projectIndex" : 0
 				}
 			]

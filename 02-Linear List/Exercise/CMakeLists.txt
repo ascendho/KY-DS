@@ -7,3 +7,8 @@ set(CMAKE_CXX_STANDARD 20)
 add_executable(Inverse Inverse.cpp Inverse.h Inverse-main.cpp)
 add_library(InverseLib ../TextBook/LinkList.h ../TextBook/LinkList.cpp)
 target_link_libraries(Inverse InverseLib)
+
+# Max
+add_executable(Max Max.cpp Max.h Max-main.cpp)
+add_library(MaxLib ../TextBook/LinkList.h ../TextBook/LinkList.cpp)
+target_link_libraries(Max MaxLib)

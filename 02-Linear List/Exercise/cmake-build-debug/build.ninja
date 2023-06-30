@@ -110,6 +110,76 @@ build libInverseLib.a: CXX_STATIC_LIBRARY_LINKER__InverseLib_Debug CMakeFiles/In
   TARGET_FILE = libInverseLib.a
   TARGET_PDB = InverseLib.a.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Max
+
+
+#############################################
+# Order-only phony target for Max
+
+build cmake_object_order_depends_target_Max: phony || cmake_object_order_depends_target_MaxLib
+
+build CMakeFiles/Max.dir/Max.cpp.obj: CXX_COMPILER__Max_Debug D$:/data/duotone/repo/02-Linear$ List/Exercise/Max.cpp || cmake_object_order_depends_target_Max
+  DEP_FILE = CMakeFiles\Max.dir\Max.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Max.dir
+  OBJECT_FILE_DIR = CMakeFiles\Max.dir
+
+build CMakeFiles/Max.dir/Max-main.cpp.obj: CXX_COMPILER__Max_Debug D$:/data/duotone/repo/02-Linear$ List/Exercise/Max-main.cpp || cmake_object_order_depends_target_Max
+  DEP_FILE = CMakeFiles\Max.dir\Max-main.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Max.dir
+  OBJECT_FILE_DIR = CMakeFiles\Max.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Max
+
+
+#############################################
+# Link the executable Max.exe
+
+build Max.exe: CXX_EXECUTABLE_LINKER__Max_Debug CMakeFiles/Max.dir/Max.cpp.obj CMakeFiles/Max.dir/Max-main.cpp.obj | libMaxLib.a || libMaxLib.a
+  FLAGS = -g
+  LINK_LIBRARIES = libMaxLib.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Max.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Max.exe
+  TARGET_IMPLIB = libMax.dll.a
+  TARGET_PDB = Max.exe.dbg
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target MaxLib
+
+
+#############################################
+# Order-only phony target for MaxLib
+
+build cmake_object_order_depends_target_MaxLib: phony || CMakeFiles/MaxLib.dir
+
+build CMakeFiles/MaxLib.dir/D_/data/duotone/repo/02-Linear_List/TextBook/LinkList.cpp.obj: CXX_COMPILER__MaxLib_Debug D$:/data/duotone/repo/02-Linear$ List/TextBook/LinkList.cpp || cmake_object_order_depends_target_MaxLib
+  DEP_FILE = CMakeFiles\MaxLib.dir\D_\data\duotone\repo\02-Linear_List\TextBook\LinkList.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\MaxLib.dir
+  OBJECT_FILE_DIR = CMakeFiles\MaxLib.dir\D_\data\duotone\repo\02-Linear_List\TextBook
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target MaxLib
+
+
+#############################################
+# Link the static library libMaxLib.a
+
+build libMaxLib.a: CXX_STATIC_LIBRARY_LINKER__MaxLib_Debug CMakeFiles/MaxLib.dir/D_/data/duotone/repo/02-Linear_List/TextBook/LinkList.cpp.obj
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = CMakeFiles\MaxLib.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = libMaxLib.a
+  TARGET_PDB = MaxLib.a.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -140,6 +210,10 @@ build Inverse: phony Inverse.exe
 
 build InverseLib: phony libInverseLib.a
 
+build Max: phony Max.exe
+
+build MaxLib: phony libMaxLib.a
+
 # =============================================================================
 # Folder targets.
 
@@ -148,7 +222,7 @@ build InverseLib: phony libInverseLib.a
 #############################################
 # Folder: D:/data/duotone/repo/02-Linear List/Exercise/cmake-build-debug
 
-build all: phony Inverse.exe libInverseLib.a
+build all: phony Inverse.exe libInverseLib.a Max.exe libMaxLib.a
 
 # =============================================================================
 # Built-in targets
