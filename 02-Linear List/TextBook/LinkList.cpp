@@ -7,10 +7,10 @@
 // 构造一个空的单链表L
 
 Status InitLinkList(LinkList &L) {
-    //生成新结点作为头结点，用头指针L指向头结点
+    // 生成新结点作为头结点，用头指针L指向头结点
     L = new LNode;
 
-    //头结点的指针域置空
+    // 头结点的指针域置空
     L->next = nullptr;
 
     return OK;
@@ -135,8 +135,7 @@ void CreateList_H(LinkList &L, int n) {
     // 逆位序输入n个元素的值，建立带表头结点的单链接L
 
     // 先建立一个带头结点的空链表
-    L = new LNode;
-    L->next = nullptr;
+    InitLinkList(L);
 
     for (int i = 0; i < n; i++) {
         LNode *s = new LNode;
@@ -149,17 +148,16 @@ void CreateList_H(LinkList &L, int n) {
 }
 
 // 算法2.12 后插法创建单链表
+// 正位序输入n个元素的值，建立带表头结点的单链表L
+
 // 时间复杂度：O(n)
 
 void CreateList_R(LinkList &L, int n) {
-    // 正位序输入n个元素的值，建立带表头结点的单链表L
-
     // 先建立一个带头结点的空链表
-    L = new LNode;
-    L->next = nullptr;
+    InitLinkList(L);
 
     // 尾指针r指向头结点
-    LinkList r = L;
+    LNode *r = L;
 
     for (int i = 0; i < n; ++i) {
         LNode *s = new LNode;
@@ -172,6 +170,43 @@ void CreateList_R(LinkList &L, int n) {
         // r指向新的尾结点
         r = s;
     }
+}
+
+// 后插法创建单链表
+// 传递一个数组提供数据用于取代手工输入
+
+void CreateList_R(LinkList &L, const int L_Data[], int n) {
+    // 尾指针r指向头结点
+    LNode *r = L;
+    for (int i = 0; i < n; ++i) {
+        LNode *s = new LNode;            // 生成新结点
+        s->data = L_Data[i];             // 初始化p的数据域为L_Data[i]
+        s->next = nullptr;
+        r->next = s;                     // 将新结点*p插入尾结点*r之后
+        r = s;                           // r指向新的尾结点*s
+    }
+}
+
+// 销毁链表
+Status DestroyList(LinkList &L) {
+    while (L) {
+        LNode *p = L;
+        L = L->next;
+        delete p;                    //释放空间
+    }
+    return OK;
+}
+
+// 输出链表
+void PrintList(LinkList L) {
+    LNode *p = L->next;
+    std::cout << "None";
+
+    while (p) {
+        std::cout << " -> " << p->data;
+        p = p->next;
+    }
+    std::cout << std::endl;
 }
 
 /* 王道课程补充算法 */

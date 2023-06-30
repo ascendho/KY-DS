@@ -23,6 +23,12 @@ void CreateList_H(LinkList &L, int n);
 
 void CreateList_R(LinkList &L, int n);
 
+void CreateList_R(LinkList &L, const int L_Data[], int n);
+
+Status DestroyList(LinkList &L);
+
+void PrintList(LinkList L);
+
 Status LinkListEmpty(LinkList L);
 
 Status LinkListInsertWithoutH(LinkList &L, int i, ElemType e);

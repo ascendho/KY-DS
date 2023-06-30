@@ -1,0 +1,31 @@
+#include <iostream>
+#include "Inverse.h"
+
+using namespace std;
+
+int main() {
+    // 解决输出中文乱码问题
+    system("chcp 65001");
+
+    // 链表数据
+    int laData[] = {2, -6, 8, 9, -11, 15, -20};
+
+    // 初始化链表
+    LinkList la;
+    InitLinkList(la);
+
+    // 后插法创建链表
+    CreateList_R(la, laData, sizeof(laData) / sizeof(laData[0]));
+
+    // 原地逆序
+    Inverse(la);
+
+    // 打印输出
+    cout << "链表la逆置后为：";
+    PrintList(la);
+
+    // 销毁链表
+    DestroyList(la);
+
+    return 0;
+}

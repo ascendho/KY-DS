@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "Exercise",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -38,9 +40,16 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "Exercise::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Exercise-Debug-a902cfda0d12526c43bf.json",
-					"name" : "Exercise",
+					"id" : "Inverse::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Inverse-Debug-5dbf9b329c66bd626340.json",
+					"name" : "Inverse",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "InverseLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-InverseLib-Debug-fba40c9d6dbe7b242a2e.json",
+					"name" : "InverseLib",
 					"projectIndex" : 0
 				}
 			]
