@@ -1,12 +1,6 @@
 #ifndef INC_02_LINEAR_LIST_POLYNOMIAL_H
 #define INC_02_LINEAR_LIST_POLYNOMIAL_H
 
-#include<iostream>
-#include<string>
-#include<fstream>
-
-using namespace std;
-
 #include "../../Status/Status.h"
 
 typedef struct PNode {
@@ -24,6 +18,5 @@ void AddPolyn(Polynomial &Pa, Polynomial &Pb);
 // 减法
 
 // 乘法
-
 
 #endif //INC_02_LINEAR_LIST_POLYNOMIAL_H

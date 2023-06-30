@@ -10,11 +10,8 @@ int main() {
     // 链表数据
     int laData[] = {2, -6, 8, 9, -11, 15, -20};
 
-    // 初始化链表
+    // 声明链表并用后插法创建链表
     LinkList la;
-    InitLinkList(la);
-
-    // 后插法创建链表
     CreateList_R(la, laData, sizeof(laData) / sizeof(laData[0]));
 
     // 取最大值

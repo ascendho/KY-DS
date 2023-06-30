@@ -26,7 +26,7 @@ Status ListInsert_DuL(DuLinkList &L, int i, ElemType e);
 Status ListDelete_DuL(DuLinkList &L, int i);
 
 void CreateDuList_L(DuLinkList &L) {
-    //正位序输入n个元素的值，建立带表头结点的双向链表L，同时建立前驱指针
+    // 正位序输入n个元素的值，建立带表头结点的双向链表L，同时建立前驱指针
     DuLinkList r, p;
     L = new DuLNode;
     L->next = nullptr; //先建立一个带头结点的空链表

@@ -1,5 +1,5 @@
 #include "Polynomial.h"
-
+#include <iostream>
 
 // 算法2.18 多项式的创建
 // 输入n项的系数和指数，建立表示一个多项式的有序链表P

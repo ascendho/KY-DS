@@ -18,6 +18,7 @@ Status InitLinkList(LinkList &L) {
 
 // 算法2.7 单链表的取值(按位查找)
 // 在带头结点的单链表L中查找第i个元素，用e返回L中第i个数据元素的值
+
 // ASL=(n-1)/2
 // 时间复杂度：O(n)
 
@@ -60,27 +61,19 @@ Status LinkListInsert(LinkList &L, int i, ElemType e) {
     int j = 0;
     LinkList p = L, s;
 
-    //查找第i-1个结点，p指向该结点
+    // 查找第i-1个结点，p指向该结点
     while (p && j < i - 1) {
         p = p->next;
         ++j;
     }
 
-    // 或者这样
-    // GetLinkListElem(L, i - 1, e);
-    // p=&e
-
-    // p=GetLinkListElem(L,i-1)
-
-    //i＞n+1或者i＜1
+    // i＞n+1或者i＜1
     if (!p || j > i - 1) return ERROR;
 
-    s = new LNode; //生成新结点*s
-    s->data = e; //将结点*s的数据域置为e
-    s->next = p->next; //将结点*s的指针域指向结点ai
-    p->next = s; //将结点*p的指针域指向结点*s
-
-    LinkListInsertToFront(p, e);
+    s = new LNode;        // 生成新结点*s
+    s->data = e;          // 将结点*s的数据域置为e
+    s->next = p->next;    // 将结点*s的指针域指向结点ai
+    p->next = s;          // 将结点*p的指针域指向结点*s
 
     return OK;
 }
@@ -107,17 +100,12 @@ Status LinkListDelete(LinkList &L, int i) {
         ++j;
     }
 
-    // 或者这样
-    // GetLinkListElem(L, i - 1, e);
-    // p=&e;
-
-    // p=GetLinkListElem(L,i-1)
-
     // 当i>n或i<1时，删除位置不合理
     if (!(p->next) || (j > i - 1)) return ERROR;
 
     // 临时保存被删结点的地址以备释放
     q = p->next;
+
     // 改变删除结点前驱结点的指针域
     p->next = q->next;
 
@@ -128,12 +116,12 @@ Status LinkListDelete(LinkList &L, int i) {
 }
 
 // 算法2.11 前插法创建单链表
+// 逆位序输入n个元素的值，建立带表头结点的单链接L
+
 // 时间复杂度：O(n)
 // 重要应用：链表的逆置
 
 void CreateList_H(LinkList &L, int n) {
-    // 逆位序输入n个元素的值，建立带表头结点的单链接L
-
     // 先建立一个带头结点的空链表
     InitLinkList(L);
 
@@ -176,14 +164,21 @@ void CreateList_R(LinkList &L, int n) {
 // 传递一个数组提供数据用于取代手工输入
 
 void CreateList_R(LinkList &L, const int L_Data[], int n) {
+    // 先建立一个带头结点的空链表
+    InitLinkList(L);
+
     // 尾指针r指向头结点
     LNode *r = L;
     for (int i = 0; i < n; ++i) {
         LNode *s = new LNode;            // 生成新结点
         s->data = L_Data[i];             // 初始化p的数据域为L_Data[i]
+
+        // 将新结点*p插入尾结点*r之后
         s->next = nullptr;
-        r->next = s;                     // 将新结点*p插入尾结点*r之后
-        r = s;                           // r指向新的尾结点*s
+        r->next = s;
+
+        // r指向新的尾结点*s
+        r = s;
     }
 }
 
@@ -200,13 +195,12 @@ Status DestroyList(LinkList &L) {
 // 输出链表
 void PrintList(LinkList L) {
     LNode *p = L->next;
-    std::cout << "None";
 
     while (p) {
-        std::cout << " -> " << p->data;
+        std::cout << p->data << " -> ";
         p = p->next;
     }
-    std::cout << std::endl;
+    std::cout << "NULL" << std::endl;
 }
 
 /* 王道课程补充算法 */
@@ -215,6 +209,7 @@ void PrintList(LinkList L) {
 Status LinkListEmpty(LinkList L) {
     if (L->next == nullptr)
         return OK;
+
     return ERROR;
 }
 
@@ -240,15 +235,6 @@ Status LinkListInsertWithoutH(LinkList &L, int i, ElemType e) {
         p = p->next;
         j++;
     }
-
-    // i值不合法
-//    if (p == nullptr)
-//        return ERROR;
-//
-//    LNode *s = new LNode;
-//    s->data = e;
-//    s->next = p->next;
-//    p->next = s;
 
     return InsertNextNode(p, e);
 }
@@ -313,6 +299,7 @@ Status InsertPriorNode(LNode *p, LNode *s) {
 // “偷天换日”法(类似于结点前插的实现)：时间复杂度为O(1)
 
 // 局限性：如果p是最后一个结点，则只能从表头开始依次寻找p的前驱，时间复杂度为O(n)
+
 Status DeleteNode(LNode *p) {
     // 注：当p为最后一个结点时需要特殊处理
 
