@@ -6,7 +6,7 @@
 5	551	7098110539292737	CMakeFiles/InverseLib.dir/D_/data/duotone/repo/02-Linear_List/TextBook/LinkList.cpp.obj	cc2b1752fcd643ea
 5	121	7098109527467898	CMakeFiles/Max.dir/Max.cpp.obj	d86e269be5005fb6
 552	637	7098110540175271	libInverseLib.a	4b6016ed8d47e7a7
-2	191	7098366627290080	build.ninja	40fadc590836020c
+2	191	7098376719060415	build.ninja	40fadc590836020c
 4	503	7098110655742358	CMakeFiles/MaxLib.dir/D_/data/duotone/repo/02-Linear_List/TextBook/LinkList.cpp.obj	ff40457044faf59d
 504	591	7098110656624848	libMaxLib.a	9bdaae9b3d847906
 15	632	7098365871861614	CMakeFiles/DifferenceLib.dir/D_/data/duotone/repo/02-Linear_List/TextBook/LinkList.cpp.obj	94f17b909f7ca877
@@ -15,3 +15,11 @@
 6	490	7098366233682408	CMakeFiles/Difference.dir/Difference-main.cpp.obj	a9874b7a6e0c9704
 633	738	7098365872934288	libDifferenceLib.a	ecc3961c36c672bb
 491	660	7098366235343514	Difference.exe	dcc86f6ca1bd06aa
+1	96	7098378841525227	CMakeFiles/DeleteMinMax.dir/DeleteMinMax.cpp.obj	1b820e64667bbdcc
+6	617	7098378846733724	CMakeFiles/DeleteMinMax.dir/DeleteMinMax-main.cpp.obj	20b9f979928d3ee9
+12	636	7098378846920368	CMakeFiles/DeleteMinMaxLib.dir/D_/data/duotone/repo/02-Linear_List/TextBook/LinkList.cpp.obj	987a7f0102639e36
+637	728	7098378847854050	libDeleteMinMaxLib.a	d3214a72587efd50
+728	913	7098378849663886	DeleteMinMax.exe	82d2fb3c383fc348
+11	80	7098382443732015	CMakeFiles/DeleteMinMax.dir/DeleteMinMax.cpp.obj	1b820e64667bbdcc
+5	490	7098382447825439	CMakeFiles/DeleteMinMax.dir/DeleteMinMax-main.cpp.obj	20b9f979928d3ee9
+490	660	7098382449497987	DeleteMinMax.exe	82d2fb3c383fc348

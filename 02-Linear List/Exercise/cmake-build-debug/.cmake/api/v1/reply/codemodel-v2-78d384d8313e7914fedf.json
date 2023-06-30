@@ -20,7 +20,9 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6,
+						7
 					]
 				}
 			],
@@ -40,12 +42,28 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6,
+						7
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "DeleteMinMax::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DeleteMinMax-Debug-cfc9be32a1e46ff1ff02.json",
+					"name" : "DeleteMinMax",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DeleteMinMaxLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DeleteMinMaxLib-Debug-49d60e2dc38cd80c2be1.json",
+					"name" : "DeleteMinMaxLib",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "Difference::@6890427a1f51a3e7e1df",

@@ -250,6 +250,76 @@ build libDifferenceLib.a: CXX_STATIC_LIBRARY_LINKER__DifferenceLib_Debug CMakeFi
   TARGET_FILE = libDifferenceLib.a
   TARGET_PDB = DifferenceLib.a.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target DeleteMinMax
+
+
+#############################################
+# Order-only phony target for DeleteMinMax
+
+build cmake_object_order_depends_target_DeleteMinMax: phony || cmake_object_order_depends_target_DeleteMinMaxLib
+
+build CMakeFiles/DeleteMinMax.dir/DeleteMinMax.cpp.obj: CXX_COMPILER__DeleteMinMax_Debug D$:/data/duotone/repo/02-Linear$ List/Exercise/DeleteMinMax.cpp || cmake_object_order_depends_target_DeleteMinMax
+  DEP_FILE = CMakeFiles\DeleteMinMax.dir\DeleteMinMax.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\DeleteMinMax.dir
+  OBJECT_FILE_DIR = CMakeFiles\DeleteMinMax.dir
+
+build CMakeFiles/DeleteMinMax.dir/DeleteMinMax-main.cpp.obj: CXX_COMPILER__DeleteMinMax_Debug D$:/data/duotone/repo/02-Linear$ List/Exercise/DeleteMinMax-main.cpp || cmake_object_order_depends_target_DeleteMinMax
+  DEP_FILE = CMakeFiles\DeleteMinMax.dir\DeleteMinMax-main.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\DeleteMinMax.dir
+  OBJECT_FILE_DIR = CMakeFiles\DeleteMinMax.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DeleteMinMax
+
+
+#############################################
+# Link the executable DeleteMinMax.exe
+
+build DeleteMinMax.exe: CXX_EXECUTABLE_LINKER__DeleteMinMax_Debug CMakeFiles/DeleteMinMax.dir/DeleteMinMax.cpp.obj CMakeFiles/DeleteMinMax.dir/DeleteMinMax-main.cpp.obj | libDeleteMinMaxLib.a || libDeleteMinMaxLib.a
+  FLAGS = -g
+  LINK_LIBRARIES = libDeleteMinMaxLib.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\DeleteMinMax.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = DeleteMinMax.exe
+  TARGET_IMPLIB = libDeleteMinMax.dll.a
+  TARGET_PDB = DeleteMinMax.exe.dbg
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target DeleteMinMaxLib
+
+
+#############################################
+# Order-only phony target for DeleteMinMaxLib
+
+build cmake_object_order_depends_target_DeleteMinMaxLib: phony || CMakeFiles/DeleteMinMaxLib.dir
+
+build CMakeFiles/DeleteMinMaxLib.dir/D_/data/duotone/repo/02-Linear_List/TextBook/LinkList.cpp.obj: CXX_COMPILER__DeleteMinMaxLib_Debug D$:/data/duotone/repo/02-Linear$ List/TextBook/LinkList.cpp || cmake_object_order_depends_target_DeleteMinMaxLib
+  DEP_FILE = CMakeFiles\DeleteMinMaxLib.dir\D_\data\duotone\repo\02-Linear_List\TextBook\LinkList.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\DeleteMinMaxLib.dir
+  OBJECT_FILE_DIR = CMakeFiles\DeleteMinMaxLib.dir\D_\data\duotone\repo\02-Linear_List\TextBook
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target DeleteMinMaxLib
+
+
+#############################################
+# Link the static library libDeleteMinMaxLib.a
+
+build libDeleteMinMaxLib.a: CXX_STATIC_LIBRARY_LINKER__DeleteMinMaxLib_Debug CMakeFiles/DeleteMinMaxLib.dir/D_/data/duotone/repo/02-Linear_List/TextBook/LinkList.cpp.obj
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = CMakeFiles\DeleteMinMaxLib.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = libDeleteMinMaxLib.a
+  TARGET_PDB = DeleteMinMaxLib.a.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -276,6 +346,10 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build DeleteMinMax: phony DeleteMinMax.exe
+
+build DeleteMinMaxLib: phony libDeleteMinMaxLib.a
+
 build Difference: phony Difference.exe
 
 build DifferenceLib: phony libDifferenceLib.a
@@ -296,7 +370,7 @@ build MaxLib: phony libMaxLib.a
 #############################################
 # Folder: D:/data/duotone/repo/02-Linear List/Exercise/cmake-build-debug
 
-build all: phony Inverse.exe libInverseLib.a Max.exe libMaxLib.a Difference.exe libDifferenceLib.a
+build all: phony Inverse.exe libInverseLib.a Max.exe libMaxLib.a Difference.exe libDifferenceLib.a DeleteMinMax.exe libDeleteMinMaxLib.a
 
 # =============================================================================
 # Built-in targets

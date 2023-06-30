@@ -43,6 +43,7 @@ typora-copy-images-to: ./img
 | <a href="02-Linear List/Exercise/Difference.cpp">2.4-有序表的差集</a> |          |                  |            |      |      |      |
 | <a href="02-Linear List/Exercise/Max.cpp">2.6-求单链表最大值结点</a> |          |                  |            |      |      |      |
 | <a href="02-Linear List/Exercise/Inverse.cpp">2.7-单链表原地逆置</a> |          |                  |            |      |      |      |
+| <a href="02-Linear List/Exercise/DeleteMinMax.cpp">2.8-有序链表范围删除</a> |          |                  |            |      |      |      |
 
 ------
 
