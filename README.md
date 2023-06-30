@@ -8,7 +8,7 @@ typora-copy-images-to: ./img
 
 - **基础源码**(数据结构的基本操作)将会以`class`的形式给出，一个`.cpp`文件和一个`.h`文件，在*ipad*上下载**GitHub**应用软件，零散时间可快速打开温习代码，**习题解答**和**应用案例**会另给出一个`main.cpp`文件用于测试
 
-- 每个文件夹里面含两个文件，`TextBook`和`Exercise`，前者包括**基础源码**和**应用案例**的代码，后者包含**习题解答**的源码
+- 每个文件夹里面含两个文件`TextBook`和`Exercise`，前者包括**基础源码**和**应用案例**的源码，后者包含**习题解答**的代码
 
 - 代码主要以**严书**的为主，同时会补充邓书和王道的代码，遇到**完全重复**的算法时，**采用严书的实现方式**
 
@@ -20,7 +20,7 @@ typora-copy-images-to: ./img
 
 
 
-## 基础源码
+## 教材源码
 
 |                 绪论                 |                            线性表                            |                           栈和队列                           | 串、数组和广义表 | 树和二叉树 |  图  | 查找 | 排序 |
 | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--------------: | :--------: | :--: | ---- | :--: |
@@ -28,6 +28,9 @@ typora-copy-images-to: ./img
 |                                      |  <a href="02-Linear List/TextBook/LinkList.cpp">单链表</a>   | <a href="03-Stack and Queue/TextBook/LinkStack.cpp">链栈</a> |                  |            |      |      |      |
 |                                      | <a href="02-Linear List/TextBook/CLinkList.cpp">循环链表</a> | <a href="03-Stack and Queue/TextBook/SqQueue.cpp">循环队列</a> |                  |            |      |      |      |
 |                                      | <a href="02-Linear List/TextBook/DuLinkList.cpp">双向链表</a> | <a href="03-Stack and Queue/TextBook/LinkQueue.cpp">链队</a> |                  |            |      |      |      |
+|                                      | <a href="02-Linear List/TextBook/Union.cpp">线性表的并集</a> | <a href="03-Stack and Queue/TextBook/Conversion.cpp">进制转换</a> |                  |            |      |      |      |
+|                                      | <a href="02-Linear List/TextBook/MergeList.cpp">有序表的合并</a> | <a href="03-Stack and Queue/TextBook/Matching.cpp">括号匹配</a> |                  |            |      |      |      |
+|                                      | <a href="02-Linear List/TextBook/Polynomial.cpp">一元多项式</a> |                                                              |                  |            |      |      |      |
 
 ------
 
@@ -44,23 +47,11 @@ typora-copy-images-to: ./img
 
 
 
-## 应用案例
-
-|                            线性表                            |                           栈和队列                           | 串、数组和广义表 | 树和二叉树 |  图  | 查找 | 排序 |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :--------------: | :--------: | :--: | :--: | :--: |
-| <a href="02-Linear List/TextBook/Union.cpp">线性表的并集</a> | <a href="03-Stack and Queue/TextBook/Conversion.cpp">进制转换</a> |                  |            |      |      |      |
-| <a href="02-Linear List/TextBook/MergeList.cpp">有序表的合并</a> | <a href="03-Stack and Queue/TextBook/Matching.cpp">括号匹配</a> |                  |            |      |      |      |
-| <a href="02-Linear List/TextBook/Polynomial.cpp">一元多项式</a> |                                                              |                  |            |      |      |      |
-
-------
-
-
-
 ## 如何使用
 
 1. 选用**CLion**集成开发环境，配置好C++开发环境，如果你是大学生，可申请使用免费的教育版本
 
-2. 点击该仓库的`Code`绿色按钮，然后点击`Download ZIP`或者使用终端下载：
+2. 点击该仓库的`Code`绿色按钮，然后点击`Download ZIP`或者直接使用**终端**下载：
 
 ```bash
 git clone https://github.com/ascendho/KY-DS.git
@@ -72,13 +63,20 @@ git clone https://github.com/ascendho/KY-DS.git
 
 ![1](img/1.png)
 
-最后，如果你认为这个项目帮助到了你，不妨给个star！
-
 ------
 
 
 
 ## 参考书目
+
+|            教材             |      作者      |                             图示                             |
+| :-------------------------: | :------------: | :----------------------------------------------------------: |
+|       数据结构双色版        | 严蔚敏、李冬梅 | ![数据结构（C语言版）（第2版）](img/2110398aa6025c417e71.jpeg) |
+| 数据结构习题解析与实验指导  |     李冬梅     | ![数据结构习题解析与实验指导](img/2204c1aa113663e88ab9.png)  |
+| 数据结构（C++语言版 第3版） |     邓俊辉     |      ![数据结构（C++语言版 第3版）](img/s28064419.jpg)       |
+|  2024数据结构考研复习指导   |    王道论坛    | ![image-20230619194511434](img/image-20230619194511434.png)  |
+
+
 
 1. 数据结构双色版
 
@@ -127,3 +125,5 @@ git clone https://github.com/ascendho/KY-DS.git
 ## 声明
 
 该项目**仅用于学习交流**，凡是可能涉及到的版权问题，归原作者所有
+
+最后，如果你认为这个项目帮助到了你，不妨给个star！
