@@ -18,7 +18,9 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4,
+						5
 					]
 				}
 			],
@@ -36,12 +38,28 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4,
+						5
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Conversion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Conversion-Debug-b89e20e82d0ded8e0144.json",
+					"name" : "Conversion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ConversionLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ConversionLib-Debug-9d9895bd60d4a5449356.json",
+					"name" : "ConversionLib",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "LinkQueue::@6890427a1f51a3e7e1df",

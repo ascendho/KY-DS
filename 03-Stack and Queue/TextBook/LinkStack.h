@@ -21,4 +21,6 @@ Status Pop(LinkStack &S, SElemType &e);
 // 算法3.8　取链栈的栈顶元素
 SElemType GetTop(LinkStack S);
 
+bool StackEmpty(LinkStack S) ;
+
 #endif //INC_03_STACK_AND_QUEUE_LINKSTACK_H

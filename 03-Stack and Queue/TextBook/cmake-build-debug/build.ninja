@@ -54,8 +54,6 @@ build CMakeFiles/SqStack.dir/SqStack.cpp.obj: CXX_COMPILER__SqStack_Debug D$:/da
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
   OBJECT_DIR = CMakeFiles\SqStack.dir
   OBJECT_FILE_DIR = CMakeFiles\SqStack.dir
-  TARGET_COMPILE_PDB = CMakeFiles\SqStack.dir\
-  TARGET_PDB = SqStack.pdb
 
 
 # =============================================================================
@@ -71,10 +69,9 @@ build SqStack.exe: CXX_EXECUTABLE_LINKER__SqStack_Debug CMakeFiles/SqStack.dir/S
   OBJECT_DIR = CMakeFiles\SqStack.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\SqStack.dir\
   TARGET_FILE = SqStack.exe
   TARGET_IMPLIB = libSqStack.dll.a
-  TARGET_PDB = SqStack.pdb
+  TARGET_PDB = SqStack.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target LinkStack
@@ -90,8 +87,6 @@ build CMakeFiles/LinkStack.dir/LinkStack.cpp.obj: CXX_COMPILER__LinkStack_Debug 
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
   OBJECT_DIR = CMakeFiles\LinkStack.dir
   OBJECT_FILE_DIR = CMakeFiles\LinkStack.dir
-  TARGET_COMPILE_PDB = CMakeFiles\LinkStack.dir\
-  TARGET_PDB = LinkStack.pdb
 
 
 # =============================================================================
@@ -107,10 +102,9 @@ build LinkStack.exe: CXX_EXECUTABLE_LINKER__LinkStack_Debug CMakeFiles/LinkStack
   OBJECT_DIR = CMakeFiles\LinkStack.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\LinkStack.dir\
   TARGET_FILE = LinkStack.exe
   TARGET_IMPLIB = libLinkStack.dll.a
-  TARGET_PDB = LinkStack.pdb
+  TARGET_PDB = LinkStack.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target SqQueue
@@ -126,8 +120,6 @@ build CMakeFiles/SqQueue.dir/SqQueue.cpp.obj: CXX_COMPILER__SqQueue_Debug D$:/da
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
   OBJECT_DIR = CMakeFiles\SqQueue.dir
   OBJECT_FILE_DIR = CMakeFiles\SqQueue.dir
-  TARGET_COMPILE_PDB = CMakeFiles\SqQueue.dir\
-  TARGET_PDB = SqQueue.pdb
 
 
 # =============================================================================
@@ -143,10 +135,9 @@ build SqQueue.exe: CXX_EXECUTABLE_LINKER__SqQueue_Debug CMakeFiles/SqQueue.dir/S
   OBJECT_DIR = CMakeFiles\SqQueue.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\SqQueue.dir\
   TARGET_FILE = SqQueue.exe
   TARGET_IMPLIB = libSqQueue.dll.a
-  TARGET_PDB = SqQueue.pdb
+  TARGET_PDB = SqQueue.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target LinkQueue
@@ -162,8 +153,6 @@ build CMakeFiles/LinkQueue.dir/LinkQueue.cpp.obj: CXX_COMPILER__LinkQueue_Debug 
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
   OBJECT_DIR = CMakeFiles\LinkQueue.dir
   OBJECT_FILE_DIR = CMakeFiles\LinkQueue.dir
-  TARGET_COMPILE_PDB = CMakeFiles\LinkQueue.dir\
-  TARGET_PDB = LinkQueue.pdb
 
 
 # =============================================================================
@@ -179,10 +168,79 @@ build LinkQueue.exe: CXX_EXECUTABLE_LINKER__LinkQueue_Debug CMakeFiles/LinkQueue
   OBJECT_DIR = CMakeFiles\LinkQueue.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\LinkQueue.dir\
   TARGET_FILE = LinkQueue.exe
   TARGET_IMPLIB = libLinkQueue.dll.a
-  TARGET_PDB = LinkQueue.pdb
+  TARGET_PDB = LinkQueue.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Conversion
+
+
+#############################################
+# Order-only phony target for Conversion
+
+build cmake_object_order_depends_target_Conversion: phony || cmake_object_order_depends_target_ConversionLib
+
+build CMakeFiles/Conversion.dir/Conversion.cpp.obj: CXX_COMPILER__Conversion_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/TextBook/Conversion.cpp || cmake_object_order_depends_target_Conversion
+  DEP_FILE = CMakeFiles\Conversion.dir\Conversion.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Conversion.dir
+  OBJECT_FILE_DIR = CMakeFiles\Conversion.dir
+
+build CMakeFiles/Conversion.dir/Conversion-main.cpp.obj: CXX_COMPILER__Conversion_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/TextBook/Conversion-main.cpp || cmake_object_order_depends_target_Conversion
+  DEP_FILE = CMakeFiles\Conversion.dir\Conversion-main.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Conversion.dir
+  OBJECT_FILE_DIR = CMakeFiles\Conversion.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Conversion
+
+
+#############################################
+# Link the executable Conversion.exe
+
+build Conversion.exe: CXX_EXECUTABLE_LINKER__Conversion_Debug CMakeFiles/Conversion.dir/Conversion.cpp.obj CMakeFiles/Conversion.dir/Conversion-main.cpp.obj | libConversionLib.a || libConversionLib.a
+  FLAGS = -g
+  LINK_LIBRARIES = libConversionLib.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Conversion.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Conversion.exe
+  TARGET_IMPLIB = libConversion.dll.a
+  TARGET_PDB = Conversion.exe.dbg
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target ConversionLib
+
+
+#############################################
+# Order-only phony target for ConversionLib
+
+build cmake_object_order_depends_target_ConversionLib: phony || CMakeFiles/ConversionLib.dir
+
+build CMakeFiles/ConversionLib.dir/LinkStack.cpp.obj: CXX_COMPILER__ConversionLib_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/TextBook/LinkStack.cpp || cmake_object_order_depends_target_ConversionLib
+  DEP_FILE = CMakeFiles\ConversionLib.dir\LinkStack.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ConversionLib.dir
+  OBJECT_FILE_DIR = CMakeFiles\ConversionLib.dir
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target ConversionLib
+
+
+#############################################
+# Link the static library libConversionLib.a
+
+build libConversionLib.a: CXX_STATIC_LIBRARY_LINKER__ConversionLib_Debug CMakeFiles/ConversionLib.dir/LinkStack.cpp.obj
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = CMakeFiles\ConversionLib.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = libConversionLib.a
+  TARGET_PDB = ConversionLib.a.dbg
 
 
 #############################################
@@ -210,6 +268,10 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build Conversion: phony Conversion.exe
+
+build ConversionLib: phony libConversionLib.a
+
 build LinkQueue: phony LinkQueue.exe
 
 build LinkStack: phony LinkStack.exe
@@ -226,7 +288,7 @@ build SqStack: phony SqStack.exe
 #############################################
 # Folder: D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug
 
-build all: phony SqStack.exe LinkStack.exe SqQueue.exe LinkQueue.exe
+build all: phony SqStack.exe LinkStack.exe SqQueue.exe LinkQueue.exe Conversion.exe libConversionLib.a
 
 # =============================================================================
 # Built-in targets
@@ -235,14 +297,14 @@ build all: phony SqStack.exe LinkStack.exe SqQueue.exe LinkQueue.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCCompiler.cmake.in D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCCompilerABI.c D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXCompiler.cmake.in D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCompilerIdDetection.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCXXCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompileFeatures.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompilerABI.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompilerId.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineRCCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeFindBinUtils.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeParseImplicitIncludeInfo.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeParseImplicitLinkInfo.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeParseLibraryArchitecture.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCCompiler.cmake.in D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystem.cmake.in D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeTestCCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeTestCXXCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeTestCompilerCommon.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeTestRCCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/ADSP-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/ARMCC-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/ARMClang-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/AppleClang-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Borland-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Bruce-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompilerInternal.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Compaq-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Cray-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Embarcadero-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Fujitsu-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GHS-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-FindBinUtils.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/HP-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/HP-CXX-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IAR-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Intel-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/LCC-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/MSVC-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/NVHPC-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/NVIDIA-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/PGI-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/PathScale-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/SCO-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/SDCC-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/SunPro-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/TI-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Tasking-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Watcom-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/XL-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/XL-CXX-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/XLClang-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/zOS-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Internal/FeatureTesting.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-Determine-CXX.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake D$:/data/duotone/repo/03-Stack$ and$ Queue/TextBook/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake D$:/data/duotone/repo/03-Stack$ and$ Queue/TextBook/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCCompiler.cmake.in D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCCompilerABI.c D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXCompiler.cmake.in D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCompilerIdDetection.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCXXCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompileFeatures.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompilerABI.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompilerId.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineRCCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeFindBinUtils.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeParseImplicitIncludeInfo.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeParseImplicitLinkInfo.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeParseLibraryArchitecture.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCCompiler.cmake.in D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystem.cmake.in D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeTestCCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeTestCXXCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeTestCompilerCommon.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeTestRCCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/ADSP-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/ARMCC-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/ARMClang-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/AppleClang-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Borland-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Bruce-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompilerInternal.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Compaq-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Cray-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Embarcadero-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Fujitsu-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GHS-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-FindBinUtils.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/HP-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/HP-CXX-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IAR-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Intel-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/LCC-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/MSVC-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/NVHPC-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/NVIDIA-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/PGI-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/PathScale-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/SCO-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/SDCC-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/SunPro-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/TI-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Tasking-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Watcom-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/XL-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/XL-CXX-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/XLClang-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/zOS-C-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Internal/FeatureTesting.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-Determine-CXX.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake D$:/data/duotone/repo/03-Stack$ and$ Queue/TextBook/CMakeLists.txt: phony
+build CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake D$:/data/duotone/repo/03-Stack$ and$ Queue/TextBook/CMakeLists.txt: phony
 
 
 #############################################

@@ -47,3 +47,9 @@ SElemType GetTop(LinkStack S) {
 
     exit(OVERFLOW);
 }
+
+bool StackEmpty(LinkStack S) {
+    if (!S)
+        return true;
+    return false;
+}
