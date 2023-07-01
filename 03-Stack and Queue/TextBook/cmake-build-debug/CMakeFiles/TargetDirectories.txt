@@ -6,5 +6,10 @@ D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug/CMakeFiles/Co
 D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug/CMakeFiles/ConversionLib.dir
 D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug/CMakeFiles/Matching.dir
 D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug/CMakeFiles/MatchingLib.dir
+D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug/CMakeFiles/TraverseList.dir
+D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug/CMakeFiles/TraverseListLib.dir
+D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug/CMakeFiles/Hanoi.dir
+D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug/CMakeFiles/Fib.dir
+D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug/CMakeFiles/Fact.dir
 D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug/CMakeFiles/rebuild_cache.dir

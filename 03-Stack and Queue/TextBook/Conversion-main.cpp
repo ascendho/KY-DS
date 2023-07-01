@@ -11,7 +11,7 @@ int main() {
     cout << "输入一个非负十进制数:" << endl;
     cin >> N;
 
-    cout << "输入要转换的进制:" << endl;
+    cout << "输入要转换的进制(2-16):" << endl;
     cin >> base;
 
     Conversion(N, base);

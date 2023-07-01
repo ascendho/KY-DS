@@ -17,3 +17,17 @@ target_link_libraries(Conversion ConversionLib)
 add_executable(Matching Matching.cpp Matching.h Matching-main.cpp)
 add_library(MatchingLib LinkStack.cpp)
 target_link_libraries(Matching MatchingLib)
+
+# TraverseList
+add_executable(TraverseList TraverseList.cpp TraverseList.h TraverseList-main.cpp)
+add_library(TraverseListLib "../../02-Linear List/TextBook/LinkList.cpp")
+target_link_libraries(TraverseList TraverseListLib)
+
+# Hanoi
+add_executable(Hanoi Hanoi.cpp Hanoi.h Hanoi-main.cpp)
+
+# Fib
+add_executable(Fib Fib.cpp Fib.h)
+
+# Fact
+add_executable(Fact Fact.cpp Fact.h)
