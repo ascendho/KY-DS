@@ -487,6 +487,39 @@ build Fact.exe: CXX_EXECUTABLE_LINKER__Fact_Debug CMakeFiles/Fact.dir/Fact.cpp.o
   TARGET_IMPLIB = libFact.dll.a
   TARGET_PDB = Fact.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target DancePartner
+
+
+#############################################
+# Order-only phony target for DancePartner
+
+build cmake_object_order_depends_target_DancePartner: phony || CMakeFiles/DancePartner.dir
+
+build CMakeFiles/DancePartner.dir/DancePartner.cpp.obj: CXX_COMPILER__DancePartner_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/TextBook/DancePartner.cpp || cmake_object_order_depends_target_DancePartner
+  DEP_FILE = CMakeFiles\DancePartner.dir\DancePartner.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\DancePartner.dir
+  OBJECT_FILE_DIR = CMakeFiles\DancePartner.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DancePartner
+
+
+#############################################
+# Link the executable DancePartner.exe
+
+build DancePartner.exe: CXX_EXECUTABLE_LINKER__DancePartner_Debug CMakeFiles/DancePartner.dir/DancePartner.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\DancePartner.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = DancePartner.exe
+  TARGET_IMPLIB = libDancePartner.dll.a
+  TARGET_PDB = DancePartner.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -516,6 +549,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 build Conversion: phony Conversion.exe
 
 build ConversionLib: phony libConversionLib.a
+
+build DancePartner: phony DancePartner.exe
 
 build Fact: phony Fact.exe
 
@@ -547,7 +582,7 @@ build TraverseListLib: phony libTraverseListLib.a
 #############################################
 # Folder: D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug
 
-build all: phony SqStack.exe LinkStack.exe SqQueue.exe LinkQueue.exe Conversion.exe libConversionLib.a Matching.exe libMatchingLib.a TraverseList.exe libTraverseListLib.a Hanoi.exe Fib.exe Fact.exe
+build all: phony SqStack.exe LinkStack.exe SqQueue.exe LinkQueue.exe Conversion.exe libConversionLib.a Matching.exe libMatchingLib.a TraverseList.exe libTraverseListLib.a Hanoi.exe Fib.exe Fact.exe DancePartner.exe
 
 # =============================================================================
 # Built-in targets

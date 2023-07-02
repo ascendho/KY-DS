@@ -11,5 +11,6 @@ D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug/CMakeFiles/Tr
 D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug/CMakeFiles/Hanoi.dir
 D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug/CMakeFiles/Fib.dir
 D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug/CMakeFiles/Fact.dir
+D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug/CMakeFiles/DancePartner.dir
 D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug/CMakeFiles/rebuild_cache.dir

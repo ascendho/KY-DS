@@ -27,7 +27,8 @@
 						9,
 						10,
 						11,
-						12
+						12,
+						13
 					]
 				}
 			],
@@ -54,7 +55,8 @@
 						9,
 						10,
 						11,
-						12
+						12,
+						13
 					]
 				}
 			],
@@ -72,6 +74,13 @@
 					"id" : "ConversionLib::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-ConversionLib-Debug-b701a464913b633afa1a.json",
 					"name" : "ConversionLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DancePartner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DancePartner-Debug-582909232d2f19ed2d0f.json",
+					"name" : "DancePartner",
 					"projectIndex" : 0
 				},
 				{

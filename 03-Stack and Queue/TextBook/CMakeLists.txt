@@ -31,3 +31,6 @@ add_executable(Fib Fib.cpp Fib.h)
 
 # Fact
 add_executable(Fact Fact.cpp Fact.h)
+
+# DancePartner
+add_executable(DancePartner DancePartner.cpp DancePartner.h)
