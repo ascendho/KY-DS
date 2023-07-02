@@ -34,3 +34,8 @@ add_executable(Fact Fact.cpp Fact.h)
 
 # DancePartner
 add_executable(DancePartner DancePartner.cpp DancePartner.h)
+
+# EvaluateExpression
+add_executable(EvaluateExpression EvaluateExpression.cpp EvaluateExpression.h EvaluateExpression-main.cpp)
+add_library(EvaluateExpressionLib LinkStack.cpp)
+target_link_libraries(EvaluateExpression EvaluateExpressionLib)

@@ -12,5 +12,7 @@ D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug/CMakeFiles/Ha
 D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug/CMakeFiles/Fib.dir
 D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug/CMakeFiles/Fact.dir
 D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug/CMakeFiles/DancePartner.dir
+D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug/CMakeFiles/EvaluateExpression.dir
+D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug/CMakeFiles/EvaluateExpressionLib.dir
 D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug/CMakeFiles/rebuild_cache.dir

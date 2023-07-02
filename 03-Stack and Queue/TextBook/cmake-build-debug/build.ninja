@@ -520,6 +520,76 @@ build DancePartner.exe: CXX_EXECUTABLE_LINKER__DancePartner_Debug CMakeFiles/Dan
   TARGET_IMPLIB = libDancePartner.dll.a
   TARGET_PDB = DancePartner.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target EvaluateExpression
+
+
+#############################################
+# Order-only phony target for EvaluateExpression
+
+build cmake_object_order_depends_target_EvaluateExpression: phony || cmake_object_order_depends_target_EvaluateExpressionLib
+
+build CMakeFiles/EvaluateExpression.dir/EvaluateExpression.cpp.obj: CXX_COMPILER__EvaluateExpression_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/TextBook/EvaluateExpression.cpp || cmake_object_order_depends_target_EvaluateExpression
+  DEP_FILE = CMakeFiles\EvaluateExpression.dir\EvaluateExpression.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\EvaluateExpression.dir
+  OBJECT_FILE_DIR = CMakeFiles\EvaluateExpression.dir
+
+build CMakeFiles/EvaluateExpression.dir/EvaluateExpression-main.cpp.obj: CXX_COMPILER__EvaluateExpression_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/TextBook/EvaluateExpression-main.cpp || cmake_object_order_depends_target_EvaluateExpression
+  DEP_FILE = CMakeFiles\EvaluateExpression.dir\EvaluateExpression-main.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\EvaluateExpression.dir
+  OBJECT_FILE_DIR = CMakeFiles\EvaluateExpression.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target EvaluateExpression
+
+
+#############################################
+# Link the executable EvaluateExpression.exe
+
+build EvaluateExpression.exe: CXX_EXECUTABLE_LINKER__EvaluateExpression_Debug CMakeFiles/EvaluateExpression.dir/EvaluateExpression.cpp.obj CMakeFiles/EvaluateExpression.dir/EvaluateExpression-main.cpp.obj | libEvaluateExpressionLib.a || libEvaluateExpressionLib.a
+  FLAGS = -g
+  LINK_LIBRARIES = libEvaluateExpressionLib.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\EvaluateExpression.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = EvaluateExpression.exe
+  TARGET_IMPLIB = libEvaluateExpression.dll.a
+  TARGET_PDB = EvaluateExpression.exe.dbg
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target EvaluateExpressionLib
+
+
+#############################################
+# Order-only phony target for EvaluateExpressionLib
+
+build cmake_object_order_depends_target_EvaluateExpressionLib: phony || CMakeFiles/EvaluateExpressionLib.dir
+
+build CMakeFiles/EvaluateExpressionLib.dir/LinkStack.cpp.obj: CXX_COMPILER__EvaluateExpressionLib_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/TextBook/LinkStack.cpp || cmake_object_order_depends_target_EvaluateExpressionLib
+  DEP_FILE = CMakeFiles\EvaluateExpressionLib.dir\LinkStack.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\EvaluateExpressionLib.dir
+  OBJECT_FILE_DIR = CMakeFiles\EvaluateExpressionLib.dir
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target EvaluateExpressionLib
+
+
+#############################################
+# Link the static library libEvaluateExpressionLib.a
+
+build libEvaluateExpressionLib.a: CXX_STATIC_LIBRARY_LINKER__EvaluateExpressionLib_Debug CMakeFiles/EvaluateExpressionLib.dir/LinkStack.cpp.obj
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = CMakeFiles\EvaluateExpressionLib.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = libEvaluateExpressionLib.a
+  TARGET_PDB = EvaluateExpressionLib.a.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -552,6 +622,10 @@ build ConversionLib: phony libConversionLib.a
 
 build DancePartner: phony DancePartner.exe
 
+build EvaluateExpression: phony EvaluateExpression.exe
+
+build EvaluateExpressionLib: phony libEvaluateExpressionLib.a
+
 build Fact: phony Fact.exe
 
 build Fib: phony Fib.exe
@@ -582,7 +656,7 @@ build TraverseListLib: phony libTraverseListLib.a
 #############################################
 # Folder: D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug
 
-build all: phony SqStack.exe LinkStack.exe SqQueue.exe LinkQueue.exe Conversion.exe libConversionLib.a Matching.exe libMatchingLib.a TraverseList.exe libTraverseListLib.a Hanoi.exe Fib.exe Fact.exe DancePartner.exe
+build all: phony SqStack.exe LinkStack.exe SqQueue.exe LinkQueue.exe Conversion.exe libConversionLib.a Matching.exe libMatchingLib.a TraverseList.exe libTraverseListLib.a Hanoi.exe Fib.exe Fact.exe DancePartner.exe EvaluateExpression.exe libEvaluateExpressionLib.a
 
 # =============================================================================
 # Built-in targets
