@@ -17,7 +17,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -34,7 +35,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -42,23 +44,30 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "Exercise::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Exercise-Debug-a902cfda0d12526c43bf.json",
-					"name" : "Exercise",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
 					"id" : "IsPalindrome::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-IsPalindrome-Debug-d0406070331cd4799ef4.json",
+					"jsonFile" : "target-IsPalindrome-Debug-2a53349b348446a1cb3e.json",
 					"name" : "IsPalindrome",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "IsPalindromeLib::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-IsPalindromeLib-Debug-265381c72030d58bda39.json",
+					"jsonFile" : "target-IsPalindromeLib-Debug-99b1566a399183779a04.json",
 					"name" : "IsPalindromeLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Postfix::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Postfix-Debug-3d8445e6cd0823ccee16.json",
+					"name" : "Postfix",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PostfixLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PostfixLib-Debug-65814937a2092cee6961.json",
+					"name" : "PostfixLib",
 					"projectIndex" : 0
 				}
 			]

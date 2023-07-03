@@ -41,39 +41,6 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/data/duotone/repo/03-Stack$ and$ Queue/Exercise/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Exercise
-
-
-#############################################
-# Order-only phony target for Exercise
-
-build cmake_object_order_depends_target_Exercise: phony || CMakeFiles/Exercise.dir
-
-build CMakeFiles/Exercise.dir/main.cpp.obj: CXX_COMPILER__Exercise_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/Exercise/main.cpp || cmake_object_order_depends_target_Exercise
-  DEP_FILE = CMakeFiles\Exercise.dir\main.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\Exercise.dir
-  OBJECT_FILE_DIR = CMakeFiles\Exercise.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Exercise
-
-
-#############################################
-# Link the executable Exercise.exe
-
-build Exercise.exe: CXX_EXECUTABLE_LINKER__Exercise_Debug CMakeFiles/Exercise.dir/main.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Exercise.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = Exercise.exe
-  TARGET_IMPLIB = libExercise.dll.a
-  TARGET_PDB = Exercise.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target IsPalindrome
 
 
@@ -143,6 +110,76 @@ build libIsPalindromeLib.a: CXX_STATIC_LIBRARY_LINKER__IsPalindromeLib_Debug CMa
   TARGET_FILE = libIsPalindromeLib.a
   TARGET_PDB = IsPalindromeLib.a.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Postfix
+
+
+#############################################
+# Order-only phony target for Postfix
+
+build cmake_object_order_depends_target_Postfix: phony || cmake_object_order_depends_target_PostfixLib
+
+build CMakeFiles/Postfix.dir/Postfix.cpp.obj: CXX_COMPILER__Postfix_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/Exercise/Postfix.cpp || cmake_object_order_depends_target_Postfix
+  DEP_FILE = CMakeFiles\Postfix.dir\Postfix.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Postfix.dir
+  OBJECT_FILE_DIR = CMakeFiles\Postfix.dir
+
+build CMakeFiles/Postfix.dir/Postfix-main.cpp.obj: CXX_COMPILER__Postfix_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/Exercise/Postfix-main.cpp || cmake_object_order_depends_target_Postfix
+  DEP_FILE = CMakeFiles\Postfix.dir\Postfix-main.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Postfix.dir
+  OBJECT_FILE_DIR = CMakeFiles\Postfix.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Postfix
+
+
+#############################################
+# Link the executable Postfix.exe
+
+build Postfix.exe: CXX_EXECUTABLE_LINKER__Postfix_Debug CMakeFiles/Postfix.dir/Postfix.cpp.obj CMakeFiles/Postfix.dir/Postfix-main.cpp.obj | libPostfixLib.a || libPostfixLib.a
+  FLAGS = -g
+  LINK_LIBRARIES = libPostfixLib.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Postfix.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Postfix.exe
+  TARGET_IMPLIB = libPostfix.dll.a
+  TARGET_PDB = Postfix.exe.dbg
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target PostfixLib
+
+
+#############################################
+# Order-only phony target for PostfixLib
+
+build cmake_object_order_depends_target_PostfixLib: phony || CMakeFiles/PostfixLib.dir
+
+build CMakeFiles/PostfixLib.dir/D_/data/duotone/repo/03-Stack_and_Queue/TextBook/SqStack.cpp.obj: CXX_COMPILER__PostfixLib_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/TextBook/SqStack.cpp || cmake_object_order_depends_target_PostfixLib
+  DEP_FILE = CMakeFiles\PostfixLib.dir\D_\data\duotone\repo\03-Stack_and_Queue\TextBook\SqStack.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\PostfixLib.dir
+  OBJECT_FILE_DIR = CMakeFiles\PostfixLib.dir\D_\data\duotone\repo\03-Stack_and_Queue\TextBook
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target PostfixLib
+
+
+#############################################
+# Link the static library libPostfixLib.a
+
+build libPostfixLib.a: CXX_STATIC_LIBRARY_LINKER__PostfixLib_Debug CMakeFiles/PostfixLib.dir/D_/data/duotone/repo/03-Stack_and_Queue/TextBook/SqStack.cpp.obj
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = CMakeFiles\PostfixLib.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = libPostfixLib.a
+  TARGET_PDB = PostfixLib.a.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -169,11 +206,13 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Exercise: phony Exercise.exe
-
 build IsPalindrome: phony IsPalindrome.exe
 
 build IsPalindromeLib: phony libIsPalindromeLib.a
+
+build Postfix: phony Postfix.exe
+
+build PostfixLib: phony libPostfixLib.a
 
 # =============================================================================
 # Folder targets.
@@ -183,7 +222,7 @@ build IsPalindromeLib: phony libIsPalindromeLib.a
 #############################################
 # Folder: D:/data/duotone/repo/03-Stack and Queue/Exercise/cmake-build-debug
 
-build all: phony Exercise.exe IsPalindrome.exe libIsPalindromeLib.a
+build all: phony IsPalindrome.exe libIsPalindromeLib.a Postfix.exe libPostfixLib.a
 
 # =============================================================================
 # Built-in targets
