@@ -26,13 +26,19 @@ void Conversion(int N, int base) {
     // 当N非零时,循环
     while (N) {
         int remainder = N % base;
-        Push(S, digit[remainder]);     // 把N与base求余得到的八进制数压入栈S
-        N = N / base;                        // N更新为N与base的商
+
+        // 把N与base求余得到的base进制数压入栈S
+        Push(S, digit[remainder]);
+
+        // N更新为N与base的商
+        N = N / base;
     }
 
-    while (!StackEmpty(S))                   // 当栈S非空时，循环
+    // 当栈S非空时，循环
+    while (!StackEmpty(S))
     {
-        Pop(S, e);                     // 弹出栈顶元素e
+        // 弹出栈顶元素e
+        Pop(S, e);
         std::cout << e;
     }
 }
@@ -53,15 +59,21 @@ void Conversion_Recursive(int N, int base) {
     LinkStack S;
     InitStack(S);
 
-    if (0 < N) { //在尚有余数之前，反复地
-        Conversion_Recursive(N / base, base); // 通过递归得到所有更高位
-        Push(S, digit[N % base]);          // 逆向记录当前最低位
+    // 在尚有余数之前，反复地
+    if (0 < N) {
+        // 通过递归得到所有更高位
+        Conversion_Recursive(N / base, base);
+
+        // 逆向记录当前最低位
+        Push(S, digit[N % base]);
 
     }
 
-    while (!StackEmpty(S))                   // 当栈S非空时，循环
+    // 当栈S非空时，循环
+    while (!StackEmpty(S))
     {
-        Pop(S, e);                     // 弹出栈顶元素e
+        // 弹出栈顶元素e
+        Pop(S, e);
         std::cout << e;
     }
 }
