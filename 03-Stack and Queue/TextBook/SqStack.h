@@ -11,7 +11,7 @@ typedef struct {
 } SqStack;
 
 // 算法3.1　顺序栈的初始化
-Status InitStack(SqStack &S);
+Status InitSqStack(SqStack &S);
 
 // 算法3.2　顺序栈的入栈
 Status Push(SqStack &S, SElemType e);
@@ -21,5 +21,7 @@ Status Pop(SqStack &S, SElemType &e);
 
 // 算法3.4　取顺序栈的栈顶元素
 SElemType GetTop(SqStack S);
+
+Status StackEmpty(SqStack S);
 
 #endif //INC_03_STACK_AND_QUEUE_SQSTACK_H

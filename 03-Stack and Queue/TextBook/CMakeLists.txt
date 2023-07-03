@@ -39,3 +39,6 @@ add_executable(DancePartner DancePartner.cpp DancePartner.h)
 add_executable(EvaluateExpression EvaluateExpression.cpp EvaluateExpression.h EvaluateExpression-main.cpp)
 add_library(EvaluateExpressionLib LinkStack.cpp)
 target_link_libraries(EvaluateExpression EvaluateExpressionLib)
+
+# simu
+add_executable(simu simu.cpp simu.h)

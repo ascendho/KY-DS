@@ -590,6 +590,39 @@ build libEvaluateExpressionLib.a: CXX_STATIC_LIBRARY_LINKER__EvaluateExpressionL
   TARGET_FILE = libEvaluateExpressionLib.a
   TARGET_PDB = EvaluateExpressionLib.a.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target simu
+
+
+#############################################
+# Order-only phony target for simu
+
+build cmake_object_order_depends_target_simu: phony || CMakeFiles/simu.dir
+
+build CMakeFiles/simu.dir/simu.cpp.obj: CXX_COMPILER__simu_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/TextBook/simu.cpp || cmake_object_order_depends_target_simu
+  DEP_FILE = CMakeFiles\simu.dir\simu.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\simu.dir
+  OBJECT_FILE_DIR = CMakeFiles\simu.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target simu
+
+
+#############################################
+# Link the executable simu.exe
+
+build simu.exe: CXX_EXECUTABLE_LINKER__simu_Debug CMakeFiles/simu.dir/simu.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\simu.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = simu.exe
+  TARGET_IMPLIB = libsimu.dll.a
+  TARGET_PDB = simu.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -648,6 +681,8 @@ build TraverseList: phony TraverseList.exe
 
 build TraverseListLib: phony libTraverseListLib.a
 
+build simu: phony simu.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -656,7 +691,7 @@ build TraverseListLib: phony libTraverseListLib.a
 #############################################
 # Folder: D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug
 
-build all: phony SqStack.exe LinkStack.exe SqQueue.exe LinkQueue.exe Conversion.exe libConversionLib.a Matching.exe libMatchingLib.a TraverseList.exe libTraverseListLib.a Hanoi.exe Fib.exe Fact.exe DancePartner.exe EvaluateExpression.exe libEvaluateExpressionLib.a
+build all: phony SqStack.exe LinkStack.exe SqQueue.exe LinkQueue.exe Conversion.exe libConversionLib.a Matching.exe libMatchingLib.a TraverseList.exe libTraverseListLib.a Hanoi.exe Fib.exe Fact.exe DancePartner.exe EvaluateExpression.exe libEvaluateExpressionLib.a simu.exe
 
 # =============================================================================
 # Built-in targets

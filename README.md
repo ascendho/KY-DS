@@ -42,12 +42,12 @@ typora-copy-images-to: ./img
 
 ## 部分题解
 
-|                            线性表                            | 栈和队列 | 串、数组和广义表 | 树和二叉树 |  图  | 查找 | 排序 |
-| :----------------------------------------------------------: | :------: | :--------------: | :--------: | :--: | :--: | :--: |
-| <a href="02-Linear List/Exercise/Difference.cpp">2.4-有序表的差集</a> |          |                  |            |      |      |      |
-| <a href="02-Linear List/Exercise/Max.cpp">2.6-求单链表最大值结点</a> |          |                  |            |      |      |      |
-| <a href="02-Linear List/Exercise/Inverse.cpp">2.7-单链表原地逆置</a> |          |                  |            |      |      |      |
-| <a href="02-Linear List/Exercise/DeleteMinMax.cpp">2.8-有序链表范围删除</a> |          |                  |            |      |      |      |
+|                            线性表                            |                           栈和队列                           | 串、数组和广义表 | 树和二叉树 |  图  | 查找 | 排序 |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :--------------: | :--------: | :--: | :--: | :--: |
+| <a href="02-Linear List/Exercise/Difference.cpp">2.4-有序表的差集</a> |                                                              |                  |            |      |      |      |
+| <a href="02-Linear List/Exercise/Max.cpp">2.6-求单链表最大值结点</a> | <a href="03-Stack and Queue\Exercise\IsPalindrome.cpp">3.2-回文串判断</a> |                  |            |      |      |      |
+| <a href="02-Linear List/Exercise/Inverse.cpp">2.7-单链表原地逆置</a> |                                                              |                  |            |      |      |      |
+| <a href="02-Linear List/Exercise/DeleteMinMax.cpp">2.8-有序链表范围删除</a> |                                                              |                  |            |      |      |      |
 
 ------
 

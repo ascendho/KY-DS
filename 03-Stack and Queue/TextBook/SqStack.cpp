@@ -4,7 +4,7 @@
 // 算法3.1　顺序栈的初始化
 // 操作结果：构造一个空栈S
 
-Status InitStack(SqStack &S) {
+Status InitSqStack(SqStack &S) {
     // 为顺序栈动态分配一个最大容量为MAXSIZE的数组空间
     S.base = new SElemType[MAXSIZE];
 
@@ -58,4 +58,10 @@ SElemType GetTop(SqStack S) {
         return *(S.top - 1); // 返回栈顶元素的值，栈顶指针不变
 
     exit(OVERFLOW);
+}
+
+Status StackEmpty(SqStack S) {
+    if (S.top == S.base)
+        return OK;
+    return ERROR;
 }
