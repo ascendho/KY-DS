@@ -27,3 +27,8 @@
 21	984	7100067563125177	CMakeFiles/EvaluateExpression.dir/EvaluateExpression.cpp.obj	22f6ec18d7a66cd0
 7	751	7100055963110947	CMakeFiles/EvaluateExpressionLib.dir/LinkStack.cpp.obj	4bba474ebafffe84
 754	894	7100055964559759	libEvaluateExpressionLib.a	a5df7db60b14c81f
+13	597	7101814142762335	CMakeFiles/EvaluateExpression.dir/EvaluateExpression-main.cpp.obj	57bdb0d7c2dfbde1
+5	645	7101814143242287	CMakeFiles/EvaluateExpression.dir/EvaluateExpression.cpp.obj	22f6ec18d7a66cd0
+645	859	7101814145352440	EvaluateExpression.exe	8d9c60663ef9b6db
+5	505	7101816567380084	CMakeFiles/EvaluateExpression.dir/EvaluateExpression.cpp.obj	22f6ec18d7a66cd0
+506	677	7101816569076953	EvaluateExpression.exe	8d9c60663ef9b6db

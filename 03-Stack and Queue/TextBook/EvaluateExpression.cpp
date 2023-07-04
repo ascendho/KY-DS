@@ -4,7 +4,7 @@
 #include<iostream>
 
 // 支持的运算符和界限符
-const char oper[7] = {'+', '-', '*', '/', '(', ')', '#'};
+const char oper[] = {'+', '-', '*', '/', '(', ')', '#'};
 
 // 算法3.22　表达式求值
 // 算术表达式求值的算符优先算法，设OPTR和OPND分别为运算符栈和操作数栈
@@ -50,7 +50,7 @@ char EvaluateExpression() {
 
 // 判断ch是否为运算符
 bool In(char ch) {
-    for (int i = 0; i < 7; i++) {
+    for (int i = 0; i < sizeof(oper) / sizeof(oper[0]); i++) {
         if (ch == oper[i]) {
             return true;
         }

@@ -13,10 +13,12 @@ Status InitStack(LinkStack &S) {
 // 在栈顶插入元素e
 
 Status Push(LinkStack &S, SElemType e) {
-    LinkStack p = new StackNode;
+    StackNode *p = new StackNode;
     p->data = e;
+
     p->next = S;
     S = p;
+
     return OK;
 }
 
@@ -29,7 +31,7 @@ Status Pop(LinkStack &S, SElemType &e) {
         return ERROR;
 
     //用p临时保存栈顶元素空间，以备释放
-    LinkStack p = S;
+    StackNode *p = S;
 
     e = S->data; //将栈顶元素赋给e
     S = S->next; //修改栈顶指针
