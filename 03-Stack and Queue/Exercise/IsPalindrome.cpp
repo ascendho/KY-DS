@@ -1,6 +1,4 @@
 #include "IsPalindrome.h"
-#include <iostream>
-#include <cstring>
 
 /*
  * 回文是指正读、反读均相同的字符序列，如“abba”和“abdba”均是回文，但
@@ -33,4 +31,18 @@ Status IsPalindrome(char *t, int length) {
     return OK;
 }
 
-// 双指针
+// 双指针版本
+
+Status IsPalindrome_DP(char t[], int length) {
+    int head = 0, rear = length - 1;
+
+    while (head < rear) {
+        if (t[head] != t[rear])
+            return ERROR;
+
+        head++;
+        rear--;
+    }
+
+    return OK;
+}
