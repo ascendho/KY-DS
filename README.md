@@ -46,7 +46,7 @@ typora-copy-images-to: ./img
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :--------------: | :--------: | :--: | :--: | :--: |
 | <a href="02-Linear List/Exercise/Difference.cpp">2.4-有序表的差集</a> | <a href="03-Stack and Queue/Exercise/DblStack.cpp">3.1-共享栈</a> |                  |            |      |      |      |
 | <a href="02-Linear List/Exercise/Max.cpp">2.6-求单链表最大值结点</a> | <a href="03-Stack and Queue\Exercise\IsPalindrome.cpp">3.2-回文串判断</a> |                  |            |      |      |      |
-| <a href="02-Linear List/Exercise/Inverse.cpp">2.7-单链表原地逆置</a> |                                                              |                  |            |      |      |      |
+| <a href="02-Linear List/Exercise/Inverse.cpp">2.7-单链表原地逆置</a> | <a href="03-Stack and Queue/Exercise/Postfix.cpp">3.4-后缀表达式求值</a> |                  |            |      |      |      |
 | <a href="02-Linear List/Exercise/DeleteMinMax.cpp">2.8-有序链表范围删除</a> |                                                              |                  |            |      |      |      |
 
 ------
