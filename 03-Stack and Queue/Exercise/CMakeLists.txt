@@ -16,3 +16,6 @@ target_link_libraries(Postfix PostfixLib)
 # DblStack
 add_executable(DblStack DblStack.cpp DblStack.h DblStack-main.cpp)
 
+# SqQueueWithTag
+add_executable(SqQueueWithTag SqQueueWithTag.cpp SqQueueWithTag.h SqQueueWithTag-main.cpp)
+

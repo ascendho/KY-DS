@@ -10,13 +10,8 @@
 1281	1452	7100995780248516	libPostfixLib.a	6c8dc7c88ea63f3e
 605	785	7101835870580936	Postfix.exe	dd477d122605aa58
 0	108	7102701724802746	CMakeFiles/DblStack.dir/DblStack.cpp.obj	71ebd742376f998b
-7	572	7102701729432395	CMakeFiles/DblStack.dir/DblStack-main.cpp.obj	f17dd2859a897d7d
-572	744	7102701731144824	DblStack.exe	3709a3cf20be274b
-4	492	7102702419289816	CMakeFiles/DblStack.dir/DblStack-main.cpp.obj	f17dd2859a897d7d
-493	661	7102702420945872	DblStack.exe	3709a3cf20be274b
-4	520	7102702857919245	CMakeFiles/DblStack.dir/DblStack-main.cpp.obj	f17dd2859a897d7d
-521	687	7102702859542344	DblStack.exe	3709a3cf20be274b
-4	491	7102703339633505	CMakeFiles/DblStack.dir/DblStack-main.cpp.obj	f17dd2859a897d7d
-492	658	7102703341277601	DblStack.exe	3709a3cf20be274b
 5	495	7102704020955938	CMakeFiles/DblStack.dir/DblStack-main.cpp.obj	f17dd2859a897d7d
 497	661	7102704022584359	DblStack.exe	3709a3cf20be274b
+6	512	7102713334621906	CMakeFiles/SqQueueWithTag.dir/SqQueueWithTag.cpp.obj	9bb207ad4f765605
+0	522	7102713334713837	CMakeFiles/SqQueueWithTag.dir/SqQueueWithTag-main.cpp.obj	173d9622307e9816
+522	695	7102713336415447	SqQueueWithTag.exe	7caf6e029c02d560

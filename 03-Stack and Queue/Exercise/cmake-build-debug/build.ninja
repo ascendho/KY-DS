@@ -219,6 +219,45 @@ build DblStack.exe: CXX_EXECUTABLE_LINKER__DblStack_Debug CMakeFiles/DblStack.di
   TARGET_IMPLIB = libDblStack.dll.a
   TARGET_PDB = DblStack.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target SqQueueWithTag
+
+
+#############################################
+# Order-only phony target for SqQueueWithTag
+
+build cmake_object_order_depends_target_SqQueueWithTag: phony || CMakeFiles/SqQueueWithTag.dir
+
+build CMakeFiles/SqQueueWithTag.dir/SqQueueWithTag.cpp.obj: CXX_COMPILER__SqQueueWithTag_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/Exercise/SqQueueWithTag.cpp || cmake_object_order_depends_target_SqQueueWithTag
+  DEP_FILE = CMakeFiles\SqQueueWithTag.dir\SqQueueWithTag.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\SqQueueWithTag.dir
+  OBJECT_FILE_DIR = CMakeFiles\SqQueueWithTag.dir
+
+build CMakeFiles/SqQueueWithTag.dir/SqQueueWithTag-main.cpp.obj: CXX_COMPILER__SqQueueWithTag_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/Exercise/SqQueueWithTag-main.cpp || cmake_object_order_depends_target_SqQueueWithTag
+  DEP_FILE = CMakeFiles\SqQueueWithTag.dir\SqQueueWithTag-main.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\SqQueueWithTag.dir
+  OBJECT_FILE_DIR = CMakeFiles\SqQueueWithTag.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SqQueueWithTag
+
+
+#############################################
+# Link the executable SqQueueWithTag.exe
+
+build SqQueueWithTag.exe: CXX_EXECUTABLE_LINKER__SqQueueWithTag_Debug CMakeFiles/SqQueueWithTag.dir/SqQueueWithTag.cpp.obj CMakeFiles/SqQueueWithTag.dir/SqQueueWithTag-main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SqQueueWithTag.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SqQueueWithTag.exe
+  TARGET_IMPLIB = libSqQueueWithTag.dll.a
+  TARGET_PDB = SqQueueWithTag.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -255,6 +294,8 @@ build Postfix: phony Postfix.exe
 
 build PostfixLib: phony libPostfixLib.a
 
+build SqQueueWithTag: phony SqQueueWithTag.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -263,7 +304,7 @@ build PostfixLib: phony libPostfixLib.a
 #############################################
 # Folder: D:/data/duotone/repo/03-Stack and Queue/Exercise/cmake-build-debug
 
-build all: phony IsPalindrome.exe libIsPalindromeLib.a Postfix.exe libPostfixLib.a DblStack.exe
+build all: phony IsPalindrome.exe libIsPalindromeLib.a Postfix.exe libPostfixLib.a DblStack.exe SqQueueWithTag.exe
 
 # =============================================================================
 # Built-in targets
