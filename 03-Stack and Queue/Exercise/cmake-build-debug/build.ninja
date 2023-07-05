@@ -180,6 +180,45 @@ build libPostfixLib.a: CXX_STATIC_LIBRARY_LINKER__PostfixLib_Debug CMakeFiles/Po
   TARGET_FILE = libPostfixLib.a
   TARGET_PDB = PostfixLib.a.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target DblStack
+
+
+#############################################
+# Order-only phony target for DblStack
+
+build cmake_object_order_depends_target_DblStack: phony || CMakeFiles/DblStack.dir
+
+build CMakeFiles/DblStack.dir/DblStack.cpp.obj: CXX_COMPILER__DblStack_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/Exercise/DblStack.cpp || cmake_object_order_depends_target_DblStack
+  DEP_FILE = CMakeFiles\DblStack.dir\DblStack.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\DblStack.dir
+  OBJECT_FILE_DIR = CMakeFiles\DblStack.dir
+
+build CMakeFiles/DblStack.dir/DblStack-main.cpp.obj: CXX_COMPILER__DblStack_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/Exercise/DblStack-main.cpp || cmake_object_order_depends_target_DblStack
+  DEP_FILE = CMakeFiles\DblStack.dir\DblStack-main.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\DblStack.dir
+  OBJECT_FILE_DIR = CMakeFiles\DblStack.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DblStack
+
+
+#############################################
+# Link the executable DblStack.exe
+
+build DblStack.exe: CXX_EXECUTABLE_LINKER__DblStack_Debug CMakeFiles/DblStack.dir/DblStack.cpp.obj CMakeFiles/DblStack.dir/DblStack-main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\DblStack.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = DblStack.exe
+  TARGET_IMPLIB = libDblStack.dll.a
+  TARGET_PDB = DblStack.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -206,6 +245,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build DblStack: phony DblStack.exe
+
 build IsPalindrome: phony IsPalindrome.exe
 
 build IsPalindromeLib: phony libIsPalindromeLib.a
@@ -222,7 +263,7 @@ build PostfixLib: phony libPostfixLib.a
 #############################################
 # Folder: D:/data/duotone/repo/03-Stack and Queue/Exercise/cmake-build-debug
 
-build all: phony IsPalindrome.exe libIsPalindromeLib.a Postfix.exe libPostfixLib.a
+build all: phony IsPalindrome.exe libIsPalindromeLib.a Postfix.exe libPostfixLib.a DblStack.exe
 
 # =============================================================================
 # Built-in targets

@@ -18,7 +18,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -36,12 +37,20 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "DblStack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DblStack-Debug-abf4fd24324ce74f5c19.json",
+					"name" : "DblStack",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "IsPalindrome::@6890427a1f51a3e7e1df",

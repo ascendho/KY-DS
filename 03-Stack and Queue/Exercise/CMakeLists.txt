@@ -12,3 +12,7 @@ target_link_libraries(IsPalindrome IsPalindromeLib)
 add_executable(Postfix Postfix.cpp Postfix.h Postfix-main.cpp)
 add_library(PostfixLib "../TextBook/SqStack.h" "../TextBook/SqStack.cpp")
 target_link_libraries(Postfix PostfixLib)
+
+# DblStack
+add_executable(DblStack DblStack.cpp DblStack.h DblStack-main.cpp)
+

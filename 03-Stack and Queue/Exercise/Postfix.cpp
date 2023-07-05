@@ -1,15 +1,13 @@
 #include "Postfix.h"
 #include <iostream>
-#include <cstdlib>
 #include <cstring>
+#include <stack>
 
 // 计算以'$'结尾的后缀表达式的值
 double Postfix() {
     // 运算数栈
-    SqStack OPND;
+    std::stack<double> OPND;
 
-    // 操作数栈初始化
-    InitSqStack(OPND);
     double num = 0.0;
 
     // 读入后缀式的第一个字符
@@ -19,8 +17,6 @@ double Postfix() {
 
     // 表达式没有扫描完毕
     while (ch != '$') {
-        i = 0;
-
         // 拼数，将读入的数字或小数点依次保存在字符数组data中
         while ((ch >= '0' && ch <= '9') || ch == '.') {
             // 必须解决每次要将data清空
@@ -29,15 +25,15 @@ double Postfix() {
             ch = getchar();
         }
 
-        //必须得ch是数字时才转换
+        // 必须得ch是数字时才转换
         if (i) {
             // 将字符串转换成浮点数
             num = atof(data);
 
             // 操作数进栈
-            Push(OPND, num);
+            OPND.push(num);
         }
-        char a, b;
+        double a, b;
 
         // 遇'+'、'-'、'*'、'/'，弹出两个数据进行运算后再压栈
         switch (ch) {
@@ -46,24 +42,39 @@ double Postfix() {
             case ' ':
                 break;
             case '+':
-                Pop(OPND, b);
-                Pop(OPND, a);
-                Push(OPND, a + b);
+                b = OPND.top();
+                OPND.pop();
+
+                a = OPND.top();
+                OPND.pop();
+
+                OPND.push(a + b);
                 break;
             case '-':
-                Pop(OPND, b);
-                Pop(OPND, a);
-                Push(OPND, a - b);
+                b = OPND.top();
+                OPND.pop();
+
+                a = OPND.top();
+                OPND.pop();
+
+                OPND.push(a - b);
                 break;
             case '*':
-                Pop(OPND, b);
-                Pop(OPND, a);
-                Push(OPND, a * b);
+                b = OPND.top();
+                OPND.pop();
+
+                a = OPND.top();
+                OPND.pop();
+
+                OPND.push(a * b);
                 break;
             case '/':
-                Pop(OPND, b);
-                Pop(OPND, a);
-                Push(OPND, a / b);
+                b = OPND.top();
+                OPND.pop();
+
+                a = OPND.top();
+                OPND.pop();
+                OPND.push(a / b);
                 break;
         }
 
@@ -76,5 +87,5 @@ double Postfix() {
     }
 
     // 输出运算结果
-    return GetTop(OPND);
+    return OPND.top();
 }
