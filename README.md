@@ -48,6 +48,7 @@ typora-copy-images-to: ./img
 | <a href="02-Linear List/Exercise/Max.cpp">2.6-求单链表最大值结点</a> | <a href="03-Stack and Queue\Exercise\IsPalindrome.cpp">3.2-回文串判断</a> |                  |            |      |      |      |
 | <a href="02-Linear List/Exercise/Inverse.cpp">2.7-单链表原地逆置</a> | <a href="03-Stack and Queue/Exercise/Postfix.cpp">3.4-后缀表达式求值</a> |                  |            |      |      |      |
 | <a href="02-Linear List/Exercise/DeleteMinMax.cpp">2.8-有序链表范围删除</a> | <a href="03-Stack and Queue/Exercise/SqQueueWithTag.cpp">3.7-带tag的循环队列</a> |                  |            |      |      |      |
+|                                                              | <a href="03-Stack and Queue/Exercise/Deque.cpp">3.8-双端队列</a> |                  |            |      |      |      |
 
 ------
 

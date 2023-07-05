@@ -20,7 +20,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					]
 				}
 			],
@@ -40,7 +41,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					]
 				}
 			],
@@ -51,6 +53,13 @@
 					"id" : "DblStack::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-DblStack-Debug-abf4fd24324ce74f5c19.json",
 					"name" : "DblStack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Deque::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Deque-Debug-a62b3299a9c90da77128.json",
+					"name" : "Deque",
 					"projectIndex" : 0
 				},
 				{

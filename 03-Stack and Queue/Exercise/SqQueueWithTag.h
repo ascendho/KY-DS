@@ -6,10 +6,10 @@
 typedef struct {
     QElemType *base;
     int front, rear, tag;
-} SqQueue;
+} Deque;
 
-Status InitQueue(SqQueue &Q);                   //构造一个空队列
-Status EnQueue(SqQueue &Q, QElemType e);       //插入元素e为Q的新的队尾元素
-Status DeQueue(SqQueue &Q, QElemType &e);     //删除Q的队头元素，用e返回其值
+Status InitQueue(Deque &Q);                   //构造一个空队列
+Status EnQueue(Deque &Q, QElemType e);       //插入元素e为Q的新的队尾元素
+Status DeQueue(Deque &Q, QElemType &e);     //删除Q的队头元素，用e返回其值
 
 #endif //EXERCISE_SQSTACKWITHTAG_H

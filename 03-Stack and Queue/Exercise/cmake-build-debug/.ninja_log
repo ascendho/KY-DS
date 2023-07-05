@@ -15,3 +15,10 @@
 6	512	7102713334621906	CMakeFiles/SqQueueWithTag.dir/SqQueueWithTag.cpp.obj	9bb207ad4f765605
 0	522	7102713334713837	CMakeFiles/SqQueueWithTag.dir/SqQueueWithTag-main.cpp.obj	173d9622307e9816
 522	695	7102713336415447	SqQueueWithTag.exe	7caf6e029c02d560
+5	497	7102718281781386	CMakeFiles/Deque.dir/Deque.cpp.obj	5d004b7f1327e1c5
+1	511	7102718281892686	CMakeFiles/Deque.dir/Deque-main.cpp.obj	22edb9665d0f9c28
+511	681	7102718283579531	Deque.exe	58d8dc3e24a07d2f
+4	493	7102718471961813	CMakeFiles/Deque.dir/Deque-main.cpp.obj	22edb9665d0f9c28
+494	661	7102718473611170	Deque.exe	58d8dc3e24a07d2f
+5	487	7102718843753494	CMakeFiles/Deque.dir/Deque-main.cpp.obj	22edb9665d0f9c28
+488	652	7102718845386052	Deque.exe	58d8dc3e24a07d2f

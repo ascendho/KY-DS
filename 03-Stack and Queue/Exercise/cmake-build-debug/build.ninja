@@ -258,6 +258,45 @@ build SqQueueWithTag.exe: CXX_EXECUTABLE_LINKER__SqQueueWithTag_Debug CMakeFiles
   TARGET_IMPLIB = libSqQueueWithTag.dll.a
   TARGET_PDB = SqQueueWithTag.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Deque
+
+
+#############################################
+# Order-only phony target for Deque
+
+build cmake_object_order_depends_target_Deque: phony || CMakeFiles/Deque.dir
+
+build CMakeFiles/Deque.dir/Deque.cpp.obj: CXX_COMPILER__Deque_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/Exercise/Deque.cpp || cmake_object_order_depends_target_Deque
+  DEP_FILE = CMakeFiles\Deque.dir\Deque.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Deque.dir
+  OBJECT_FILE_DIR = CMakeFiles\Deque.dir
+
+build CMakeFiles/Deque.dir/Deque-main.cpp.obj: CXX_COMPILER__Deque_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/Exercise/Deque-main.cpp || cmake_object_order_depends_target_Deque
+  DEP_FILE = CMakeFiles\Deque.dir\Deque-main.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Deque.dir
+  OBJECT_FILE_DIR = CMakeFiles\Deque.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Deque
+
+
+#############################################
+# Link the executable Deque.exe
+
+build Deque.exe: CXX_EXECUTABLE_LINKER__Deque_Debug CMakeFiles/Deque.dir/Deque.cpp.obj CMakeFiles/Deque.dir/Deque-main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Deque.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Deque.exe
+  TARGET_IMPLIB = libDeque.dll.a
+  TARGET_PDB = Deque.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -286,6 +325,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build DblStack: phony DblStack.exe
 
+build Deque: phony Deque.exe
+
 build IsPalindrome: phony IsPalindrome.exe
 
 build IsPalindromeLib: phony libIsPalindromeLib.a
@@ -304,7 +345,7 @@ build SqQueueWithTag: phony SqQueueWithTag.exe
 #############################################
 # Folder: D:/data/duotone/repo/03-Stack and Queue/Exercise/cmake-build-debug
 
-build all: phony IsPalindrome.exe libIsPalindromeLib.a Postfix.exe libPostfixLib.a DblStack.exe SqQueueWithTag.exe
+build all: phony IsPalindrome.exe libIsPalindromeLib.a Postfix.exe libPostfixLib.a DblStack.exe SqQueueWithTag.exe Deque.exe
 
 # =============================================================================
 # Built-in targets
