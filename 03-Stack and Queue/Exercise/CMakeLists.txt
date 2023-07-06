@@ -19,5 +19,5 @@ add_executable(DblStack DblStack.cpp DblStack.h DblStack-main.cpp)
 # SqQueueWithTag
 add_executable(SqQueueWithTag SqQueueWithTag.cpp SqQueueWithTag.h SqQueueWithTag-main.cpp)
 
-# Deque
+# SqQueueWithTag
 add_executable(Deque Deque.cpp Deque.h Deque-main.cpp)

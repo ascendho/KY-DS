@@ -5,7 +5,7 @@ using namespace std;
 
 
 int main() {
-    Deque Q;
+    SqQueueWithTag Q;
     InitQueue(Q);
 
     int e = 1;

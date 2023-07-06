@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    Deque Q;
+    SqQueueWithTag Q;
     InitQueue(Q);
 
     char laData[] = {'1', '2', '3'};

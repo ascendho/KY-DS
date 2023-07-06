@@ -2,7 +2,7 @@
 #include <iostream>
 
 // 创建队列
-Status InitQueue(Deque &Q) {
+Status InitQueue(SqQueueWithTag &Q) {
     Q.base = new QElemType[MAXQSIZE];
     if (!Q.base) return OVERFLOW;
 
@@ -11,7 +11,7 @@ Status InitQueue(Deque &Q) {
 }
 
 // 在Q的队头插入新元素e
-Status EnQueue(Deque &Q, QElemType e) {
+Status EnQueue(SqQueueWithTag &Q, QElemType e) {
     // 队满
     if (Q.rear == (Q.front - 1 + MAXQSIZE) % MAXQSIZE)
         return ERROR;
@@ -25,7 +25,7 @@ Status EnQueue(Deque &Q, QElemType e) {
 }
 
 // 删除Q的队尾元素，用e返回其值
-Status DeQueue(Deque &Q, QElemType &e) {
+Status DeQueue(SqQueueWithTag &Q, QElemType &e) {
     // 队空
     if (Q.front == Q.rear)
         return ERROR;
