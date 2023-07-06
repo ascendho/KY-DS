@@ -22,19 +22,19 @@ typora-copy-images-to: ./img
 
 ## 教材源码 Source Code
 
-|                 绪论                 |                            线性表                            |                           栈和队列                           | 串、数组和广义表 | 树和二叉树 |  图  | 查找 | 排序 |
-| :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--------------: | :--------: | :--: | ---- | :--: |
-| <a href="Status/Status.h">状态码</a> |   <a href="02-Linear List/TextBook/SqList.cpp">顺序表</a>    | <a href="03-Stack and Queue/TextBook/SqStack.cpp">顺序栈</a> |                  |            |      |      |      |
-|                                      |  <a href="02-Linear List/TextBook/LinkList.cpp">单链表</a>   | <a href="03-Stack and Queue/TextBook/LinkStack.cpp">链栈</a> |                  |            |      |      |      |
-|                                      | <a href="02-Linear List/TextBook/CLinkList.cpp">循环链表</a> | <a href="03-Stack and Queue/TextBook/SqQueue.cpp">循环队列</a> |                  |            |      |      |      |
-|                                      | <a href="02-Linear List/TextBook/DuLinkList.cpp">双向链表</a> | <a href="03-Stack and Queue/TextBook/LinkQueue.cpp">链队</a> |                  |            |      |      |      |
-|                                      | <a href="02-Linear List/TextBook/Union.cpp">线性表的并集</a> | <a href="03-Stack and Queue\TextBook\Fib.cpp">斐波那契数列</a> |                  |            |      |      |      |
-|                                      | <a href="02-Linear List/TextBook/MergeList.cpp">有序表的合并</a> | <a href="03-Stack and Queue\TextBook\Fact.cpp">阶乘函数</a>  |                  |            |      |      |      |
-|                                      | <a href="02-Linear List/TextBook/Polynomial.cpp">一元多项式</a> | <a href="03-Stack and Queue\TextBook\TraverseList.cpp">单链表结点遍历</a> |                  |            |      |      |      |
-|                                      |                                                              | <a href="03-Stack and Queue\TextBook\Hanoi.cpp">汉诺塔问题</a> |                  |            |      |      |      |
-|                                      |                                                              | <a href="03-Stack and Queue/TextBook/Conversion.cpp">进制转换</a> |                  |            |      |      |      |
-|                                      |                                                              | <a href="03-Stack and Queue/TextBook/Matching.cpp">括号匹配</a> |                  |            |      |      |      |
-|                                      |                                                              | <a href="03-Stack and Queue\TextBook\EvaluateExpression.cpp">表达式求值</a> |                  |            |      |      |      |
+|                 绪论                 |                            线性表                            |                           栈和队列                           |                       串、数组和广义表                       | 树和二叉树 |  图  | 查找 | 排序 |
+| :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--------: | :--: | ---- | :--: |
+| <a href="Status/Status.h">状态码</a> |   <a href="02-Linear List/TextBook/SqList.cpp">顺序表</a>    | <a href="03-Stack and Queue/TextBook/SqStack.cpp">顺序栈</a> | <a href="04-String, Array and Generalized List/TextBook/SString.cpp">顺序串</a> |            |      |      |      |
+|                                      |  <a href="02-Linear List/TextBook/LinkList.cpp">单链表</a>   | <a href="03-Stack and Queue/TextBook/LinkStack.cpp">链栈</a> |                                                              |            |      |      |      |
+|                                      | <a href="02-Linear List/TextBook/CLinkList.cpp">循环链表</a> | <a href="03-Stack and Queue/TextBook/SqQueue.cpp">循环队列</a> |                                                              |            |      |      |      |
+|                                      | <a href="02-Linear List/TextBook/DuLinkList.cpp">双向链表</a> | <a href="03-Stack and Queue/TextBook/LinkQueue.cpp">链队</a> |                                                              |            |      |      |      |
+|                                      | <a href="02-Linear List/TextBook/Union.cpp">线性表的并集</a> | <a href="03-Stack and Queue\TextBook\Fib.cpp">斐波那契数列</a> |                                                              |            |      |      |      |
+|                                      | <a href="02-Linear List/TextBook/MergeList.cpp">有序表的合并</a> | <a href="03-Stack and Queue\TextBook\Fact.cpp">阶乘函数</a>  |                                                              |            |      |      |      |
+|                                      | <a href="02-Linear List/TextBook/Polynomial.cpp">一元多项式</a> | <a href="03-Stack and Queue\TextBook\TraverseList.cpp">单链表结点遍历</a> |                                                              |            |      |      |      |
+|                                      |                                                              | <a href="03-Stack and Queue\TextBook\Hanoi.cpp">汉诺塔问题</a> |                                                              |            |      |      |      |
+|                                      |                                                              | <a href="03-Stack and Queue/TextBook/Conversion.cpp">进制转换</a> |                                                              |            |      |      |      |
+|                                      |                                                              | <a href="03-Stack and Queue/TextBook/Matching.cpp">括号匹配</a> |                                                              |            |      |      |      |
+|                                      |                                                              | <a href="03-Stack and Queue\TextBook\EvaluateExpression.cpp">表达式求值</a> |                                                              |            |      |      |      |
 
 ------
 
