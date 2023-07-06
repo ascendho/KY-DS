@@ -15,7 +15,9 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2
 					]
 				}
 			],
@@ -30,12 +32,28 @@
 					"name" : "TextBook",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Index_BF::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Index_BF-Debug-561a540e5872dfe58bb9.json",
+					"name" : "Index_BF",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Index_BFLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Index_BFLib-Debug-dd367250a2a652e01526.json",
+					"name" : "Index_BFLib",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "SString::@6890427a1f51a3e7e1df",

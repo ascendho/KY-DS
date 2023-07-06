@@ -1,4 +1,5 @@
 #include "SString.h"
+#include<cstring>
 
 // 求子串
 Status SubString(SString &Sub, SString S, int pos, int len) {
@@ -23,6 +24,19 @@ int StrCompare(SString S, SString T) {
     return S.length - T.length;
 }
 
+// 生成一个其值等于chars的串T
+Status StrAssign(SString T, char *chars) {
+    if (strlen(chars) > MAXSTRLEN)
+        return ERROR;
+
+    T.length = strlen(chars);
+
+    for (int i = 1; i <= T.length; i++)
+        T.ch[i] = *(chars + i - 1);
+
+    return OK;
+}
+
 // 定位操作
 int Index(SString S, SString T) {
     int i = 1, n = S.length, m = T.length;
@@ -41,7 +55,3 @@ int Index(SString S, SString T) {
     // S中不存在与T相等的子串
     return 0;
 }
-
-
-
-
