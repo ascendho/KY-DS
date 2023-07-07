@@ -9,3 +9,16 @@ add_executable(SString SString.cpp SString.h)
 add_executable(Index_BF Index_BF.cpp Index_BF.h Index_BF-main.cpp)
 add_library(Index_BFLib "SString.cpp" "SString.h")
 target_link_libraries(Index_BF Index_BFLib)
+
+# Index_KMP
+add_executable(Index_KMP Index_KMP.cpp Index_KMP.h Index_KMP-main.cpp)
+add_library(Index_KMPLib "SString.cpp" "SString.h")
+target_link_libraries(Index_KMP Index_KMPLib)
+
+# LString
+add_executable(LString LString.cpp LString.h)
+
+# next
+add_executable(next next.cpp next.h)
+
+
