@@ -15,6 +15,7 @@ typedef int Status;       //Status是函数返回值类型，其值是函数结�
 typedef int ElemType;     //ElemType为可定义的数据类型，此设为int类型
 typedef char SElemType;
 typedef char QElemType;
+typedef int AtomType;
 
 
 #endif //STATUS_STATUS_H

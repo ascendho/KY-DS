@@ -24,5 +24,7 @@ add_executable(next next.cpp next.h)
 # GetNextVal
 add_executable(nextval nextval.cpp nextval.h)
 
+# GList
+add_executable(GList GList.cpp GList.h)
 
 

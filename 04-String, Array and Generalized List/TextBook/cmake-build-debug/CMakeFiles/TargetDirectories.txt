@@ -5,6 +5,7 @@ D:/data/duotone/repo/04-String, Array and Generalized List/TextBook/cmake-build-
 D:/data/duotone/repo/04-String, Array and Generalized List/TextBook/cmake-build-debug/CMakeFiles/Index_KMPLib.dir
 D:/data/duotone/repo/04-String, Array and Generalized List/TextBook/cmake-build-debug/CMakeFiles/LString.dir
 D:/data/duotone/repo/04-String, Array and Generalized List/TextBook/cmake-build-debug/CMakeFiles/next.dir
-D:/data/duotone/repo/04-String, Array and Generalized List/TextBook/cmake-build-debug/CMakeFiles/NextVal.dir
+D:/data/duotone/repo/04-String, Array and Generalized List/TextBook/cmake-build-debug/CMakeFiles/nextval.dir
+D:/data/duotone/repo/04-String, Array and Generalized List/TextBook/cmake-build-debug/CMakeFiles/GList.dir
 D:/data/duotone/repo/04-String, Array and Generalized List/TextBook/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/data/duotone/repo/04-String, Array and Generalized List/TextBook/cmake-build-debug/CMakeFiles/rebuild_cache.dir

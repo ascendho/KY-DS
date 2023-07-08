@@ -280,37 +280,70 @@ build next.exe: CXX_EXECUTABLE_LINKER__next_Debug CMakeFiles/next.dir/next.cpp.o
   TARGET_PDB = next.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target NextVal
+# Object build statements for EXECUTABLE target nextval
 
 
 #############################################
-# Order-only phony target for NextVal
+# Order-only phony target for nextval
 
-build cmake_object_order_depends_target_NextVal: phony || CMakeFiles/NextVal.dir
+build cmake_object_order_depends_target_nextval: phony || CMakeFiles/nextval.dir
 
-build CMakeFiles/NextVal.dir/NextVal.cpp.obj: CXX_COMPILER__NextVal_Debug D$:/data/duotone/repo/04-String,$ Array$ and$ Generalized$ List/TextBook/NextVal.cpp || cmake_object_order_depends_target_NextVal
-  DEP_FILE = CMakeFiles\NextVal.dir\NextVal.cpp.obj.d
+build CMakeFiles/nextval.dir/nextval.cpp.obj: CXX_COMPILER__nextval_Debug D$:/data/duotone/repo/04-String,$ Array$ and$ Generalized$ List/TextBook/nextval.cpp || cmake_object_order_depends_target_nextval
+  DEP_FILE = CMakeFiles\nextval.dir\nextval.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\NextVal.dir
-  OBJECT_FILE_DIR = CMakeFiles\NextVal.dir
+  OBJECT_DIR = CMakeFiles\nextval.dir
+  OBJECT_FILE_DIR = CMakeFiles\nextval.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target NextVal
+# Link build statements for EXECUTABLE target nextval
 
 
 #############################################
-# Link the executable NextVal.exe
+# Link the executable nextval.exe
 
-build NextVal.exe: CXX_EXECUTABLE_LINKER__NextVal_Debug CMakeFiles/NextVal.dir/NextVal.cpp.obj
+build nextval.exe: CXX_EXECUTABLE_LINKER__nextval_Debug CMakeFiles/nextval.dir/nextval.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\NextVal.dir
+  OBJECT_DIR = CMakeFiles\nextval.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = NextVal.exe
-  TARGET_IMPLIB = libNextVal.dll.a
-  TARGET_PDB = NextVal.exe.dbg
+  TARGET_FILE = nextval.exe
+  TARGET_IMPLIB = libnextval.dll.a
+  TARGET_PDB = nextval.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target GList
+
+
+#############################################
+# Order-only phony target for GList
+
+build cmake_object_order_depends_target_GList: phony || CMakeFiles/GList.dir
+
+build CMakeFiles/GList.dir/GList.cpp.obj: CXX_COMPILER__GList_Debug D$:/data/duotone/repo/04-String,$ Array$ and$ Generalized$ List/TextBook/GList.cpp || cmake_object_order_depends_target_GList
+  DEP_FILE = CMakeFiles\GList.dir\GList.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\GList.dir
+  OBJECT_FILE_DIR = CMakeFiles\GList.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target GList
+
+
+#############################################
+# Link the executable GList.exe
+
+build GList.exe: CXX_EXECUTABLE_LINKER__GList_Debug CMakeFiles/GList.dir/GList.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\GList.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = GList.exe
+  TARGET_IMPLIB = libGList.dll.a
+  TARGET_PDB = GList.exe.dbg
 
 
 #############################################
@@ -338,6 +371,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build GList: phony GList.exe
+
 build Index_BF: phony Index_BF.exe
 
 build Index_BFLib: phony libIndex_BFLib.a
@@ -348,11 +383,11 @@ build Index_KMPLib: phony libIndex_KMPLib.a
 
 build LString: phony LString.exe
 
-build NextVal: phony NextVal.exe
-
 build SString: phony SString.exe
 
 build next: phony next.exe
+
+build nextval: phony nextval.exe
 
 # =============================================================================
 # Folder targets.
@@ -362,7 +397,7 @@ build next: phony next.exe
 #############################################
 # Folder: D:/data/duotone/repo/04-String, Array and Generalized List/TextBook/cmake-build-debug
 
-build all: phony SString.exe Index_BF.exe libIndex_BFLib.a Index_KMP.exe libIndex_KMPLib.a LString.exe next.exe NextVal.exe
+build all: phony SString.exe Index_BF.exe libIndex_BFLib.a Index_KMP.exe libIndex_KMPLib.a LString.exe next.exe nextval.exe GList.exe
 
 # =============================================================================
 # Built-in targets
