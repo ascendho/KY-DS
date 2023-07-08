@@ -18,6 +18,7 @@ int Index_KMP(SString S, SString T, int pos, const int next[]) {
         } else
             // 模式串向右移动
             j = next[j];
+
     // 匹配成功
     if (j > T.length)
         return i - T.length;

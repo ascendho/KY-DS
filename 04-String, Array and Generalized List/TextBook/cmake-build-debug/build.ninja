@@ -279,6 +279,39 @@ build next.exe: CXX_EXECUTABLE_LINKER__next_Debug CMakeFiles/next.dir/next.cpp.o
   TARGET_IMPLIB = libnext.dll.a
   TARGET_PDB = next.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target NextVal
+
+
+#############################################
+# Order-only phony target for NextVal
+
+build cmake_object_order_depends_target_NextVal: phony || CMakeFiles/NextVal.dir
+
+build CMakeFiles/NextVal.dir/NextVal.cpp.obj: CXX_COMPILER__NextVal_Debug D$:/data/duotone/repo/04-String,$ Array$ and$ Generalized$ List/TextBook/NextVal.cpp || cmake_object_order_depends_target_NextVal
+  DEP_FILE = CMakeFiles\NextVal.dir\NextVal.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\NextVal.dir
+  OBJECT_FILE_DIR = CMakeFiles\NextVal.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target NextVal
+
+
+#############################################
+# Link the executable NextVal.exe
+
+build NextVal.exe: CXX_EXECUTABLE_LINKER__NextVal_Debug CMakeFiles/NextVal.dir/NextVal.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\NextVal.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = NextVal.exe
+  TARGET_IMPLIB = libNextVal.dll.a
+  TARGET_PDB = NextVal.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -315,6 +348,8 @@ build Index_KMPLib: phony libIndex_KMPLib.a
 
 build LString: phony LString.exe
 
+build NextVal: phony NextVal.exe
+
 build SString: phony SString.exe
 
 build next: phony next.exe
@@ -327,7 +362,7 @@ build next: phony next.exe
 #############################################
 # Folder: D:/data/duotone/repo/04-String, Array and Generalized List/TextBook/cmake-build-debug
 
-build all: phony SString.exe Index_BF.exe libIndex_BFLib.a Index_KMP.exe libIndex_KMPLib.a LString.exe next.exe
+build all: phony SString.exe Index_BF.exe libIndex_BFLib.a Index_KMP.exe libIndex_KMPLib.a LString.exe next.exe NextVal.exe
 
 # =============================================================================
 # Built-in targets

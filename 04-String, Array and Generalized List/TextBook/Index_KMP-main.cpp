@@ -11,7 +11,7 @@ int main() {
     SString T;
     StrAssign(T, "abb");
     int *p = new int[T.length + 1]; // 生成T的next数组
-    next(T, p);
+    GetNext(T, p);
     cout << "主串和子串在第" << Index_KMP(S, T, 1, p) << "个字符处首次匹配\n";
 
     return 0;

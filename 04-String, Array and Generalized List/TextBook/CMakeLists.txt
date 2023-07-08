@@ -18,7 +18,11 @@ target_link_libraries(Index_KMP Index_KMPLib)
 # LString
 add_executable(LString LString.cpp LString.h)
 
-# next
+# GetNext
 add_executable(next next.cpp next.h)
+
+# GetNextVal
+add_executable(nextval nextval.cpp nextval.h)
+
 
 

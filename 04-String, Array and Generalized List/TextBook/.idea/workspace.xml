@@ -14,9 +14,11 @@
       <config projectName="TextBook" targetName="SString" />
       <config projectName="TextBook" targetName="LString" />
       <config projectName="TextBook" targetName="Index_BF" />
+      <config projectName="TextBook" targetName="NextVal" />
       <config projectName="TextBook" targetName="Index_KMPLib" />
       <config projectName="TextBook" targetName="Index_BFLib" />
       <config projectName="TextBook" targetName="Index_KMP" />
+      <config projectName="TextBook" targetName="next" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -26,25 +28,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53ead193-a0ed-4a1e-9185-6b397a1ee3f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Index_KMP-main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index_KMP.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index_KMP.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LString.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LString.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TextBook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TextBook.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nextval.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nextval.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-0433baf56668267d2755.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-07-06T14-25-32-0958.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index_KMP-main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Index_KMP-main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index_KMP.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Index_KMP.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-120beb257e7685b39a48.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-07-07T14-14-50-0830.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Status/Status.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Status/Status.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Status/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Status/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/next.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.h" beforeDir="false" afterPath="$PROJECT_DIR$/next.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,11 +82,6 @@
   }
 }</component>
   <component name="RunManager" selected="CMake Application.Index_BF">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Index_BF" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TextBook" TARGET_NAME="Index_BF" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TextBook" RUN_TARGET_NAME="Index_BF">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -115,7 +107,22 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NextVal" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TextBook" TARGET_NAME="NextVal" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TextBook" RUN_TARGET_NAME="NextVal">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SString" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TextBook" TARGET_NAME="SString" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TextBook" RUN_TARGET_NAME="SString">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="next" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TextBook" TARGET_NAME="next" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TextBook" RUN_TARGET_NAME="next">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -126,6 +133,8 @@
       <item itemvalue="CMake Application.Index_KMP" />
       <item itemvalue="CMake Application.Index_KMPLib" />
       <item itemvalue="CMake Application.LString" />
+      <item itemvalue="CMake Application.next" />
+      <item itemvalue="CMake Application.NextVal" />
       <item itemvalue="CMake Application.SString" />
     </list>
   </component>
@@ -139,7 +148,8 @@
       <updated>1688651752812</updated>
       <workItem from="1688651754270" duration="2651000" />
       <workItem from="1688702731716" duration="606000" />
-      <workItem from="1688738502207" duration="590000" />
+      <workItem from="1688738502207" duration="1635000" />
+      <workItem from="1688820972060" duration="1404000" />
     </task>
     <servers />
   </component>
