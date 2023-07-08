@@ -1,0 +1,3 @@
+D:/data/duotone/repo/04-String, Array and Generalized List/Exercise/cmake-build-debug/CMakeFiles/CharacterFrequencyStatistics.dir
+D:/data/duotone/repo/04-String, Array and Generalized List/Exercise/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/data/duotone/repo/04-String, Array and Generalized List/Exercise/cmake-build-debug/CMakeFiles/rebuild_cache.dir
