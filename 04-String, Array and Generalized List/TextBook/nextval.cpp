@@ -18,9 +18,3 @@ void GetNextVal(SString T, int nextval[]) {
             j = nextval[j];
     }
 }
-
-
-
-
-
-

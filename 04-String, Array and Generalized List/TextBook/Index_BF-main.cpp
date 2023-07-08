@@ -14,6 +14,6 @@ int main() {
     StrAssign(T, "abb");
     cout << T.ch[0] << endl;
 
-    cout << "主串和子串在第" << Index(S, T, 1) << "个字符处首次匹配\n";
+    cout << "主串和子串在第" << Index_BF(S, T, 1) << "个字符处首次匹配\n";
     return 0;
 }

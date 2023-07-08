@@ -6,7 +6,7 @@
 // 返回模式T在主串S中第pos个字符之后第s一次出现的位置。若不存在，则返回值为0
 // 其中，T非空，1≤pos≤StrLength(S)
 
-int Index(SString S, SString T, int pos) {
+int Index_BF(SString S, SString T, int pos) {
     int i = pos;
     int j = 1;
 

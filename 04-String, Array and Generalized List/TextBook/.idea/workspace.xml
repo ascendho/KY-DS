@@ -29,17 +29,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53ead193-a0ed-4a1e-9185-6b397a1ee3f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/GList.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GList.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Applied Case/Virus_detection-main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Applied Case/Virus_detection.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Applied Case/Virus_detection.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-7df4db6893b06af9d6a3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-07-08T13-09-15-0993.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-NextVal-Debug-41233f7e3a495b262411.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index_BF-main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Index_BF-main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index_BF.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Index_BF.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index_BF.h" beforeDir="false" afterPath="$PROJECT_DIR$/Index_BF.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextval.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/nextval.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Status/Status.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Status/Status.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Status/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Status/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
@@ -117,11 +115,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="next" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TextBook" TARGET_NAME="next" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TextBook" RUN_TARGET_NAME="next">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -155,7 +148,8 @@
       <workItem from="1688651754270" duration="2651000" />
       <workItem from="1688702731716" duration="606000" />
       <workItem from="1688738502207" duration="1635000" />
-      <workItem from="1688820972060" duration="2164000" />
+      <workItem from="1688820972060" duration="2435000" />
+      <workItem from="1688824064778" duration="317000" />
     </task>
     <servers />
   </component>

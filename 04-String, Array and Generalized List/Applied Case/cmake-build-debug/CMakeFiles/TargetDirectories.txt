@@ -1,0 +1,4 @@
+D:/data/duotone/repo/04-String, Array and Generalized List/Applied Case/cmake-build-debug/CMakeFiles/Virus_detection.dir
+D:/data/duotone/repo/04-String, Array and Generalized List/Applied Case/cmake-build-debug/CMakeFiles/Virus_detectionLib.dir
+D:/data/duotone/repo/04-String, Array and Generalized List/Applied Case/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/data/duotone/repo/04-String, Array and Generalized List/Applied Case/cmake-build-debug/CMakeFiles/rebuild_cache.dir

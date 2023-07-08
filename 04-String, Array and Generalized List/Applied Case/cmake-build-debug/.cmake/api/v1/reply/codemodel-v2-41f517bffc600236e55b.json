@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Applied_Case",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Virus_detection::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Virus_detection-Debug-55979e29162753a19a59.json",
+					"name" : "Virus_detection",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Virus_detectionLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Virus_detectionLib-Debug-4171ac247ec24681a0f8.json",
+					"name" : "Virus_detectionLib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/data/duotone/repo/04-String, Array and Generalized List/Applied Case/cmake-build-debug",
+		"source" : "D:/data/duotone/repo/04-String, Array and Generalized List/Applied Case"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
