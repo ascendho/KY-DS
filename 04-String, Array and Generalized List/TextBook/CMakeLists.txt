@@ -15,16 +15,11 @@ add_executable(Index_KMP Index_KMP.cpp Index_KMP.h Index_KMP-main.cpp)
 add_library(Index_KMPLib "SString.cpp" "SString.h")
 target_link_libraries(Index_KMP Index_KMPLib)
 
-# LString
-add_executable(LString LString.cpp LString.h)
-
 # GetNext
 add_executable(next next.cpp next.h)
 
 # GetNextVal
 add_executable(nextval nextval.cpp nextval.h)
 
-# GList
-add_executable(GList GList.cpp GList.h)
 
 

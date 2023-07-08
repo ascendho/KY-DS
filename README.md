@@ -4,7 +4,7 @@ typora-copy-images-to: ./img
 
 ## 为什么 Why
 
-- 本仓库旨在跟踪本人备考2024计算机考研其中数据结构课程的学习进度
+- 本仓库旨在跟踪本人备考2024计算机考研其中**数据结构**课程的学习进度
 
 - **基础源码**(数据结构的基本操作)将会以`class`的形式给出，一个`.cpp`文件和一个`.h`文件，在*ipad*上下载**GitHub**应用软件，零散时间可快速打开温习代码，**习题解答**和**应用案例**会另给出一个`main.cpp`文件用于测试
 
@@ -25,14 +25,14 @@ typora-copy-images-to: ./img
 |                 绪论                 |                            线性表                            |                           栈和队列                           |                       串、数组和广义表                       | 树和二叉树 |  图  | 查找 | 排序 |
 | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--------: | :--: | ---- | :--: |
 | <a href="Status/Status.h">状态码</a> |   <a href="02-Linear List/TextBook/SqList.cpp">顺序表</a>    | <a href="03-Stack and Queue/TextBook/SqStack.cpp">顺序栈</a> | <a href="04-String, Array and Generalized List/TextBook/SString.cpp">顺序串</a> |            |      |      |      |
-|                                      |  <a href="02-Linear List/TextBook/LinkList.cpp">单链表</a>   | <a href="03-Stack and Queue/TextBook/LinkStack.cpp">链栈</a> | <a href="04-String, Array and Generalized List/TextBook/LString.h">链串的存储结构</a> |            |      |      |      |
-|                                      | <a href="02-Linear List/TextBook/CLinkList.cpp">循环链表</a> | <a href="03-Stack and Queue/TextBook/SqQueue.cpp">循环队列</a> | <a href="04-String, Array and Generalized List/TextBook/Index_BF.cpp">BF算法</a> |            |      |      |      |
-|                                      | <a href="02-Linear List/TextBook/DuLinkList.cpp">双向链表</a> | <a href="03-Stack and Queue/TextBook/LinkQueue.cpp">链队</a> | <a href="04-String, Array and Generalized List/TextBook/next.cpp">计算next函数值</a> |            |      |      |      |
-|                                      | <a href="02-Linear List/TextBook/Union.cpp">线性表的并集</a> | <a href="03-Stack and Queue\TextBook\Fib.cpp">斐波那契数列</a> | <a href="04-String, Array and Generalized List/TextBook/Index_KMP.cpp">KMP算法</a> |            |      |      |      |
-|                                      | <a href="02-Linear List/TextBook/MergeList.cpp">有序表的合并</a> | <a href="03-Stack and Queue\TextBook\Fact.cpp">阶乘函数</a>  | <a href="04-String, Array and Generalized List/TextBook/nextval.cpp">计算next修正值</a> |            |      |      |      |
-|                                      | <a href="02-Linear List/TextBook/Polynomial.cpp">一元多项式</a> | <a href="03-Stack and Queue\TextBook\TraverseList.cpp">单链表结点遍历</a> | <a href="04-String, Array and Generalized List/TextBook/GList.h">广义表头尾链表存储</a> |            |      |      |      |
-|                                      |                                                              | <a href="03-Stack and Queue\TextBook\Hanoi.cpp">汉诺塔问题</a> | <a href="04-String, Array and Generalized List/Applied Case/Virus_detection.cpp">病毒感染检测</a> |            |      |      |      |
-|                                      |                                                              | <a href="03-Stack and Queue/TextBook/Conversion.cpp">进制转换</a> |                                                              |            |      |      |      |
+|                                      |  <a href="02-Linear List/TextBook/LinkList.cpp">单链表</a>   | <a href="03-Stack and Queue/TextBook/LinkStack.cpp">链栈</a> | <a href="04-String, Array and Generalized List/TextBook/HString.h">串的堆式存储</a> |            |      |      |      |
+|                                      | <a href="02-Linear List/TextBook/CLinkList.cpp">循环链表</a> | <a href="03-Stack and Queue/TextBook/SqQueue.cpp">循环队列</a> | <a href="04-String, Array and Generalized List/TextBook/LString.h">链串的存储结构</a> |            |      |      |      |
+|                                      | <a href="02-Linear List/TextBook/DuLinkList.cpp">双向链表</a> | <a href="03-Stack and Queue/TextBook/LinkQueue.cpp">链队</a> | <a href="04-String, Array and Generalized List/TextBook/Index_BF.cpp">BF算法</a> |            |      |      |      |
+|                                      | <a href="02-Linear List/TextBook/Union.cpp">线性表的并集</a> | <a href="03-Stack and Queue\TextBook\Fib.cpp">斐波那契数列</a> | <a href="04-String, Array and Generalized List/TextBook/next.cpp">计算next函数值</a> |            |      |      |      |
+|                                      | <a href="02-Linear List/TextBook/MergeList.cpp">有序表的合并</a> | <a href="03-Stack and Queue\TextBook\Fact.cpp">阶乘函数</a>  | <a href="04-String, Array and Generalized List/TextBook/Index_KMP.cpp">KMP算法</a> |            |      |      |      |
+|                                      | <a href="02-Linear List/TextBook/Polynomial.cpp">一元多项式</a> | <a href="03-Stack and Queue\TextBook\TraverseList.cpp">单链表结点遍历</a> | <a href="04-String, Array and Generalized List/TextBook/nextval.cpp">计算next修正值</a> |            |      |      |      |
+|                                      |                                                              | <a href="03-Stack and Queue\TextBook\Hanoi.cpp">汉诺塔问题</a> | <a href="04-String, Array and Generalized List/TextBook/GList.h">广义表头尾链表存储</a> |            |      |      |      |
+|                                      |                                                              | <a href="03-Stack and Queue/TextBook/Conversion.cpp">进制转换</a> | <a href="04-String, Array and Generalized List/Applied Case/Virus_detection.cpp">病毒感染检测</a> |            |      |      |      |
 |                                      |                                                              | <a href="03-Stack and Queue/TextBook/Matching.cpp">括号匹配</a> |                                                              |            |      |      |      |
 |                                      |                                                              | <a href="03-Stack and Queue\TextBook\EvaluateExpression.cpp">表达式求值</a> |                                                              |            |      |      |      |
 

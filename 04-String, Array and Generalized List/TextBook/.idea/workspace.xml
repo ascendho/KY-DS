@@ -12,8 +12,6 @@
   <component name="CMakeRunConfigurationManager">
     <generated>
       <config projectName="TextBook" targetName="SString" />
-      <config projectName="TextBook" targetName="LString" />
-      <config projectName="TextBook" targetName="GList" />
       <config projectName="TextBook" targetName="Index_BF" />
       <config projectName="TextBook" targetName="Index_KMPLib" />
       <config projectName="TextBook" targetName="Index_BFLib" />
@@ -29,17 +27,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53ead193-a0ed-4a1e-9185-6b397a1ee3f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Applied Case/Virus_detection-main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Applied Case/Virus_detection.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Applied Case/Virus_detection.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HString.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index_BF-main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Index_BF-main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index_BF.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Index_BF.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index_BF.h" beforeDir="false" afterPath="$PROJECT_DIR$/Index_BF.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GList.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LString.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-5c8b0245ac462fa7037e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-07-08T13-27-21-0784.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-GList-Debug-0cb562992138d90d66fa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-LString-Debug-8628cf2a78b1107a645b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-next-Debug-a207cdbd516836fd459d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-nextval-Debug-9fbf8bc31274ac722859.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextval.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/nextval.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Status/Status.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Status/Status.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Status/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Status/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,9 +83,9 @@
   }
 }</component>
   <component name="RunManager" selected="CMake Application.Index_BF">
-    <configuration name="GList" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TextBook" TARGET_NAME="GList" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TextBook" RUN_TARGET_NAME="GList">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
     <configuration name="Index_BF" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TextBook" TARGET_NAME="Index_BF" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TextBook" RUN_TARGET_NAME="Index_BF">
@@ -105,11 +108,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LString" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TextBook" TARGET_NAME="LString" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TextBook" RUN_TARGET_NAME="LString">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SString" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TextBook" TARGET_NAME="SString" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TextBook" RUN_TARGET_NAME="SString">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -126,12 +124,10 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.GList" />
       <item itemvalue="CMake Application.Index_BF" />
       <item itemvalue="CMake Application.Index_BFLib" />
       <item itemvalue="CMake Application.Index_KMP" />
       <item itemvalue="CMake Application.Index_KMPLib" />
-      <item itemvalue="CMake Application.LString" />
       <item itemvalue="CMake Application.next" />
       <item itemvalue="CMake Application.nextval" />
       <item itemvalue="CMake Application.SString" />
@@ -150,6 +146,7 @@
       <workItem from="1688738502207" duration="1635000" />
       <workItem from="1688820972060" duration="2435000" />
       <workItem from="1688824064778" duration="317000" />
+      <workItem from="1688825289328" duration="641000" />
     </task>
     <servers />
   </component>

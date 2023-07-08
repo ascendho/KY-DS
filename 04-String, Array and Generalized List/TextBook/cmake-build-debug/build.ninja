@@ -214,39 +214,6 @@ build libIndex_KMPLib.a: CXX_STATIC_LIBRARY_LINKER__Index_KMPLib_Debug CMakeFile
   TARGET_PDB = Index_KMPLib.a.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target LString
-
-
-#############################################
-# Order-only phony target for LString
-
-build cmake_object_order_depends_target_LString: phony || CMakeFiles/LString.dir
-
-build CMakeFiles/LString.dir/LString.cpp.obj: CXX_COMPILER__LString_Debug D$:/data/duotone/repo/04-String,$ Array$ and$ Generalized$ List/TextBook/LString.cpp || cmake_object_order_depends_target_LString
-  DEP_FILE = CMakeFiles\LString.dir\LString.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\LString.dir
-  OBJECT_FILE_DIR = CMakeFiles\LString.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target LString
-
-
-#############################################
-# Link the executable LString.exe
-
-build LString.exe: CXX_EXECUTABLE_LINKER__LString_Debug CMakeFiles/LString.dir/LString.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\LString.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = LString.exe
-  TARGET_IMPLIB = libLString.dll.a
-  TARGET_PDB = LString.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target next
 
 
@@ -312,39 +279,6 @@ build nextval.exe: CXX_EXECUTABLE_LINKER__nextval_Debug CMakeFiles/nextval.dir/n
   TARGET_IMPLIB = libnextval.dll.a
   TARGET_PDB = nextval.exe.dbg
 
-# =============================================================================
-# Object build statements for EXECUTABLE target GList
-
-
-#############################################
-# Order-only phony target for GList
-
-build cmake_object_order_depends_target_GList: phony || CMakeFiles/GList.dir
-
-build CMakeFiles/GList.dir/GList.cpp.obj: CXX_COMPILER__GList_Debug D$:/data/duotone/repo/04-String,$ Array$ and$ Generalized$ List/TextBook/GList.cpp || cmake_object_order_depends_target_GList
-  DEP_FILE = CMakeFiles\GList.dir\GList.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\GList.dir
-  OBJECT_FILE_DIR = CMakeFiles\GList.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target GList
-
-
-#############################################
-# Link the executable GList.exe
-
-build GList.exe: CXX_EXECUTABLE_LINKER__GList_Debug CMakeFiles/GList.dir/GList.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\GList.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = GList.exe
-  TARGET_IMPLIB = libGList.dll.a
-  TARGET_PDB = GList.exe.dbg
-
 
 #############################################
 # Utility command for edit_cache
@@ -371,8 +305,6 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build GList: phony GList.exe
-
 build Index_BF: phony Index_BF.exe
 
 build Index_BFLib: phony libIndex_BFLib.a
@@ -380,8 +312,6 @@ build Index_BFLib: phony libIndex_BFLib.a
 build Index_KMP: phony Index_KMP.exe
 
 build Index_KMPLib: phony libIndex_KMPLib.a
-
-build LString: phony LString.exe
 
 build SString: phony SString.exe
 
@@ -397,7 +327,7 @@ build nextval: phony nextval.exe
 #############################################
 # Folder: D:/data/duotone/repo/04-String, Array and Generalized List/TextBook/cmake-build-debug
 
-build all: phony SString.exe Index_BF.exe libIndex_BFLib.a Index_KMP.exe libIndex_KMPLib.a LString.exe next.exe nextval.exe GList.exe
+build all: phony SString.exe Index_BF.exe libIndex_BFLib.a Index_KMP.exe libIndex_KMPLib.a next.exe nextval.exe
 
 # =============================================================================
 # Built-in targets
