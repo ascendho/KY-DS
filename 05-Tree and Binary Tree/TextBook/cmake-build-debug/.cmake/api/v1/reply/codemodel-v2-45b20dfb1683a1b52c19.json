@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TextBook",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "InOrderTraverse::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-InOrderTraverse-Debug-d47bdeffae36afe15a58.json",
+					"name" : "InOrderTraverse",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "InOrderTraverseUsingStack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-InOrderTraverseUsingStack-Debug-86598ba6ea0b557f56a3.json",
+					"name" : "InOrderTraverseUsingStack",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/data/duotone/repo/05-Tree and Binary Tree/TextBook/cmake-build-debug",
+		"source" : "D:/data/duotone/repo/05-Tree and Binary Tree/TextBook"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
