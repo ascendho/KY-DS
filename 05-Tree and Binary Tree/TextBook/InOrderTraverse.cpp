@@ -3,6 +3,8 @@
 
 // 中序遍历二叉树T的递归算法
 
+// 时间复杂度: O(n)
+
 void InOrderTraverse(BiTree T) {
     if (T) {
         InOrderTraverse(T->lchild);
