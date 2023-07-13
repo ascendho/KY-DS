@@ -2,6 +2,7 @@
 #include <iostream>
 #include <stack>
 
+// 算法5.2
 // 中序遍历二叉树T的非递归算法
 
 // 时间复杂度: O(n)
