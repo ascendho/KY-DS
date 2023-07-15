@@ -29,6 +29,7 @@ void InOrderTraverseUsingStack(BiTree T) {
             S.pop();
 
             // 访问根节点
+            // 注: 教材中是直接打印输出结点值, 这里封装成Visit函数, 更具"普遍意义"
             Visit(q);
 
             // 遍历右子树
