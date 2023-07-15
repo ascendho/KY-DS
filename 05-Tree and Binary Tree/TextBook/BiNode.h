@@ -11,4 +11,6 @@ void InOrderTraverse(BiTree T);
 
 void InOrderTraverseUsingStack(BiTree T);
 
+void Visit(BiTree T);
+
 #endif //TEXTBOOK_BINODE_H

@@ -27,7 +27,11 @@ void InOrderTraverseUsingStack(BiTree T) {
 
             q = S.top();
             S.pop();
-            std::cout << q->data;
+
+            // 访问根节点
+            Visit(q);
+
+            // 遍历右子树
             p = q->rchild;
         }
     }
