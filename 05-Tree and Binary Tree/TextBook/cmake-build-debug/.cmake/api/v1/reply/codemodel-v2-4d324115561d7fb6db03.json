@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,12 +33,20 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CreateBiTree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CreateBiTree-Debug-77908b133c4c119fdd4c.json",
+					"name" : "CreateBiTree",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "InOrderTraverse::@6890427a1f51a3e7e1df",

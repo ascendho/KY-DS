@@ -106,6 +106,39 @@ build InOrderTraverseUsingStack.exe: CXX_EXECUTABLE_LINKER__InOrderTraverseUsing
   TARGET_IMPLIB = libInOrderTraverseUsingStack.dll.a
   TARGET_PDB = InOrderTraverseUsingStack.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target CreateBiTree
+
+
+#############################################
+# Order-only phony target for CreateBiTree
+
+build cmake_object_order_depends_target_CreateBiTree: phony || CMakeFiles/CreateBiTree.dir
+
+build CMakeFiles/CreateBiTree.dir/CreateBiTree.cpp.obj: CXX_COMPILER__CreateBiTree_Debug D$:/data/duotone/repo/05-Tree$ and$ Binary$ Tree/TextBook/CreateBiTree.cpp || cmake_object_order_depends_target_CreateBiTree
+  DEP_FILE = CMakeFiles\CreateBiTree.dir\CreateBiTree.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\CreateBiTree.dir
+  OBJECT_FILE_DIR = CMakeFiles\CreateBiTree.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CreateBiTree
+
+
+#############################################
+# Link the executable CreateBiTree.exe
+
+build CreateBiTree.exe: CXX_EXECUTABLE_LINKER__CreateBiTree_Debug CMakeFiles/CreateBiTree.dir/CreateBiTree.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CreateBiTree.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CreateBiTree.exe
+  TARGET_IMPLIB = libCreateBiTree.dll.a
+  TARGET_PDB = CreateBiTree.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -132,6 +165,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build CreateBiTree: phony CreateBiTree.exe
+
 build InOrderTraverse: phony InOrderTraverse.exe
 
 build InOrderTraverseUsingStack: phony InOrderTraverseUsingStack.exe
@@ -144,7 +179,7 @@ build InOrderTraverseUsingStack: phony InOrderTraverseUsingStack.exe
 #############################################
 # Folder: D:/data/duotone/repo/05-Tree and Binary Tree/TextBook/cmake-build-debug
 
-build all: phony InOrderTraverse.exe InOrderTraverseUsingStack.exe
+build all: phony InOrderTraverse.exe InOrderTraverseUsingStack.exe CreateBiTree.exe
 
 # =============================================================================
 # Built-in targets

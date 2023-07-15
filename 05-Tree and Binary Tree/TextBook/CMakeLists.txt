@@ -5,3 +5,12 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(InOrderTraverse InOrderTraverse.cpp BiNode.h)
 add_executable(InOrderTraverseUsingStack InOrderTraverseUsingStack.cpp BiNode.h)
+add_executable(CreateBiTree CreateBiTree.cpp BiNode.h)
+
+
+
+
+
+
+
+
