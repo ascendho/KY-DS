@@ -19,7 +19,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -38,7 +39,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -77,6 +79,13 @@
 					"id" : "InOrderTraverseUsingStack::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-InOrderTraverseUsingStack-Debug-86598ba6ea0b557f56a3.json",
 					"name" : "InOrderTraverseUsingStack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NodeCount::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NodeCount-Debug-43457414bfd3a8a03446.json",
+					"name" : "NodeCount",
 					"projectIndex" : 0
 				}
 			]
