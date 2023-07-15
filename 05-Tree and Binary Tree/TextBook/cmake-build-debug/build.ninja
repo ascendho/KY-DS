@@ -139,6 +139,72 @@ build CreateBiTree.exe: CXX_EXECUTABLE_LINKER__CreateBiTree_Debug CMakeFiles/Cre
   TARGET_IMPLIB = libCreateBiTree.dll.a
   TARGET_PDB = CreateBiTree.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Copy
+
+
+#############################################
+# Order-only phony target for Copy
+
+build cmake_object_order_depends_target_Copy: phony || CMakeFiles/Copy.dir
+
+build CMakeFiles/Copy.dir/Copy.cpp.obj: CXX_COMPILER__Copy_Debug D$:/data/duotone/repo/05-Tree$ and$ Binary$ Tree/TextBook/Copy.cpp || cmake_object_order_depends_target_Copy
+  DEP_FILE = CMakeFiles\Copy.dir\Copy.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Copy.dir
+  OBJECT_FILE_DIR = CMakeFiles\Copy.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Copy
+
+
+#############################################
+# Link the executable Copy.exe
+
+build Copy.exe: CXX_EXECUTABLE_LINKER__Copy_Debug CMakeFiles/Copy.dir/Copy.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Copy.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Copy.exe
+  TARGET_IMPLIB = libCopy.dll.a
+  TARGET_PDB = Copy.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Depth
+
+
+#############################################
+# Order-only phony target for Depth
+
+build cmake_object_order_depends_target_Depth: phony || CMakeFiles/Depth.dir
+
+build CMakeFiles/Depth.dir/Depth.cpp.obj: CXX_COMPILER__Depth_Debug D$:/data/duotone/repo/05-Tree$ and$ Binary$ Tree/TextBook/Depth.cpp || cmake_object_order_depends_target_Depth
+  DEP_FILE = CMakeFiles\Depth.dir\Depth.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Depth.dir
+  OBJECT_FILE_DIR = CMakeFiles\Depth.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Depth
+
+
+#############################################
+# Link the executable Depth.exe
+
+build Depth.exe: CXX_EXECUTABLE_LINKER__Depth_Debug CMakeFiles/Depth.dir/Depth.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Depth.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Depth.exe
+  TARGET_IMPLIB = libDepth.dll.a
+  TARGET_PDB = Depth.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -165,7 +231,11 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build Copy: phony Copy.exe
+
 build CreateBiTree: phony CreateBiTree.exe
+
+build Depth: phony Depth.exe
 
 build InOrderTraverse: phony InOrderTraverse.exe
 
@@ -179,7 +249,7 @@ build InOrderTraverseUsingStack: phony InOrderTraverseUsingStack.exe
 #############################################
 # Folder: D:/data/duotone/repo/05-Tree and Binary Tree/TextBook/cmake-build-debug
 
-build all: phony InOrderTraverse.exe InOrderTraverseUsingStack.exe CreateBiTree.exe
+build all: phony InOrderTraverse.exe InOrderTraverseUsingStack.exe CreateBiTree.exe Copy.exe Depth.exe
 
 # =============================================================================
 # Built-in targets
