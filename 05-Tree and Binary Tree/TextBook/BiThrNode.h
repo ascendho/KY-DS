@@ -12,6 +12,7 @@ typedef struct BiThrNode {
 
 void InThreading(BiThrTree p);
 
+// 只给出声明, 不给出具体定义
 void Visit(BiThrTree T);
 
 #endif //TEXTBOOK_BITHRNODE_H

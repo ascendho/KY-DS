@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Visit.exe"
+			"path" : "InOrderTraverse_Thr.exe"
 		},
 		{
-			"path" : "Visit.pdb"
+			"path" : "InOrderTraverse_Thr.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 6,
+				"line" : 14,
 				"parent" : 0
 			}
 		]
@@ -59,7 +59,7 @@
 			]
 		}
 	],
-	"id" : "Visit::@6890427a1f51a3e7e1df",
+	"id" : "InOrderTraverse_Thr::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -79,8 +79,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Visit",
-	"nameOnDisk" : "Visit.exe",
+	"name" : "InOrderTraverse_Thr",
+	"nameOnDisk" : "InOrderTraverse_Thr.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -108,12 +108,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Visit.cpp",
+			"path" : "InOrderTraverse_Thr.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "BiNode.h",
+			"path" : "BiThrNode.h",
 			"sourceGroupIndex" : 1
 		}
 	],

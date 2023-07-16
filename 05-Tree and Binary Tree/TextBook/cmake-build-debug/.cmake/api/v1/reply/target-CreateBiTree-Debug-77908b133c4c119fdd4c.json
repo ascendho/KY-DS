@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Copy.exe"
+			"path" : "CreateBiTree.exe"
 		},
 		{
-			"path" : "Copy.pdb"
+			"path" : "CreateBiTree.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 10,
+				"line" : 8,
 				"parent" : 0
 			}
 		]
@@ -59,7 +59,7 @@
 			]
 		}
 	],
-	"id" : "Copy::@6890427a1f51a3e7e1df",
+	"id" : "CreateBiTree::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -79,8 +79,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Copy",
-	"nameOnDisk" : "Copy.exe",
+	"name" : "CreateBiTree",
+	"nameOnDisk" : "CreateBiTree.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -108,7 +108,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Copy.cpp",
+			"path" : "CreateBiTree.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

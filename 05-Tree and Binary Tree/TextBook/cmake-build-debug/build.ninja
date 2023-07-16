@@ -41,39 +41,6 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/data/duotone/repo/05-Tree$ and$ Binary$ Tree/TextBook/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Visit
-
-
-#############################################
-# Order-only phony target for Visit
-
-build cmake_object_order_depends_target_Visit: phony || CMakeFiles/Visit.dir
-
-build CMakeFiles/Visit.dir/Visit.cpp.obj: CXX_COMPILER__Visit_Debug D$:/data/duotone/repo/05-Tree$ and$ Binary$ Tree/TextBook/Visit.cpp || cmake_object_order_depends_target_Visit
-  DEP_FILE = CMakeFiles\Visit.dir\Visit.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\Visit.dir
-  OBJECT_FILE_DIR = CMakeFiles\Visit.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Visit
-
-
-#############################################
-# Link the executable Visit.exe
-
-build Visit.exe: CXX_EXECUTABLE_LINKER__Visit_Debug CMakeFiles/Visit.dir/Visit.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Visit.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = Visit.exe
-  TARGET_IMPLIB = libVisit.dll.a
-  TARGET_PDB = Visit.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target InOrderTraverse
 
 
@@ -414,8 +381,6 @@ build InThreading: phony InThreading.exe
 
 build NodeCount: phony NodeCount.exe
 
-build Visit: phony Visit.exe
-
 # =============================================================================
 # Folder targets.
 
@@ -424,7 +389,7 @@ build Visit: phony Visit.exe
 #############################################
 # Folder: D:/data/duotone/repo/05-Tree and Binary Tree/TextBook/cmake-build-debug
 
-build all: phony Visit.exe InOrderTraverse.exe InOrderTraverseUsingStack.exe CreateBiTree.exe Copy.exe Depth.exe NodeCount.exe InThreading.exe InOrderThreading.exe InOrderTraverse_Thr.exe
+build all: phony InOrderTraverse.exe InOrderTraverseUsingStack.exe CreateBiTree.exe Copy.exe Depth.exe NodeCount.exe InThreading.exe InOrderThreading.exe InOrderTraverse_Thr.exe
 
 # =============================================================================
 # Built-in targets

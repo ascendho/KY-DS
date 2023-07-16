@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "InOrderTraverse.exe"
+			"path" : "InOrderTraverseUsingStack.exe"
 		},
 		{
-			"path" : "InOrderTraverse.pdb"
+			"path" : "InOrderTraverseUsingStack.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -59,7 +59,7 @@
 			]
 		}
 	],
-	"id" : "InOrderTraverse::@6890427a1f51a3e7e1df",
+	"id" : "InOrderTraverseUsingStack::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -79,8 +79,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "InOrderTraverse",
-	"nameOnDisk" : "InOrderTraverse.exe",
+	"name" : "InOrderTraverseUsingStack",
+	"nameOnDisk" : "InOrderTraverseUsingStack.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -108,7 +108,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "InOrderTraverse.cpp",
+			"path" : "InOrderTraverseUsingStack.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
