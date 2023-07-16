@@ -9,6 +9,10 @@ typedef struct InOrderTraverse {
 
 void InOrderTraverse(BiTree T);
 
+void PreOrderTraverse(BiTree T);
+
+void PostOrderTraverse(BiTree T);
+
 void InOrderTraverseUsingStack(BiTree T);
 
 // 只给出声明, 不给出具体定义
