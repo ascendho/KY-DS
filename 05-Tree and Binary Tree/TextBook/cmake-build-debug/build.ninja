@@ -271,6 +271,39 @@ build NodeCount.exe: CXX_EXECUTABLE_LINKER__NodeCount_Debug CMakeFiles/NodeCount
   TARGET_IMPLIB = libNodeCount.dll.a
   TARGET_PDB = NodeCount.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target InThreading
+
+
+#############################################
+# Order-only phony target for InThreading
+
+build cmake_object_order_depends_target_InThreading: phony || CMakeFiles/InThreading.dir
+
+build CMakeFiles/InThreading.dir/InThreading.cpp.obj: CXX_COMPILER__InThreading_Debug D$:/data/duotone/repo/05-Tree$ and$ Binary$ Tree/TextBook/InThreading.cpp || cmake_object_order_depends_target_InThreading
+  DEP_FILE = CMakeFiles\InThreading.dir\InThreading.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\InThreading.dir
+  OBJECT_FILE_DIR = CMakeFiles\InThreading.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target InThreading
+
+
+#############################################
+# Link the executable InThreading.exe
+
+build InThreading.exe: CXX_EXECUTABLE_LINKER__InThreading_Debug CMakeFiles/InThreading.dir/InThreading.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\InThreading.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = InThreading.exe
+  TARGET_IMPLIB = libInThreading.dll.a
+  TARGET_PDB = InThreading.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -307,6 +340,8 @@ build InOrderTraverse: phony InOrderTraverse.exe
 
 build InOrderTraverseUsingStack: phony InOrderTraverseUsingStack.exe
 
+build InThreading: phony InThreading.exe
+
 build NodeCount: phony NodeCount.exe
 
 build Visit: phony Visit.exe
@@ -319,7 +354,7 @@ build Visit: phony Visit.exe
 #############################################
 # Folder: D:/data/duotone/repo/05-Tree and Binary Tree/TextBook/cmake-build-debug
 
-build all: phony Visit.exe InOrderTraverse.exe InOrderTraverseUsingStack.exe CreateBiTree.exe Copy.exe Depth.exe NodeCount.exe
+build all: phony Visit.exe InOrderTraverse.exe InOrderTraverseUsingStack.exe CreateBiTree.exe Copy.exe Depth.exe NodeCount.exe InThreading.exe
 
 # =============================================================================
 # Built-in targets

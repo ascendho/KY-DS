@@ -10,6 +10,7 @@ add_executable(CreateBiTree CreateBiTree.cpp BiNode.h)
 add_executable(Copy Copy.cpp BiNode.h)
 add_executable(Depth Depth.cpp BiNode.h)
 add_executable(NodeCount NodeCount.cpp BiNode.h)
+add_executable(InThreading InThreading.cpp BiThrNode.h)
 
 
 
