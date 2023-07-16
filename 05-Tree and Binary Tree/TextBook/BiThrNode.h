@@ -10,4 +10,6 @@ typedef struct BiThrNode {
     int LTag, RTag;                        // 左右标志
 } BiThrNode, *BiThrTree;
 
+void InThreading(BiThrTree p);
+
 #endif //TEXTBOOK_BITHRNODE_H
