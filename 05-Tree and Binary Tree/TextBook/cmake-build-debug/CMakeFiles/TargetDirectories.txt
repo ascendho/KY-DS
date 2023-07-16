@@ -7,5 +7,6 @@ D:/data/duotone/repo/05-Tree and Binary Tree/TextBook/cmake-build-debug/CMakeFil
 D:/data/duotone/repo/05-Tree and Binary Tree/TextBook/cmake-build-debug/CMakeFiles/NodeCount.dir
 D:/data/duotone/repo/05-Tree and Binary Tree/TextBook/cmake-build-debug/CMakeFiles/InThreading.dir
 D:/data/duotone/repo/05-Tree and Binary Tree/TextBook/cmake-build-debug/CMakeFiles/InOrderThreading.dir
+D:/data/duotone/repo/05-Tree and Binary Tree/TextBook/cmake-build-debug/CMakeFiles/InOrderTraverse_Thr.dir
 D:/data/duotone/repo/05-Tree and Binary Tree/TextBook/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/data/duotone/repo/05-Tree and Binary Tree/TextBook/cmake-build-debug/CMakeFiles/rebuild_cache.dir

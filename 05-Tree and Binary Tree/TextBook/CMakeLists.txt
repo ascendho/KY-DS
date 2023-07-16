@@ -12,6 +12,7 @@ add_executable(Depth Depth.cpp BiNode.h)
 add_executable(NodeCount NodeCount.cpp BiNode.h)
 add_executable(InThreading InThreading.cpp BiThrNode.h)
 add_executable(InOrderThreading InOrderThreading.cpp BiThrNode.h)
+add_executable(InOrderTraverse_Thr InOrderTraverse_Thr.cpp BiThrNode.h)
 
 
 

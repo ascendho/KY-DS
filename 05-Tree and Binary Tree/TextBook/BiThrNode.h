@@ -12,4 +12,6 @@ typedef struct BiThrNode {
 
 void InThreading(BiThrTree p);
 
+void Visit(BiThrTree T);
+
 #endif //TEXTBOOK_BITHRNODE_H
