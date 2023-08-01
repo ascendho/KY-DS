@@ -4,12 +4,14 @@
 #include "../../Status/Status.h"
 
 /* 串的堆式顺序存储结构 */
+
 typedef struct {
     char *ch;      // 若是非空串，则按串长分配存储区，否则ch为NULL
     int length;    // 串的当前长度　
 } HString;
 
 /* 顺序串 */
+
 typedef struct {
     char ch[MAXSTRLEN + 1];   // 存储串的一维数组
     int length;               // 串的当前长度　
