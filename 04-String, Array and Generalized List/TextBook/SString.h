@@ -1,12 +1,7 @@
 #ifndef TEXTBOOK_SSTRING_H
 #define TEXTBOOK_SSTRING_H
 
-#include "../../Status/Status.h"
-
-typedef struct {
-    char ch[MAXSTRLEN + 1];   // 存储串的一维数组
-    int length;               // 串的当前长度　
-} SString;
+#include "StorageStructuresOfString.h"
 
 Status SubString(SString &Sub, SString S, int pos, int len);
 
