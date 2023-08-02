@@ -16,13 +16,14 @@ void CreatHuffmanTree(HuffmanTree &HT, int n) {
         HT[i].lchild = 0;
         HT[i].rchild = 0;
     }
+
     std::cout << "请输入叶子结点的权值：\n";
 
     // 输入前n个单元中叶子结点的权值
     for (i = 1; i <= n; ++i)
         std::cin >> HT[i].weight;
 
-    /*――――――――――初始化工作结束，下面开始创建赫夫曼树――――――――――*/
+    /* 初始化工作结束，下面开始创建赫夫曼树 */
 
     // 通过n-1次的选择、删除、合并来创建赫夫曼树
     for (i = n + 1; i <= m; ++i) {
@@ -45,8 +46,6 @@ void CreatHuffmanTree(HuffmanTree &HT, int n) {
     }
 }
 
-
-
 void Select(HuffmanTree HT, int len, int &s1, int &s2) {
     // 先赋予最大值
     int i, min1 = 0x3f3f3f3f, min2 = 0x3f3f3f3f;
@@ -57,6 +56,7 @@ void Select(HuffmanTree HT, int len, int &s1, int &s2) {
             s1 = i;
         }
     }
+
     // 将原值存放起来，然后先赋予最大值，防止s1被重复选择
     int temp = HT[s1].weight;
     HT[s1].weight = 0x3f3f3f3f;

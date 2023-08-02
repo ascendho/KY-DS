@@ -24,6 +24,7 @@ void CreatHuffmanCode(HuffmanTree HT, HuffmanCode &HC, int n) {
             c = f;
             f = HT[f].parent;                              // 继续向上回溯
         }                                                  // 求出第i个字符的编码
+
         HC[i] = new char[n - start];                       // 为第i个字符编码分配空间
         strcpy(HC[i], &cd[start]);            // 将求得的编码从临时空间cd复制到HC的当前行中
     }
