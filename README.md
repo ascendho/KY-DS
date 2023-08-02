@@ -36,6 +36,7 @@ typora-copy-images-to: ./img
 |                                                              | <a href="03-Stack and Queue/TextBook/Matching.cpp">括号匹配</a> |                                                              | <a href="05-Tree and Binary Tree/TextBook/InOrderThreading.cpp">二叉树线索化</a> |      |      |      |
 |                                                              | <a href="03-Stack and Queue\TextBook\EvaluateExpression.cpp">表达式求值</a> |                                                              | <a href="05-Tree and Binary Tree/TextBook/InOrderTraverse_Thr.cpp">遍历线索二叉树</a> |      |      |      |
 |                                                              |                                                              |                                                              | <a href="05-Tree and Binary Tree/TextBook/StorageStructureOfTree.h">树的存储结构</a> |      |      |      |
+|                                                              |                                                              |                                                              | <a href="05-Tree and Binary Tree/TextBook/CreateHuffmanTree.cpp">创建哈夫曼树</a> |      |      |      |
 
 ## 严书编程题全解 Solutions
 
