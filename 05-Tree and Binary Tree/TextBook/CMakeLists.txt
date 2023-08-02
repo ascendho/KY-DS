@@ -14,9 +14,5 @@ add_executable(InOrderThreading InOrderThreading.cpp BiThrNode.h)
 add_executable(InOrderTraverse_Thr InOrderTraverse_Thr.cpp BiThrNode.h)
 add_executable(CreateHuffmanTree CreateHuffmanTree.cpp HuffmanTree.h)
 add_executable(CreatHuffmanCode CreatHuffmanCode.cpp HuffmanTree.h)
-
-
-
-
-
+add_executable(Select Select.cpp HuffmanTree.h)
 
