@@ -1,5 +1,8 @@
 #include "HuffmanTree.h"
 
+// 在HT[k](1≤k≤i-1)中选择两个其双亲域为0且权值最小的结点,
+// 并返回它们在HT中的序号s1和s2
+
 void Select(HuffmanTree HT, int len, int &s1, int &s2) {
     // 先赋予最大值
     int i, min1 = 0x3f3f3f3f, min2 = 0x3f3f3f3f;

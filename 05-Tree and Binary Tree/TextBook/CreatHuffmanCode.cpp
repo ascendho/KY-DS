@@ -5,13 +5,13 @@
 // 从叶子到根逆向求每个字符的赫夫曼编码，存储在编码表HC中
 
 void CreatHuffmanCode(HuffmanTree HT, HuffmanCode &HC, int n) {
-    int i, start, c, f;
+    int start, c, f;
 
     HC = new char *[n + 1];                                // 分配n个字符编码的头指针矢量
     char *cd = new char[n];                                // 分配临时存放编码的动态数组空间
     cd[n - 1] = '\0';                                      // 编码结束符
 
-    for (i = 1; i <= n; ++i) {                             // 逐个字符求赫夫曼编码
+    for (int i = 1; i <= n; ++i) {                         // 逐个字符求赫夫曼编码
         start = n - 1;                                     // start开始时指向最后，即编码结束符位置
         c = i;
         f = HT[i].parent;                                  // f指向结点c的双亲结点
