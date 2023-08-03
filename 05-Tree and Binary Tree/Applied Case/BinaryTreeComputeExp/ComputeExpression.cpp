@@ -72,28 +72,6 @@ void CreateExpTree(BiTree &T, BiTree a, BiTree b, char ch) {
     T->rchild = b;
 }
 
-// 树栈初始化
-void InitBiTreeStack(BiTreeStack &S) {
-    S.base = new BiTree[MAXSIZE];
-    if (!S.base) exit(-1);
-
-    S.top = S.base;
-    S.stacksize = MAXSIZE;
-}
-
-// 树栈入栈
-void PushBiTree(BiTreeStack &S, BiTree e) {
-    if (S.top - S.base == S.stacksize) return;
-    *S.top = e;
-    S.top++;
-}
-
-// 树栈出栈
-void PopBiTree(BiTreeStack &S, BiTree &e) {
-    if (S.top == S.base) return;
-    e = *--S.top;
-}
-
 /* 根据教科书表3.1，判断两符号的优先关系 */
 char Precede(char t1, char t2) {
     char f;

@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "BinaryTreeComputeExp",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -38,8 +40,15 @@
 			[
 				{
 					"directoryIndex" : 0,
+					"id" : "BiTreeStack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BiTreeStack-Debug-58c8f7aa301e84b25544.json",
+					"name" : "BiTreeStack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "ComputeExpression::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ComputeExpression-Debug-bde794501bf0ed545a74.json",
+					"jsonFile" : "target-ComputeExpression-Debug-5085df6081a47322b9d5.json",
 					"name" : "ComputeExpression",
 					"projectIndex" : 0
 				}
