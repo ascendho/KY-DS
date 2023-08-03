@@ -8,6 +8,7 @@ void CreatHuffmanCode(HuffmanTree HT, HuffmanCode &HC, int n) {
     int start, c, f;
 
     HC = new char *[n + 1];                                // 分配n个字符编码的头指针矢量
+
     char *cd = new char[n];                                // 分配临时存放编码的动态数组空间
     cd[n - 1] = '\0';                                      // 编码结束符
 
