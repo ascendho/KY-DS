@@ -40,6 +40,10 @@ typora-copy-images-to: ./img
 |                                                              |                                                              |                                                              | <a href="05-Tree and Binary Tree/TextBook/CreateHuffmanTree.cpp">构造哈夫曼树</a> |      |      |      |
 |                                                              |                                                              |                                                              | <a href="05-Tree and Binary Tree/TextBook/CreatHuffmanCode.cpp">求哈夫曼编码</a> |      |      |      |
 
+------
+
+
+
 ## 严书编程题全解 Solutions
 
 |                            线性表                            |                           栈和队列                           |                       串、数组和广义表                       |                          树和二叉树                          |  图  | 查找 | 排序 |
@@ -99,6 +103,15 @@ git clone https://github.com/ascendho/KY-DS.git
 | 数据结构习题解析与实验指导  |     李冬梅     | ![数据结构习题解析与实验指导](img/2204c1aa113663e88ab9.png)  | <a href="https://www.ryjiaoyu.com/book/details/43313">人邮教育</a> |
 | 数据结构（C++语言版 第3版） |     邓俊辉     |      ![数据结构（C++语言版 第3版）](img/s28064419.jpg)       | <a href="https://dsa.cs.tsinghua.edu.cn/~deng/ds/dsacpp/index.htm">DSACPP</a> |
 |  2024数据结构考研复习指导   |    王道论坛    | ![image-20230619194511434](img/image-20230619194511434.png)  |                              /                               |
+
+------
+
+
+
+## 推荐资源 Recommended Resources
+
+- <a href="https://www.bilibili.com/video/BV1nJ411V7bd/?spm_id_from=333.337.search-card.all.click">数据结构与算法基础--青岛大学王卓</a>
+- <a href="https://www.bilibili.com/video/BV1b7411N798?p=51&spm_id_from=pageDriver&vd_source=61a8f743f4489a59a143809ed7fb1159">数据结构--王道计算机考研</a>
 
 ------
 
