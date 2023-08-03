@@ -23,10 +23,7 @@
 						5,
 						6,
 						7,
-						8,
-						9,
-						10,
-						11
+						8
 					]
 				}
 			],
@@ -49,10 +46,7 @@
 						5,
 						6,
 						7,
-						8,
-						9,
-						10,
-						11
+						8
 					]
 				}
 			],
@@ -67,23 +61,9 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "CreatHuffmanCode::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-CreatHuffmanCode-Debug-67e2b2f5337db3b7b82e.json",
-					"name" : "CreatHuffmanCode",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
 					"id" : "CreateBiTree::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-CreateBiTree-Debug-77908b133c4c119fdd4c.json",
 					"name" : "CreateBiTree",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "CreateHuffmanTree::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-CreateHuffmanTree-Debug-07e121f124d5593d54d7.json",
-					"name" : "CreateHuffmanTree",
 					"projectIndex" : 0
 				},
 				{
@@ -133,13 +113,6 @@
 					"id" : "NodeCount::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-NodeCount-Debug-43457414bfd3a8a03446.json",
 					"name" : "NodeCount",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "Select::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Select-Debug-caf5be1e961c64c7cd2f.json",
-					"name" : "Select",
 					"projectIndex" : 0
 				}
 			]

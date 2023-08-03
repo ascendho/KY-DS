@@ -27,7 +27,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53ead193-a0ed-4a1e-9185-6b397a1ee3f9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/StorageStructuresOfString.h" beforeDir="false" afterPath="$PROJECT_DIR$/StorageStructuresOfString.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-Tree and Binary Tree/TextBook/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../05-Tree and Binary Tree/TextBook/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +131,7 @@
       <workItem from="1688825289328" duration="934000" />
       <workItem from="1689253837166" duration="79000" />
       <workItem from="1690899623487" duration="770000" />
+      <workItem from="1691069008108" duration="20000" />
     </task>
     <servers />
   </component>

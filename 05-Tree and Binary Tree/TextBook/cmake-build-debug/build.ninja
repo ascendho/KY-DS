@@ -337,105 +337,6 @@ build InOrderTraverse_Thr.exe: CXX_EXECUTABLE_LINKER__InOrderTraverse_Thr_Debug 
   TARGET_IMPLIB = libInOrderTraverse_Thr.dll.a
   TARGET_PDB = InOrderTraverse_Thr.exe.dbg
 
-# =============================================================================
-# Object build statements for EXECUTABLE target CreateHuffmanTree
-
-
-#############################################
-# Order-only phony target for CreateHuffmanTree
-
-build cmake_object_order_depends_target_CreateHuffmanTree: phony || CMakeFiles/CreateHuffmanTree.dir
-
-build CMakeFiles/CreateHuffmanTree.dir/CreateHuffmanTree.cpp.obj: CXX_COMPILER__CreateHuffmanTree_Debug D$:/data/duotone/repo/05-Tree$ and$ Binary$ Tree/TextBook/CreateHuffmanTree.cpp || cmake_object_order_depends_target_CreateHuffmanTree
-  DEP_FILE = CMakeFiles\CreateHuffmanTree.dir\CreateHuffmanTree.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\CreateHuffmanTree.dir
-  OBJECT_FILE_DIR = CMakeFiles\CreateHuffmanTree.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target CreateHuffmanTree
-
-
-#############################################
-# Link the executable CreateHuffmanTree.exe
-
-build CreateHuffmanTree.exe: CXX_EXECUTABLE_LINKER__CreateHuffmanTree_Debug CMakeFiles/CreateHuffmanTree.dir/CreateHuffmanTree.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\CreateHuffmanTree.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = CreateHuffmanTree.exe
-  TARGET_IMPLIB = libCreateHuffmanTree.dll.a
-  TARGET_PDB = CreateHuffmanTree.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target CreatHuffmanCode
-
-
-#############################################
-# Order-only phony target for CreatHuffmanCode
-
-build cmake_object_order_depends_target_CreatHuffmanCode: phony || CMakeFiles/CreatHuffmanCode.dir
-
-build CMakeFiles/CreatHuffmanCode.dir/CreatHuffmanCode.cpp.obj: CXX_COMPILER__CreatHuffmanCode_Debug D$:/data/duotone/repo/05-Tree$ and$ Binary$ Tree/TextBook/CreatHuffmanCode.cpp || cmake_object_order_depends_target_CreatHuffmanCode
-  DEP_FILE = CMakeFiles\CreatHuffmanCode.dir\CreatHuffmanCode.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\CreatHuffmanCode.dir
-  OBJECT_FILE_DIR = CMakeFiles\CreatHuffmanCode.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target CreatHuffmanCode
-
-
-#############################################
-# Link the executable CreatHuffmanCode.exe
-
-build CreatHuffmanCode.exe: CXX_EXECUTABLE_LINKER__CreatHuffmanCode_Debug CMakeFiles/CreatHuffmanCode.dir/CreatHuffmanCode.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\CreatHuffmanCode.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = CreatHuffmanCode.exe
-  TARGET_IMPLIB = libCreatHuffmanCode.dll.a
-  TARGET_PDB = CreatHuffmanCode.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target Select
-
-
-#############################################
-# Order-only phony target for Select
-
-build cmake_object_order_depends_target_Select: phony || CMakeFiles/Select.dir
-
-build CMakeFiles/Select.dir/Select.cpp.obj: CXX_COMPILER__Select_Debug D$:/data/duotone/repo/05-Tree$ and$ Binary$ Tree/TextBook/Select.cpp || cmake_object_order_depends_target_Select
-  DEP_FILE = CMakeFiles\Select.dir\Select.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\Select.dir
-  OBJECT_FILE_DIR = CMakeFiles\Select.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Select
-
-
-#############################################
-# Link the executable Select.exe
-
-build Select.exe: CXX_EXECUTABLE_LINKER__Select_Debug CMakeFiles/Select.dir/Select.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Select.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = Select.exe
-  TARGET_IMPLIB = libSelect.dll.a
-  TARGET_PDB = Select.exe.dbg
-
 
 #############################################
 # Utility command for edit_cache
@@ -464,11 +365,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build Copy: phony Copy.exe
 
-build CreatHuffmanCode: phony CreatHuffmanCode.exe
-
 build CreateBiTree: phony CreateBiTree.exe
-
-build CreateHuffmanTree: phony CreateHuffmanTree.exe
 
 build Depth: phony Depth.exe
 
@@ -484,8 +381,6 @@ build InThreading: phony InThreading.exe
 
 build NodeCount: phony NodeCount.exe
 
-build Select: phony Select.exe
-
 # =============================================================================
 # Folder targets.
 
@@ -494,7 +389,7 @@ build Select: phony Select.exe
 #############################################
 # Folder: D:/data/duotone/repo/05-Tree and Binary Tree/TextBook/cmake-build-debug
 
-build all: phony InOrderTraverse.exe InOrderTraverseUsingStack.exe CreateBiTree.exe Copy.exe Depth.exe NodeCount.exe InThreading.exe InOrderThreading.exe InOrderTraverse_Thr.exe CreateHuffmanTree.exe CreatHuffmanCode.exe Select.exe
+build all: phony InOrderTraverse.exe InOrderTraverseUsingStack.exe CreateBiTree.exe Copy.exe Depth.exe NodeCount.exe InThreading.exe InOrderThreading.exe InOrderTraverse_Thr.exe
 
 # =============================================================================
 # Built-in targets
