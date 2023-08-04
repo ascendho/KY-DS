@@ -73,6 +73,39 @@ build AdjacencyMatrix.exe: CXX_EXECUTABLE_LINKER__AdjacencyMatrix_Debug CMakeFil
   TARGET_IMPLIB = libAdjacencyMatrix.dll.a
   TARGET_PDB = AdjacencyMatrix.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target AdjacencyList
+
+
+#############################################
+# Order-only phony target for AdjacencyList
+
+build cmake_object_order_depends_target_AdjacencyList: phony || CMakeFiles/AdjacencyList.dir
+
+build CMakeFiles/AdjacencyList.dir/AdjacencyList.cpp.obj: CXX_COMPILER__AdjacencyList_Debug D$:/data/duotone/repo/06-$ Graph/TextBook/AdjacencyList.cpp || cmake_object_order_depends_target_AdjacencyList
+  DEP_FILE = CMakeFiles\AdjacencyList.dir\AdjacencyList.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\AdjacencyList.dir
+  OBJECT_FILE_DIR = CMakeFiles\AdjacencyList.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target AdjacencyList
+
+
+#############################################
+# Link the executable AdjacencyList.exe
+
+build AdjacencyList.exe: CXX_EXECUTABLE_LINKER__AdjacencyList_Debug CMakeFiles/AdjacencyList.dir/AdjacencyList.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\AdjacencyList.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = AdjacencyList.exe
+  TARGET_IMPLIB = libAdjacencyList.dll.a
+  TARGET_PDB = AdjacencyList.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -99,6 +132,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build AdjacencyList: phony AdjacencyList.exe
+
 build AdjacencyMatrix: phony AdjacencyMatrix.exe
 
 # =============================================================================
@@ -109,7 +144,7 @@ build AdjacencyMatrix: phony AdjacencyMatrix.exe
 #############################################
 # Folder: D:/data/duotone/repo/06- Graph/TextBook/cmake-build-debug
 
-build all: phony AdjacencyMatrix.exe
+build all: phony AdjacencyMatrix.exe AdjacencyList.exe
 
 # =============================================================================
 # Built-in targets
