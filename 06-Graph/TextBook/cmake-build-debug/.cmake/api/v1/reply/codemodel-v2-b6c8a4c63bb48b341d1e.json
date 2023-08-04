@@ -58,8 +58,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/data/duotone/repo/06- Graph/TextBook/cmake-build-debug",
-		"source" : "D:/data/duotone/repo/06- Graph/TextBook"
+		"build" : "D:/data/duotone/repo/06-Graph/TextBook/cmake-build-debug",
+		"source" : "D:/data/duotone/repo/06-Graph/TextBook"
 	},
 	"version" : 
 	{

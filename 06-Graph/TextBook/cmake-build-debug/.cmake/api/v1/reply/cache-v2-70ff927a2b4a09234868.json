@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/data/duotone/repo/06- Graph/TextBook/cmake-build-debug"
+			"value" : "d:/data/duotone/repo/06-Graph/TextBook/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/data/duotone/repo/06- Graph/TextBook/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "D:/data/duotone/repo/06-Graph/TextBook/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/data/duotone/repo/06- Graph/TextBook"
+			"value" : "D:/data/duotone/repo/06-Graph/TextBook"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1263,7 +1263,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/data/duotone/repo/06- Graph/TextBook/cmake-build-debug"
+			"value" : "D:/data/duotone/repo/06-Graph/TextBook/cmake-build-debug"
 		},
 		{
 			"name" : "TextBook_IS_TOP_LEVEL",
@@ -1287,7 +1287,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/data/duotone/repo/06- Graph/TextBook"
+			"value" : "D:/data/duotone/repo/06-Graph/TextBook"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
