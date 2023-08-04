@@ -3,9 +3,6 @@
 
 #include "../../Status/Status.h"
 
-typedef char VerTexType;                      // 顶点信息
-typedef int OtherInfo;                        // 和边相关的信息
-
 // 图的邻接表存储表示
 typedef struct ArcNode {                      // 边结点
     int adjvex;                               // 该边所指向的顶点的位置

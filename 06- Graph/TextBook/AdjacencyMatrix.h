@@ -3,9 +3,6 @@
 
 #include "../../Status/Status.h"
 
-typedef char VerTexType;                    // 假设顶点的数据类型为字符型
-typedef int ArcType;                        // 假设边的权值类型为整型
-
 // 图的邻接矩阵存储表示
 typedef struct {
     VerTexType vexs[MVNum];                    // 顶点表
@@ -13,8 +10,8 @@ typedef struct {
     int vexnum, arcnum;                        // 图的当前点数和边数
 } AMGraph;
 
-int CreateUDN(AMGraph &G);
-
 int LocateVex(AMGraph G, VerTexType v);
+
+int CreateUDN(AMGraph &G);
 
 #endif //TEXTBOOK_ADJACENCYMATRIX_H

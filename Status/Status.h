@@ -24,5 +24,10 @@ typedef int TElemType;
 #define MaxInt 32767                    	// 表示极大值，即∞
 #define MVNum 100                       	// 最大顶点数
 
+typedef char VerTexType;                    // 假设顶点的数据类型为字符型
+typedef int ArcType;                        // 假设边的权值类型为整型
+
+typedef char VerTexType;                      // 顶点信息
+typedef int OtherInfo;                        // 和边相关的信息
 
 #endif //STATUS_STATUS_H
