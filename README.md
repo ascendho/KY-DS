@@ -37,7 +37,8 @@ typora-copy-images-to: ./img
 |                                                              | <a href="03-Stack and Queue\TextBook\EvaluateExpression.cpp">表达式求值</a> |                                                              | <a href="05-Tree and Binary Tree/TextBook/InOrderTraverse_Thr.cpp">遍历线索二叉树</a> |      |      |      |
 |                                                              |                                                              |                                                              | <a href="05-Tree and Binary Tree/TextBook/StorageStructureOfTree.h">树的存储结构</a> |      |      |      |
 |                                                              |                                                              |                                                              | <a href="05-Tree and Binary Tree/Applied Case/Data Compression/HuffmanTree.cpp">数据压缩</a> |      |      |      |
-|                                                              |                                                              |                                                              | <a href="05-Tree and Binary Tree/Applied Case/BinaryTreeComputeExp/ComputeExpression.cpp">表达式树的求值</a> |      |      |      |
+|                                                              |                                                              |                                                              | <a href="05-Tree and Binary Tree/Applied Case/BinaryTreeComputeExp/ComputeExpression.cpp">表达式树求值</a> |      |      |      |
+|                                                              |                                                              |                                                              | <a href="05-Tree and Binary Tree/TextBook/DisjointSet.cpp">并查集</a> |      |      |      |
 
 ------
 
