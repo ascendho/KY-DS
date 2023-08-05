@@ -106,7 +106,10 @@ git clone https://github.com/ascendho/KY-DS.git
 
 ## 推荐资源 Recommended Resources
 
+- <a href="https://www.educoder.net/paths/jizlwfkq">头歌实训平台</a>
+
 - <a href="https://www.bilibili.com/video/BV1nJ411V7bd/?spm_id_from=333.337.search-card.all.click">数据结构与算法基础--青岛大学王卓</a>
+
 - <a href="https://www.bilibili.com/video/BV1b7411N798?p=51&spm_id_from=pageDriver&vd_source=61a8f743f4489a59a143809ed7fb1159">数据结构--王道计算机考研</a>
 
 ------
