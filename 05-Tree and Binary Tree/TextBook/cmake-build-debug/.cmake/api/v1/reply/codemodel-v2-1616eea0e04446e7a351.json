@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TextBook",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "BiThrTree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BiThrTree-Debug-8e6197855470c127198e.json",
+					"name" : "BiThrTree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BiTree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BiTree-Debug-e7bb3f3132bc32e7cde7.json",
+					"name" : "BiTree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DisjointSet::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DisjointSet-Debug-f61d707749ad35b4811c.json",
+					"name" : "DisjointSet",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/data/duotone/repo/05-Tree and Binary Tree/TextBook/cmake-build-debug",
+		"source" : "D:/data/duotone/repo/05-Tree and Binary Tree/TextBook"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

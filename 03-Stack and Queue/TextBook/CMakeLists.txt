@@ -8,16 +8,6 @@ add_executable(LinkStack LinkStack.cpp LinkStack.h)
 add_executable(SqQueue SqQueue.cpp SqQueue.h)
 add_executable(LinkQueue LinkQueue.cpp LinkQueue.h)
 
-# Conversion
-add_executable(Conversion Conversion.cpp Conversion.h Conversion-main.cpp)
-add_library(ConversionLib LinkStack.cpp)
-target_link_libraries(Conversion ConversionLib)
-
-# Parenthesis Matching
-add_executable(Matching Matching.cpp Matching.h Matching-main.cpp)
-add_library(MatchingLib LinkStack.cpp)
-target_link_libraries(Matching MatchingLib)
-
 # TraverseList
 add_executable(TraverseList TraverseList.cpp TraverseList.h TraverseList-main.cpp)
 add_library(TraverseListLib "../../02-Linear List/TextBook/LinkList.cpp")
@@ -31,14 +21,6 @@ add_executable(Fib Fib.cpp Fib.h)
 
 # Fact
 add_executable(Fact Fact.cpp Fact.h)
-
-# DancePartner
-add_executable(DancePartner DancePartner.cpp DancePartner.h)
-
-# EvaluateExpression
-add_executable(EvaluateExpression EvaluateExpression.cpp EvaluateExpression.h EvaluateExpression-main.cpp)
-add_library(EvaluateExpressionLib LinkStack.cpp)
-target_link_libraries(EvaluateExpression EvaluateExpressionLib)
 
 # simu
 add_executable(simu simu.cpp simu.h)

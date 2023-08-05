@@ -1,0 +1,6 @@
+# ninja log v5
+7	75	7129404050374850	CMakeFiles/Virus_detection.dir/Virus_detection-main.cpp.obj	47e7bc84e2a78996
+1	580	7129404055418111	CMakeFiles/Virus_detection.dir/Virus_detection.cpp.obj	6b307c24913519ec
+6	76	7129404452428661	CMakeFiles/Virus_detectionLib.dir/D_/data/duotone/repo/04-String,_Array_and_Generalized_List/TextBook/Index_BF.cpp.obj	50f7081e82aced3e
+77	166	7129404453319864	libVirus_detectionLib.a	7172ba722606322d
+166	333	7129404454955288	Virus_detection.exe	d1a3de8aff33516f

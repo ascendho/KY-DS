@@ -1,16 +1,16 @@
 # ninja log v5
 5	496	7098397288501410	CMakeFiles/Conversion.dir/Conversion-main.cpp.obj	ff9f670d7049b237
-945	1240	7100068510014008	EvaluateExpression.exe	8d9c60663ef9b6db
+506	677	7101816569076953	EvaluateExpression.exe	8d9c60663ef9b6db
 9	513	7098160067927019	CMakeFiles/MatchingLib.dir/LinkStack.cpp.obj	bb9077365efc2578
 5	519	7098396881440345	CMakeFiles/Conversion.dir/Conversion.cpp.obj	3c67454e1f103008
 592	925	7100042007486717	Fib.exe	14ac75a35349c49
-2	188	7100081551131453	build.ninja	bdf551671f10db8c
+2	188	7129398745752461	build.ninja	bdf551671f10db8c
 5	488	7098131153249093	CMakeFiles/ConversionLib.dir/LinkStack.cpp.obj	5324515ee3a620e9
 490	582	7098131154189710	libConversionLib.a	669a07636dc7a79f
 497	664	7098397290130169	Conversion.exe	7daf05ede4e73ace
 4	510	7098160067895718	CMakeFiles/Matching.dir/Matching-main.cpp.obj	5e0a9622e6eb77d1
 488	650	7099091020841490	Hanoi.exe	2757dbf21299ccd2
-10	943	7100068507107989	CMakeFiles/EvaluateExpression.dir/EvaluateExpression-main.cpp.obj	57bdb0d7c2dfbde1
+13	597	7101814142762335	CMakeFiles/EvaluateExpression.dir/EvaluateExpression-main.cpp.obj	57bdb0d7c2dfbde1
 5	506	7098161337374144	CMakeFiles/Matching.dir/Matching.cpp.obj	56f59a0cbb70b007
 525	612	7099084274948724	libTraverseListLib.a	abe7f276bb0183eb
 514	600	7098160068814881	libMatchingLib.a	2d65b494a99d7531
@@ -24,11 +24,6 @@
 4	487	7099091019238185	CMakeFiles/Hanoi.dir/Hanoi.cpp.obj	f7e5e730f09f650
 7	589	7100042004188612	CMakeFiles/Fib.dir/Fib.cpp.obj	295e2c440bea4450
 17	991	7100038525115509	CMakeFiles/Fib.dir/Fib-main.cpp.obj	70ebd57f553d427d
-21	984	7100067563125177	CMakeFiles/EvaluateExpression.dir/EvaluateExpression.cpp.obj	22f6ec18d7a66cd0
+5	505	7101816567380084	CMakeFiles/EvaluateExpression.dir/EvaluateExpression.cpp.obj	22f6ec18d7a66cd0
 7	751	7100055963110947	CMakeFiles/EvaluateExpressionLib.dir/LinkStack.cpp.obj	4bba474ebafffe84
 754	894	7100055964559759	libEvaluateExpressionLib.a	a5df7db60b14c81f
-13	597	7101814142762335	CMakeFiles/EvaluateExpression.dir/EvaluateExpression-main.cpp.obj	57bdb0d7c2dfbde1
-5	645	7101814143242287	CMakeFiles/EvaluateExpression.dir/EvaluateExpression.cpp.obj	22f6ec18d7a66cd0
-645	859	7101814145352440	EvaluateExpression.exe	8d9c60663ef9b6db
-5	505	7101816567380084	CMakeFiles/EvaluateExpression.dir/EvaluateExpression.cpp.obj	22f6ec18d7a66cd0
-506	677	7101816569076953	EvaluateExpression.exe	8d9c60663ef9b6db

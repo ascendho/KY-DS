@@ -173,146 +173,6 @@ build LinkQueue.exe: CXX_EXECUTABLE_LINKER__LinkQueue_Debug CMakeFiles/LinkQueue
   TARGET_PDB = LinkQueue.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Conversion
-
-
-#############################################
-# Order-only phony target for Conversion
-
-build cmake_object_order_depends_target_Conversion: phony || cmake_object_order_depends_target_ConversionLib
-
-build CMakeFiles/Conversion.dir/Conversion.cpp.obj: CXX_COMPILER__Conversion_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/TextBook/Conversion.cpp || cmake_object_order_depends_target_Conversion
-  DEP_FILE = CMakeFiles\Conversion.dir\Conversion.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\Conversion.dir
-  OBJECT_FILE_DIR = CMakeFiles\Conversion.dir
-
-build CMakeFiles/Conversion.dir/Conversion-main.cpp.obj: CXX_COMPILER__Conversion_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/TextBook/Conversion-main.cpp || cmake_object_order_depends_target_Conversion
-  DEP_FILE = CMakeFiles\Conversion.dir\Conversion-main.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\Conversion.dir
-  OBJECT_FILE_DIR = CMakeFiles\Conversion.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Conversion
-
-
-#############################################
-# Link the executable Conversion.exe
-
-build Conversion.exe: CXX_EXECUTABLE_LINKER__Conversion_Debug CMakeFiles/Conversion.dir/Conversion.cpp.obj CMakeFiles/Conversion.dir/Conversion-main.cpp.obj | libConversionLib.a || libConversionLib.a
-  FLAGS = -g
-  LINK_LIBRARIES = libConversionLib.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Conversion.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = Conversion.exe
-  TARGET_IMPLIB = libConversion.dll.a
-  TARGET_PDB = Conversion.exe.dbg
-
-# =============================================================================
-# Object build statements for STATIC_LIBRARY target ConversionLib
-
-
-#############################################
-# Order-only phony target for ConversionLib
-
-build cmake_object_order_depends_target_ConversionLib: phony || CMakeFiles/ConversionLib.dir
-
-build CMakeFiles/ConversionLib.dir/LinkStack.cpp.obj: CXX_COMPILER__ConversionLib_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/TextBook/LinkStack.cpp || cmake_object_order_depends_target_ConversionLib
-  DEP_FILE = CMakeFiles\ConversionLib.dir\LinkStack.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\ConversionLib.dir
-  OBJECT_FILE_DIR = CMakeFiles\ConversionLib.dir
-
-
-# =============================================================================
-# Link build statements for STATIC_LIBRARY target ConversionLib
-
-
-#############################################
-# Link the static library libConversionLib.a
-
-build libConversionLib.a: CXX_STATIC_LIBRARY_LINKER__ConversionLib_Debug CMakeFiles/ConversionLib.dir/LinkStack.cpp.obj
-  LANGUAGE_COMPILE_FLAGS = -g
-  OBJECT_DIR = CMakeFiles\ConversionLib.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = libConversionLib.a
-  TARGET_PDB = ConversionLib.a.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target Matching
-
-
-#############################################
-# Order-only phony target for Matching
-
-build cmake_object_order_depends_target_Matching: phony || cmake_object_order_depends_target_MatchingLib
-
-build CMakeFiles/Matching.dir/Matching.cpp.obj: CXX_COMPILER__Matching_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/TextBook/Matching.cpp || cmake_object_order_depends_target_Matching
-  DEP_FILE = CMakeFiles\Matching.dir\Matching.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\Matching.dir
-  OBJECT_FILE_DIR = CMakeFiles\Matching.dir
-
-build CMakeFiles/Matching.dir/Matching-main.cpp.obj: CXX_COMPILER__Matching_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/TextBook/Matching-main.cpp || cmake_object_order_depends_target_Matching
-  DEP_FILE = CMakeFiles\Matching.dir\Matching-main.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\Matching.dir
-  OBJECT_FILE_DIR = CMakeFiles\Matching.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Matching
-
-
-#############################################
-# Link the executable Matching.exe
-
-build Matching.exe: CXX_EXECUTABLE_LINKER__Matching_Debug CMakeFiles/Matching.dir/Matching.cpp.obj CMakeFiles/Matching.dir/Matching-main.cpp.obj | libMatchingLib.a || libMatchingLib.a
-  FLAGS = -g
-  LINK_LIBRARIES = libMatchingLib.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Matching.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = Matching.exe
-  TARGET_IMPLIB = libMatching.dll.a
-  TARGET_PDB = Matching.exe.dbg
-
-# =============================================================================
-# Object build statements for STATIC_LIBRARY target MatchingLib
-
-
-#############################################
-# Order-only phony target for MatchingLib
-
-build cmake_object_order_depends_target_MatchingLib: phony || CMakeFiles/MatchingLib.dir
-
-build CMakeFiles/MatchingLib.dir/LinkStack.cpp.obj: CXX_COMPILER__MatchingLib_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/TextBook/LinkStack.cpp || cmake_object_order_depends_target_MatchingLib
-  DEP_FILE = CMakeFiles\MatchingLib.dir\LinkStack.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\MatchingLib.dir
-  OBJECT_FILE_DIR = CMakeFiles\MatchingLib.dir
-
-
-# =============================================================================
-# Link build statements for STATIC_LIBRARY target MatchingLib
-
-
-#############################################
-# Link the static library libMatchingLib.a
-
-build libMatchingLib.a: CXX_STATIC_LIBRARY_LINKER__MatchingLib_Debug CMakeFiles/MatchingLib.dir/LinkStack.cpp.obj
-  LANGUAGE_COMPILE_FLAGS = -g
-  OBJECT_DIR = CMakeFiles\MatchingLib.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = libMatchingLib.a
-  TARGET_PDB = MatchingLib.a.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target TraverseList
 
 
@@ -488,109 +348,6 @@ build Fact.exe: CXX_EXECUTABLE_LINKER__Fact_Debug CMakeFiles/Fact.dir/Fact.cpp.o
   TARGET_PDB = Fact.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target DancePartner
-
-
-#############################################
-# Order-only phony target for DancePartner
-
-build cmake_object_order_depends_target_DancePartner: phony || CMakeFiles/DancePartner.dir
-
-build CMakeFiles/DancePartner.dir/DancePartner.cpp.obj: CXX_COMPILER__DancePartner_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/TextBook/DancePartner.cpp || cmake_object_order_depends_target_DancePartner
-  DEP_FILE = CMakeFiles\DancePartner.dir\DancePartner.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\DancePartner.dir
-  OBJECT_FILE_DIR = CMakeFiles\DancePartner.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target DancePartner
-
-
-#############################################
-# Link the executable DancePartner.exe
-
-build DancePartner.exe: CXX_EXECUTABLE_LINKER__DancePartner_Debug CMakeFiles/DancePartner.dir/DancePartner.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\DancePartner.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = DancePartner.exe
-  TARGET_IMPLIB = libDancePartner.dll.a
-  TARGET_PDB = DancePartner.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target EvaluateExpression
-
-
-#############################################
-# Order-only phony target for EvaluateExpression
-
-build cmake_object_order_depends_target_EvaluateExpression: phony || cmake_object_order_depends_target_EvaluateExpressionLib
-
-build CMakeFiles/EvaluateExpression.dir/EvaluateExpression.cpp.obj: CXX_COMPILER__EvaluateExpression_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/TextBook/EvaluateExpression.cpp || cmake_object_order_depends_target_EvaluateExpression
-  DEP_FILE = CMakeFiles\EvaluateExpression.dir\EvaluateExpression.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\EvaluateExpression.dir
-  OBJECT_FILE_DIR = CMakeFiles\EvaluateExpression.dir
-
-build CMakeFiles/EvaluateExpression.dir/EvaluateExpression-main.cpp.obj: CXX_COMPILER__EvaluateExpression_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/TextBook/EvaluateExpression-main.cpp || cmake_object_order_depends_target_EvaluateExpression
-  DEP_FILE = CMakeFiles\EvaluateExpression.dir\EvaluateExpression-main.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\EvaluateExpression.dir
-  OBJECT_FILE_DIR = CMakeFiles\EvaluateExpression.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target EvaluateExpression
-
-
-#############################################
-# Link the executable EvaluateExpression.exe
-
-build EvaluateExpression.exe: CXX_EXECUTABLE_LINKER__EvaluateExpression_Debug CMakeFiles/EvaluateExpression.dir/EvaluateExpression.cpp.obj CMakeFiles/EvaluateExpression.dir/EvaluateExpression-main.cpp.obj | libEvaluateExpressionLib.a || libEvaluateExpressionLib.a
-  FLAGS = -g
-  LINK_LIBRARIES = libEvaluateExpressionLib.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\EvaluateExpression.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = EvaluateExpression.exe
-  TARGET_IMPLIB = libEvaluateExpression.dll.a
-  TARGET_PDB = EvaluateExpression.exe.dbg
-
-# =============================================================================
-# Object build statements for STATIC_LIBRARY target EvaluateExpressionLib
-
-
-#############################################
-# Order-only phony target for EvaluateExpressionLib
-
-build cmake_object_order_depends_target_EvaluateExpressionLib: phony || CMakeFiles/EvaluateExpressionLib.dir
-
-build CMakeFiles/EvaluateExpressionLib.dir/LinkStack.cpp.obj: CXX_COMPILER__EvaluateExpressionLib_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/TextBook/LinkStack.cpp || cmake_object_order_depends_target_EvaluateExpressionLib
-  DEP_FILE = CMakeFiles\EvaluateExpressionLib.dir\LinkStack.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\EvaluateExpressionLib.dir
-  OBJECT_FILE_DIR = CMakeFiles\EvaluateExpressionLib.dir
-
-
-# =============================================================================
-# Link build statements for STATIC_LIBRARY target EvaluateExpressionLib
-
-
-#############################################
-# Link the static library libEvaluateExpressionLib.a
-
-build libEvaluateExpressionLib.a: CXX_STATIC_LIBRARY_LINKER__EvaluateExpressionLib_Debug CMakeFiles/EvaluateExpressionLib.dir/LinkStack.cpp.obj
-  LANGUAGE_COMPILE_FLAGS = -g
-  OBJECT_DIR = CMakeFiles\EvaluateExpressionLib.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = libEvaluateExpressionLib.a
-  TARGET_PDB = EvaluateExpressionLib.a.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target simu
 
 
@@ -649,16 +406,6 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Conversion: phony Conversion.exe
-
-build ConversionLib: phony libConversionLib.a
-
-build DancePartner: phony DancePartner.exe
-
-build EvaluateExpression: phony EvaluateExpression.exe
-
-build EvaluateExpressionLib: phony libEvaluateExpressionLib.a
-
 build Fact: phony Fact.exe
 
 build Fib: phony Fib.exe
@@ -668,10 +415,6 @@ build Hanoi: phony Hanoi.exe
 build LinkQueue: phony LinkQueue.exe
 
 build LinkStack: phony LinkStack.exe
-
-build Matching: phony Matching.exe
-
-build MatchingLib: phony libMatchingLib.a
 
 build SqQueue: phony SqQueue.exe
 
@@ -691,7 +434,7 @@ build simu: phony simu.exe
 #############################################
 # Folder: D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug
 
-build all: phony SqStack.exe LinkStack.exe SqQueue.exe LinkQueue.exe Conversion.exe libConversionLib.a Matching.exe libMatchingLib.a TraverseList.exe libTraverseListLib.a Hanoi.exe Fib.exe Fact.exe DancePartner.exe EvaluateExpression.exe libEvaluateExpressionLib.a simu.exe
+build all: phony SqStack.exe LinkStack.exe SqQueue.exe LinkQueue.exe TraverseList.exe libTraverseListLib.a Hanoi.exe Fib.exe Fact.exe simu.exe
 
 # =============================================================================
 # Built-in targets

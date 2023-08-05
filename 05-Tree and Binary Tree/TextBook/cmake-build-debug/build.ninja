@@ -41,301 +41,70 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/data/duotone/repo/05-Tree$ and$ Binary$ Tree/TextBook/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target InOrderTraverse
+# Object build statements for EXECUTABLE target BiTree
 
 
 #############################################
-# Order-only phony target for InOrderTraverse
+# Order-only phony target for BiTree
 
-build cmake_object_order_depends_target_InOrderTraverse: phony || CMakeFiles/InOrderTraverse.dir
+build cmake_object_order_depends_target_BiTree: phony || CMakeFiles/BiTree.dir
 
-build CMakeFiles/InOrderTraverse.dir/InOrderTraverse.cpp.obj: CXX_COMPILER__InOrderTraverse_Debug D$:/data/duotone/repo/05-Tree$ and$ Binary$ Tree/TextBook/InOrderTraverse.cpp || cmake_object_order_depends_target_InOrderTraverse
-  DEP_FILE = CMakeFiles\InOrderTraverse.dir\InOrderTraverse.cpp.obj.d
+build CMakeFiles/BiTree.dir/BiTree.cpp.obj: CXX_COMPILER__BiTree_Debug D$:/data/duotone/repo/05-Tree$ and$ Binary$ Tree/TextBook/BiTree.cpp || cmake_object_order_depends_target_BiTree
+  DEP_FILE = CMakeFiles\BiTree.dir\BiTree.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\InOrderTraverse.dir
-  OBJECT_FILE_DIR = CMakeFiles\InOrderTraverse.dir
+  OBJECT_DIR = CMakeFiles\BiTree.dir
+  OBJECT_FILE_DIR = CMakeFiles\BiTree.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target InOrderTraverse
+# Link build statements for EXECUTABLE target BiTree
 
 
 #############################################
-# Link the executable InOrderTraverse.exe
+# Link the executable BiTree.exe
 
-build InOrderTraverse.exe: CXX_EXECUTABLE_LINKER__InOrderTraverse_Debug CMakeFiles/InOrderTraverse.dir/InOrderTraverse.cpp.obj
+build BiTree.exe: CXX_EXECUTABLE_LINKER__BiTree_Debug CMakeFiles/BiTree.dir/BiTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\InOrderTraverse.dir
+  OBJECT_DIR = CMakeFiles\BiTree.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = InOrderTraverse.exe
-  TARGET_IMPLIB = libInOrderTraverse.dll.a
-  TARGET_PDB = InOrderTraverse.exe.dbg
+  TARGET_FILE = BiTree.exe
+  TARGET_IMPLIB = libBiTree.dll.a
+  TARGET_PDB = BiTree.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target InOrderTraverseUsingStack
+# Object build statements for EXECUTABLE target BiThrTree
 
 
 #############################################
-# Order-only phony target for InOrderTraverseUsingStack
+# Order-only phony target for BiThrTree
 
-build cmake_object_order_depends_target_InOrderTraverseUsingStack: phony || CMakeFiles/InOrderTraverseUsingStack.dir
+build cmake_object_order_depends_target_BiThrTree: phony || CMakeFiles/BiThrTree.dir
 
-build CMakeFiles/InOrderTraverseUsingStack.dir/InOrderTraverseUsingStack.cpp.obj: CXX_COMPILER__InOrderTraverseUsingStack_Debug D$:/data/duotone/repo/05-Tree$ and$ Binary$ Tree/TextBook/InOrderTraverseUsingStack.cpp || cmake_object_order_depends_target_InOrderTraverseUsingStack
-  DEP_FILE = CMakeFiles\InOrderTraverseUsingStack.dir\InOrderTraverseUsingStack.cpp.obj.d
+build CMakeFiles/BiThrTree.dir/BiThrTree.cpp.obj: CXX_COMPILER__BiThrTree_Debug D$:/data/duotone/repo/05-Tree$ and$ Binary$ Tree/TextBook/BiThrTree.cpp || cmake_object_order_depends_target_BiThrTree
+  DEP_FILE = CMakeFiles\BiThrTree.dir\BiThrTree.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\InOrderTraverseUsingStack.dir
-  OBJECT_FILE_DIR = CMakeFiles\InOrderTraverseUsingStack.dir
+  OBJECT_DIR = CMakeFiles\BiThrTree.dir
+  OBJECT_FILE_DIR = CMakeFiles\BiThrTree.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target InOrderTraverseUsingStack
+# Link build statements for EXECUTABLE target BiThrTree
 
 
 #############################################
-# Link the executable InOrderTraverseUsingStack.exe
+# Link the executable BiThrTree.exe
 
-build InOrderTraverseUsingStack.exe: CXX_EXECUTABLE_LINKER__InOrderTraverseUsingStack_Debug CMakeFiles/InOrderTraverseUsingStack.dir/InOrderTraverseUsingStack.cpp.obj
+build BiThrTree.exe: CXX_EXECUTABLE_LINKER__BiThrTree_Debug CMakeFiles/BiThrTree.dir/BiThrTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\InOrderTraverseUsingStack.dir
+  OBJECT_DIR = CMakeFiles\BiThrTree.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = InOrderTraverseUsingStack.exe
-  TARGET_IMPLIB = libInOrderTraverseUsingStack.dll.a
-  TARGET_PDB = InOrderTraverseUsingStack.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target CreateBiTree
-
-
-#############################################
-# Order-only phony target for CreateBiTree
-
-build cmake_object_order_depends_target_CreateBiTree: phony || CMakeFiles/CreateBiTree.dir
-
-build CMakeFiles/CreateBiTree.dir/CreateBiTree.cpp.obj: CXX_COMPILER__CreateBiTree_Debug D$:/data/duotone/repo/05-Tree$ and$ Binary$ Tree/TextBook/CreateBiTree.cpp || cmake_object_order_depends_target_CreateBiTree
-  DEP_FILE = CMakeFiles\CreateBiTree.dir\CreateBiTree.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\CreateBiTree.dir
-  OBJECT_FILE_DIR = CMakeFiles\CreateBiTree.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target CreateBiTree
-
-
-#############################################
-# Link the executable CreateBiTree.exe
-
-build CreateBiTree.exe: CXX_EXECUTABLE_LINKER__CreateBiTree_Debug CMakeFiles/CreateBiTree.dir/CreateBiTree.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\CreateBiTree.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = CreateBiTree.exe
-  TARGET_IMPLIB = libCreateBiTree.dll.a
-  TARGET_PDB = CreateBiTree.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target Copy
-
-
-#############################################
-# Order-only phony target for Copy
-
-build cmake_object_order_depends_target_Copy: phony || CMakeFiles/Copy.dir
-
-build CMakeFiles/Copy.dir/Copy.cpp.obj: CXX_COMPILER__Copy_Debug D$:/data/duotone/repo/05-Tree$ and$ Binary$ Tree/TextBook/Copy.cpp || cmake_object_order_depends_target_Copy
-  DEP_FILE = CMakeFiles\Copy.dir\Copy.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\Copy.dir
-  OBJECT_FILE_DIR = CMakeFiles\Copy.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Copy
-
-
-#############################################
-# Link the executable Copy.exe
-
-build Copy.exe: CXX_EXECUTABLE_LINKER__Copy_Debug CMakeFiles/Copy.dir/Copy.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Copy.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = Copy.exe
-  TARGET_IMPLIB = libCopy.dll.a
-  TARGET_PDB = Copy.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target Depth
-
-
-#############################################
-# Order-only phony target for Depth
-
-build cmake_object_order_depends_target_Depth: phony || CMakeFiles/Depth.dir
-
-build CMakeFiles/Depth.dir/Depth.cpp.obj: CXX_COMPILER__Depth_Debug D$:/data/duotone/repo/05-Tree$ and$ Binary$ Tree/TextBook/Depth.cpp || cmake_object_order_depends_target_Depth
-  DEP_FILE = CMakeFiles\Depth.dir\Depth.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\Depth.dir
-  OBJECT_FILE_DIR = CMakeFiles\Depth.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Depth
-
-
-#############################################
-# Link the executable Depth.exe
-
-build Depth.exe: CXX_EXECUTABLE_LINKER__Depth_Debug CMakeFiles/Depth.dir/Depth.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Depth.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = Depth.exe
-  TARGET_IMPLIB = libDepth.dll.a
-  TARGET_PDB = Depth.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target NodeCount
-
-
-#############################################
-# Order-only phony target for NodeCount
-
-build cmake_object_order_depends_target_NodeCount: phony || CMakeFiles/NodeCount.dir
-
-build CMakeFiles/NodeCount.dir/NodeCount.cpp.obj: CXX_COMPILER__NodeCount_Debug D$:/data/duotone/repo/05-Tree$ and$ Binary$ Tree/TextBook/NodeCount.cpp || cmake_object_order_depends_target_NodeCount
-  DEP_FILE = CMakeFiles\NodeCount.dir\NodeCount.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\NodeCount.dir
-  OBJECT_FILE_DIR = CMakeFiles\NodeCount.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target NodeCount
-
-
-#############################################
-# Link the executable NodeCount.exe
-
-build NodeCount.exe: CXX_EXECUTABLE_LINKER__NodeCount_Debug CMakeFiles/NodeCount.dir/NodeCount.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\NodeCount.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = NodeCount.exe
-  TARGET_IMPLIB = libNodeCount.dll.a
-  TARGET_PDB = NodeCount.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target InThreading
-
-
-#############################################
-# Order-only phony target for InThreading
-
-build cmake_object_order_depends_target_InThreading: phony || CMakeFiles/InThreading.dir
-
-build CMakeFiles/InThreading.dir/InThreading.cpp.obj: CXX_COMPILER__InThreading_Debug D$:/data/duotone/repo/05-Tree$ and$ Binary$ Tree/TextBook/InThreading.cpp || cmake_object_order_depends_target_InThreading
-  DEP_FILE = CMakeFiles\InThreading.dir\InThreading.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\InThreading.dir
-  OBJECT_FILE_DIR = CMakeFiles\InThreading.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target InThreading
-
-
-#############################################
-# Link the executable InThreading.exe
-
-build InThreading.exe: CXX_EXECUTABLE_LINKER__InThreading_Debug CMakeFiles/InThreading.dir/InThreading.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\InThreading.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = InThreading.exe
-  TARGET_IMPLIB = libInThreading.dll.a
-  TARGET_PDB = InThreading.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target InOrderThreading
-
-
-#############################################
-# Order-only phony target for InOrderThreading
-
-build cmake_object_order_depends_target_InOrderThreading: phony || CMakeFiles/InOrderThreading.dir
-
-build CMakeFiles/InOrderThreading.dir/InOrderThreading.cpp.obj: CXX_COMPILER__InOrderThreading_Debug D$:/data/duotone/repo/05-Tree$ and$ Binary$ Tree/TextBook/InOrderThreading.cpp || cmake_object_order_depends_target_InOrderThreading
-  DEP_FILE = CMakeFiles\InOrderThreading.dir\InOrderThreading.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\InOrderThreading.dir
-  OBJECT_FILE_DIR = CMakeFiles\InOrderThreading.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target InOrderThreading
-
-
-#############################################
-# Link the executable InOrderThreading.exe
-
-build InOrderThreading.exe: CXX_EXECUTABLE_LINKER__InOrderThreading_Debug CMakeFiles/InOrderThreading.dir/InOrderThreading.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\InOrderThreading.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = InOrderThreading.exe
-  TARGET_IMPLIB = libInOrderThreading.dll.a
-  TARGET_PDB = InOrderThreading.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target InOrderTraverse_Thr
-
-
-#############################################
-# Order-only phony target for InOrderTraverse_Thr
-
-build cmake_object_order_depends_target_InOrderTraverse_Thr: phony || CMakeFiles/InOrderTraverse_Thr.dir
-
-build CMakeFiles/InOrderTraverse_Thr.dir/InOrderTraverse_Thr.cpp.obj: CXX_COMPILER__InOrderTraverse_Thr_Debug D$:/data/duotone/repo/05-Tree$ and$ Binary$ Tree/TextBook/InOrderTraverse_Thr.cpp || cmake_object_order_depends_target_InOrderTraverse_Thr
-  DEP_FILE = CMakeFiles\InOrderTraverse_Thr.dir\InOrderTraverse_Thr.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\InOrderTraverse_Thr.dir
-  OBJECT_FILE_DIR = CMakeFiles\InOrderTraverse_Thr.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target InOrderTraverse_Thr
-
-
-#############################################
-# Link the executable InOrderTraverse_Thr.exe
-
-build InOrderTraverse_Thr.exe: CXX_EXECUTABLE_LINKER__InOrderTraverse_Thr_Debug CMakeFiles/InOrderTraverse_Thr.dir/InOrderTraverse_Thr.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\InOrderTraverse_Thr.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = InOrderTraverse_Thr.exe
-  TARGET_IMPLIB = libInOrderTraverse_Thr.dll.a
-  TARGET_PDB = InOrderTraverse_Thr.exe.dbg
+  TARGET_FILE = BiThrTree.exe
+  TARGET_IMPLIB = libBiThrTree.dll.a
+  TARGET_PDB = BiThrTree.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target DisjointSet
@@ -396,25 +165,11 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Copy: phony Copy.exe
+build BiThrTree: phony BiThrTree.exe
 
-build CreateBiTree: phony CreateBiTree.exe
-
-build Depth: phony Depth.exe
+build BiTree: phony BiTree.exe
 
 build DisjointSet: phony DisjointSet.exe
-
-build InOrderThreading: phony InOrderThreading.exe
-
-build InOrderTraverse: phony InOrderTraverse.exe
-
-build InOrderTraverseUsingStack: phony InOrderTraverseUsingStack.exe
-
-build InOrderTraverse_Thr: phony InOrderTraverse_Thr.exe
-
-build InThreading: phony InThreading.exe
-
-build NodeCount: phony NodeCount.exe
 
 # =============================================================================
 # Folder targets.
@@ -424,7 +179,7 @@ build NodeCount: phony NodeCount.exe
 #############################################
 # Folder: D:/data/duotone/repo/05-Tree and Binary Tree/TextBook/cmake-build-debug
 
-build all: phony InOrderTraverse.exe InOrderTraverseUsingStack.exe CreateBiTree.exe Copy.exe Depth.exe NodeCount.exe InThreading.exe InOrderThreading.exe InOrderTraverse_Thr.exe DisjointSet.exe
+build all: phony BiTree.exe BiThrTree.exe DisjointSet.exe
 
 # =============================================================================
 # Built-in targets
