@@ -1,6 +1,7 @@
 #ifndef STATUS_STATUS_H
 #define STATUS_STATUS_H
 
+#include <limits.h>
 
 #define OK 1
 #define ERROR 0
@@ -21,7 +22,7 @@ typedef int AtomType;
 typedef int TElemType;
 
 
-#define MaxInt 32767                    	// 表示极大值，即∞
+#define MaxInt INT_MAX                    	// 表示极大值，即∞
 #define MVNum 100                       	// 最大顶点数
 
 typedef char VerTexType;                    // 假设顶点的数据类型为字符型
