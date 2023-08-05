@@ -119,6 +119,7 @@ git clone https://github.com/ascendho/KY-DS.git
 ## 声明 Disclaimer
 
 - 该项目**仅用于学习交流**，凡是可能涉及到的版权问题，归**教材原作者所有**
+
 - 对于我所贡献的部分，遵从`MIT`协议
 
 最后，如果你认为这个项目帮助到了你，不妨给个star✨!
