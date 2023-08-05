@@ -30,4 +30,8 @@ typedef int ArcType;                        // 假设边的权值类型为整型
 typedef char VerTexType;                      // 顶点信息
 typedef int OtherInfo;                        // 和边相关的信息
 
+#define MAX_VERTEX_NUM 20
+typedef int InfoType;
+typedef int VertexType;
+
 #endif //STATUS_STATUS_H
