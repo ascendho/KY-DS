@@ -34,4 +34,6 @@ typedef int OtherInfo;                        // 和边相关的信息
 typedef int InfoType;
 typedef int VertexType;
 
+#define MAX_VERTEX_NUM 20
+
 #endif //STATUS_STATUS_H
