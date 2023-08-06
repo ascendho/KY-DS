@@ -18,7 +18,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -36,7 +37,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -45,28 +47,35 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "AdjacencyList::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-AdjacencyList-Debug-1cfea4ac2405e838307e.json",
+					"jsonFile" : "target-AdjacencyList-Debug-a3dc56a6c50232c1692a.json",
 					"name" : "AdjacencyList",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "AdjacencyMatrix::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-AdjacencyMatrix-Debug-dfcbf90148f4dc2ac985.json",
+					"jsonFile" : "target-AdjacencyMatrix-Debug-0d4d71ea301b5ae057cd.json",
 					"name" : "AdjacencyMatrix",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "BFS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BFS-Debug-1c08c944231a8193b27c.json",
+					"name" : "BFS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "DFS::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-DFS-Debug-1f2b30e96d3fcc0a43f0.json",
+					"jsonFile" : "target-DFS-Debug-5663f405edae0a236e76.json",
 					"name" : "DFS",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "Graph::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Graph-Debug-f82bc0e57bd75d6e6c5e.json",
+					"jsonFile" : "target-Graph-Debug-8a1741455f66158d3228.json",
 					"name" : "Graph",
 					"projectIndex" : 0
 				}

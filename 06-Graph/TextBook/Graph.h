@@ -5,6 +5,7 @@
 
 bool visited[MVNum];                            // 访问标志数组，其初值为"false"
 
+// 图的邻接矩阵存储表示
 typedef struct {
     VerTexType vexs[MVNum];                     // 顶点表
     ArcType arcs[MVNum][MVNum];                 // 邻接矩阵

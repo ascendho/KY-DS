@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "AdjacencyMatrix.exe"
+			"path" : "BFS.exe"
 		},
 		{
-			"path" : "AdjacencyMatrix.pdb"
+			"path" : "BFS.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 6,
+				"line" : 10,
 				"parent" : 0
 			}
 		]
@@ -59,7 +59,7 @@
 			]
 		}
 	],
-	"id" : "AdjacencyMatrix::@6890427a1f51a3e7e1df",
+	"id" : "BFS::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -79,8 +79,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "AdjacencyMatrix",
-	"nameOnDisk" : "AdjacencyMatrix.exe",
+	"name" : "BFS",
+	"nameOnDisk" : "BFS.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -108,12 +108,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "AdjacencyMatrix.cpp",
+			"path" : "BFS.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "AdjacencyMatrix.h",
+			"path" : "BFS.h",
 			"sourceGroupIndex" : 1
 		}
 	],

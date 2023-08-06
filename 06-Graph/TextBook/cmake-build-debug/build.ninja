@@ -41,6 +41,39 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/data/duotone/repo/06-Graph/TextBook/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target Graph
+
+
+#############################################
+# Order-only phony target for Graph
+
+build cmake_object_order_depends_target_Graph: phony || CMakeFiles/Graph.dir
+
+build CMakeFiles/Graph.dir/Graph.cpp.obj: CXX_COMPILER__Graph_Debug D$:/data/duotone/repo/06-Graph/TextBook/Graph.cpp || cmake_object_order_depends_target_Graph
+  DEP_FILE = CMakeFiles\Graph.dir\Graph.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Graph.dir
+  OBJECT_FILE_DIR = CMakeFiles\Graph.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Graph
+
+
+#############################################
+# Link the executable Graph.exe
+
+build Graph.exe: CXX_EXECUTABLE_LINKER__Graph_Debug CMakeFiles/Graph.dir/Graph.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Graph.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Graph.exe
+  TARGET_IMPLIB = libGraph.dll.a
+  TARGET_PDB = Graph.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target AdjacencyMatrix
 
 
@@ -140,37 +173,37 @@ build DFS.exe: CXX_EXECUTABLE_LINKER__DFS_Debug CMakeFiles/DFS.dir/DFS.cpp.obj
   TARGET_PDB = DFS.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Graph
+# Object build statements for EXECUTABLE target BFS
 
 
 #############################################
-# Order-only phony target for Graph
+# Order-only phony target for BFS
 
-build cmake_object_order_depends_target_Graph: phony || CMakeFiles/Graph.dir
+build cmake_object_order_depends_target_BFS: phony || CMakeFiles/BFS.dir
 
-build CMakeFiles/Graph.dir/Graph.cpp.obj: CXX_COMPILER__Graph_Debug D$:/data/duotone/repo/06-Graph/TextBook/Graph.cpp || cmake_object_order_depends_target_Graph
-  DEP_FILE = CMakeFiles\Graph.dir\Graph.cpp.obj.d
+build CMakeFiles/BFS.dir/BFS.cpp.obj: CXX_COMPILER__BFS_Debug D$:/data/duotone/repo/06-Graph/TextBook/BFS.cpp || cmake_object_order_depends_target_BFS
+  DEP_FILE = CMakeFiles\BFS.dir\BFS.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\Graph.dir
-  OBJECT_FILE_DIR = CMakeFiles\Graph.dir
+  OBJECT_DIR = CMakeFiles\BFS.dir
+  OBJECT_FILE_DIR = CMakeFiles\BFS.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Graph
+# Link build statements for EXECUTABLE target BFS
 
 
 #############################################
-# Link the executable Graph.exe
+# Link the executable BFS.exe
 
-build Graph.exe: CXX_EXECUTABLE_LINKER__Graph_Debug CMakeFiles/Graph.dir/Graph.cpp.obj
+build BFS.exe: CXX_EXECUTABLE_LINKER__BFS_Debug CMakeFiles/BFS.dir/BFS.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Graph.dir
+  OBJECT_DIR = CMakeFiles\BFS.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Graph.exe
-  TARGET_IMPLIB = libGraph.dll.a
-  TARGET_PDB = Graph.exe.dbg
+  TARGET_FILE = BFS.exe
+  TARGET_IMPLIB = libBFS.dll.a
+  TARGET_PDB = BFS.exe.dbg
 
 
 #############################################
@@ -202,6 +235,8 @@ build AdjacencyList: phony AdjacencyList.exe
 
 build AdjacencyMatrix: phony AdjacencyMatrix.exe
 
+build BFS: phony BFS.exe
+
 build DFS: phony DFS.exe
 
 build Graph: phony Graph.exe
@@ -214,7 +249,7 @@ build Graph: phony Graph.exe
 #############################################
 # Folder: D:/data/duotone/repo/06-Graph/TextBook/cmake-build-debug
 
-build all: phony AdjacencyMatrix.exe AdjacencyList.exe DFS.exe Graph.exe
+build all: phony Graph.exe AdjacencyMatrix.exe AdjacencyList.exe DFS.exe BFS.exe
 
 # =============================================================================
 # Built-in targets
