@@ -14,7 +14,7 @@ void DFS(Graph G, int v) {
 
     for (int w = FirstAdjVex(G, v); w >= 0; w = NextAdjVex(G, v, w))
         if (!visited[w])
-            DFS(G, w);                        // 对v的尚未访问的邻接顶点w递归调用DFS
+            DFS(G, w);                                         // 对v的尚未访问的邻接顶点w递归调用DFS
 }
 
 // 算法6.4　深度优先搜索遍历非连通图
@@ -27,4 +27,17 @@ void DFSTraverse(Graph G) {
     for (int v = 0; v < G.vexnum; ++v)                            // 循环调用算法6.3
         if (!visited[v])
             DFS(G, v);                                            // 对尚未访问的顶点调用DFS
+}
+
+// 算法6.5　采用邻接矩阵表示图的深度优先搜索遍历
+// 图G为邻接矩阵类型
+void DFS_AM(AMGraph G, int v) {
+    // 访问第v个顶点，并置访问标志数组相应分量值为true
+    Visit(G.vexs[v]);
+    visited[v] = true;
+
+    // 依次检查邻接矩阵v所在的行
+    for (int w = 0; w < G.vexnum; w++)
+        if ((G.arcs[v][w] != 0) && (!visited[w]))
+            DFS_AM(G, w);                              // G.arcs[v][w]!=0表示w是v的邻接点，如果w未访问，则递归调用DFS_AM
 }
