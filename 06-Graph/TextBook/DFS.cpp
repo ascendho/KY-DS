@@ -16,3 +16,15 @@ void DFS(Graph G, int v) {
         if (!visited[w])
             DFS(G, w);                        // 对v的尚未访问的邻接顶点w递归调用DFS
 }
+
+// 算法6.4　深度优先搜索遍历非连通图
+// 对非连通图G做深度优先遍历
+
+void DFSTraverse(Graph G) {
+    for (int v = 0; v < G.vexnum; ++v)
+        visited[v] = false;                                       // 访问标志数组初始化
+
+    for (int v = 0; v < G.vexnum; ++v)                            // 循环调用算法6.3
+        if (!visited[v])
+            DFS(G, v);                                            // 对尚未访问的顶点调用DFS
+}

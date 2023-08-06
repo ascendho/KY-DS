@@ -5,7 +5,6 @@
 
 void DFS(Graph G, int v);
 
-
-
+void DFSTraverse(Graph G);
 
 #endif //TEXTBOOK_DFS_H
