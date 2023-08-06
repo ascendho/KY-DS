@@ -31,6 +31,9 @@ void DFSTraverse(Graph G) {
 
 // 算法6.5　采用邻接矩阵表示图的深度优先搜索遍历
 // 图G为邻接矩阵类型
+
+// 时间复杂度: O(n^2)
+
 void DFS_AM(AMGraph G, int v) {
     // 访问第v个顶点，并置访问标志数组相应分量值为true
     Visit(G.vexs[v]);
@@ -39,5 +42,28 @@ void DFS_AM(AMGraph G, int v) {
     // 依次检查邻接矩阵v所在的行
     for (int w = 0; w < G.vexnum; w++)
         if ((G.arcs[v][w] != 0) && (!visited[w]))
-            DFS_AM(G, w);                              // G.arcs[v][w]!=0表示w是v的邻接点，如果w未访问，则递归调用DFS_AM
+            DFS_AM(G, w);                            // G.arcs[v][w]!=0表示w是v的邻接点，如果w未访问，则递归调用DFS_AM
+}
+
+// 算法6.6　采用邻接表表示图的深度优先搜索遍历
+// 图G为邻接表类型
+
+// 时间复杂度: O(n+e)
+
+void DFS_AL(ALGraph G, int v) {
+    // 访问第v个顶点，并置访问标志数组相应分量值为true
+    Visit(G.vertices[v].data);
+    visited[v] = true;
+
+    // p指向v的边链表的第一个边结点
+    ArcNode *p = G.vertices[v].firstarc;
+
+    // 边结点非空
+    while (p != nullptr) {
+        int w = p->adjvex;                            // 表示w是v的邻接点
+        if (!visited[w])
+            DFS_AL(G, w);                          // 如果w未访问，则递归调用DFS_AL
+
+        p = p->nextarc;                               // p指向下一个边结点
+    }
 }
