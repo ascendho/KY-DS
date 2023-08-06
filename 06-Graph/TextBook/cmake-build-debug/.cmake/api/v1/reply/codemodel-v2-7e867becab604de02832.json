@@ -16,7 +16,9 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3
 					]
 				}
 			],
@@ -32,7 +34,9 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3
 					]
 				}
 			],
@@ -50,6 +54,20 @@
 					"id" : "AdjacencyMatrix::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-AdjacencyMatrix-Debug-dfcbf90148f4dc2ac985.json",
 					"name" : "AdjacencyMatrix",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DFS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DFS-Debug-1f2b30e96d3fcc0a43f0.json",
+					"name" : "DFS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Graph::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Graph-Debug-f82bc0e57bd75d6e6c5e.json",
+					"name" : "Graph",
 					"projectIndex" : 0
 				}
 			]

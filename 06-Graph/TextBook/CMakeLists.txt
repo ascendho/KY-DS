@@ -5,3 +5,5 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(AdjacencyMatrix AdjacencyMatrix.cpp AdjacencyMatrix.h)
 add_executable(AdjacencyList AdjacencyList.cpp AdjacencyList.h)
+add_executable(DFS DFS.cpp DFS.h)
+add_executable(Graph Graph.cpp Graph.h)

@@ -1,4 +1,6 @@
 D:/data/duotone/repo/06-Graph/TextBook/cmake-build-debug/CMakeFiles/AdjacencyMatrix.dir
 D:/data/duotone/repo/06-Graph/TextBook/cmake-build-debug/CMakeFiles/AdjacencyList.dir
+D:/data/duotone/repo/06-Graph/TextBook/cmake-build-debug/CMakeFiles/DFS.dir
+D:/data/duotone/repo/06-Graph/TextBook/cmake-build-debug/CMakeFiles/Graph.dir
 D:/data/duotone/repo/06-Graph/TextBook/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/data/duotone/repo/06-Graph/TextBook/cmake-build-debug/CMakeFiles/rebuild_cache.dir
