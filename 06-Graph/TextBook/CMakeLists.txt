@@ -8,3 +8,6 @@ add_executable(AdjacencyMatrix AdjacencyMatrix.cpp AdjacencyMatrix.h)
 add_executable(AdjacencyList AdjacencyList.cpp AdjacencyList.h)
 add_executable(DFS DFS.cpp DFS.h)
 add_executable(BFS BFS.cpp BFS.h)
+
+add_executable(MinimumCostSpanningTree  MinimumCostSpanningTree.cpp MinimumCostSpanningTree.h)
+
