@@ -1,6 +1,7 @@
 #include "ShortestPath.h"
 #include "BFS.h"
 
+// BFS算法求解无权图的单源最短路径
 void BFS_MIN_Distance(Graph G, int u) {
     int d[G.vexnum], path[G.vexnum];
     sqQueue Q;
