@@ -238,6 +238,39 @@ build MinimumCostSpanningTree.exe: CXX_EXECUTABLE_LINKER__MinimumCostSpanningTre
   TARGET_IMPLIB = libMinimumCostSpanningTree.dll.a
   TARGET_PDB = MinimumCostSpanningTree.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ShortestPath
+
+
+#############################################
+# Order-only phony target for ShortestPath
+
+build cmake_object_order_depends_target_ShortestPath: phony || CMakeFiles/ShortestPath.dir
+
+build CMakeFiles/ShortestPath.dir/ShortestPath.cpp.obj: CXX_COMPILER__ShortestPath_Debug D$:/data/duotone/repo/06-Graph/TextBook/ShortestPath.cpp || cmake_object_order_depends_target_ShortestPath
+  DEP_FILE = CMakeFiles\ShortestPath.dir\ShortestPath.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ShortestPath.dir
+  OBJECT_FILE_DIR = CMakeFiles\ShortestPath.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ShortestPath
+
+
+#############################################
+# Link the executable ShortestPath.exe
+
+build ShortestPath.exe: CXX_EXECUTABLE_LINKER__ShortestPath_Debug CMakeFiles/ShortestPath.dir/ShortestPath.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ShortestPath.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ShortestPath.exe
+  TARGET_IMPLIB = libShortestPath.dll.a
+  TARGET_PDB = ShortestPath.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -276,6 +309,8 @@ build Graph: phony Graph.exe
 
 build MinimumCostSpanningTree: phony MinimumCostSpanningTree.exe
 
+build ShortestPath: phony ShortestPath.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -284,7 +319,7 @@ build MinimumCostSpanningTree: phony MinimumCostSpanningTree.exe
 #############################################
 # Folder: D:/data/duotone/repo/06-Graph/TextBook/cmake-build-debug
 
-build all: phony Graph.exe AdjacencyMatrix.exe AdjacencyList.exe DFS.exe BFS.exe MinimumCostSpanningTree.exe
+build all: phony Graph.exe AdjacencyMatrix.exe AdjacencyList.exe DFS.exe BFS.exe MinimumCostSpanningTree.exe ShortestPath.exe
 
 # =============================================================================
 # Built-in targets

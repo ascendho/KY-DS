@@ -10,4 +10,5 @@ add_executable(DFS DFS.cpp DFS.h)
 add_executable(BFS BFS.cpp BFS.h)
 
 add_executable(MinimumCostSpanningTree  MinimumCostSpanningTree.cpp MinimumCostSpanningTree.h)
+add_executable(ShortestPath ShortestPath.cpp ShortestPath.h)
 

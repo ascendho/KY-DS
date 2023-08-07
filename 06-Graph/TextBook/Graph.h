@@ -3,7 +3,7 @@
 
 #include "../../Status/Status.h"
 
-bool visited[MVNum];                            // 访问标志数组，其初值为"false"
+bool visited[MAX_VERTEX_NUM];                            // 访问标志数组，其初值为"false"
 
 // 图的邻接矩阵存储表示
 typedef struct {
