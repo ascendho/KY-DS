@@ -36,5 +36,4 @@ void MiniSpanTree_Kruskal(AMGraph G);
 
 void Sort(AMGraph G);
 
-
 #endif //TEXTBOOK_MINIMUMCOSTSPANNINGTREE_H

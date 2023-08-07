@@ -63,6 +63,9 @@ int Min(AMGraph G) {
 // 算法6.9　克鲁斯卡尔算法
 // 无向网G以邻接矩阵形式存储，构造G的最小生成树T，输出T的各条边
 
+// 时间复杂度: O(eloge), 与网中的边数有关
+// 适合于求稀疏网的最小生成树
+
 void MiniSpanTree_Kruskal(AMGraph G) {
     int v1, v2, vs1, vs2;
 
