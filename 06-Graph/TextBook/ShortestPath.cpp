@@ -76,7 +76,7 @@ void ShortestPath_DIJ(AMGraph G, int v0) {
     }
 }
 
-// 显示最短路
+// 显示最短路径
 void DisplayPath(AMGraph G, int begin, int temp) {
     if (Path[temp] != -1) {
         DisplayPath(G, begin, Path[temp]);
@@ -85,4 +85,35 @@ void DisplayPath(AMGraph G, int begin, int temp) {
 }
 
 
+// 算法6.11　弗洛伊德算法
+// 用Floyd算法求有向网G中各对顶点i和j之间的最短路径
 
+// 时间复杂度: O(n^3)
+
+void ShortestPath_Floyd(AMGraph G) {
+    for (int i = 0; i < G.vexnum; ++i)
+        for (int j = 0; j < G.vexnum; ++j) {
+            D_[i][j] = G.arcs[i][j];                 // 各对结点之间初始已知路径及距离
+
+            if (D_[i][j] < MaxInt && i != j)
+                Path_[i][j] = i;                     // 如果i和j之间有弧，则将j的前驱置为i
+            else
+                Path_[i][j] = -1;                    // 如果i和j之间无弧，则将j的前驱置为-1
+        }
+
+    for (int k = 0; k < G.vexnum; ++k)
+        for (int i = 0; i < G.vexnum; ++i)
+            for (int j = 0; j < G.vexnum; ++j)
+                if (D_[i][k] + D_[k][j] < D_[i][j]) {          // 从i经k到j的一条路径更短
+                    D_[i][j] = D_[i][k] + D_[k][j];            // 更新D[i][j]
+                    Path_[i][j] = Path_[k][j];                 // 更改j的前驱为k
+                }
+}
+
+// 显示最短路径
+void DisplayPath_(AMGraph G, int begin, int temp) {
+    if (Path_[begin][temp] != -1) {
+        DisplayPath(G, begin, Path_[begin][temp]);
+        std::cout << G.vexs[Path_[begin][temp]] << "-->";
+    }
+}

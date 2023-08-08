@@ -17,6 +17,12 @@ void ShortestPath_DIJ(AMGraph G, int v0);
 
 void DisplayPath(AMGraph G, int begin, int temp);
 
+/* 弗洛伊德算法 */
+int Path_[MVNum][MVNum];                     // 最短路径上顶点vj的前一顶点的序号
+int D_[MVNum][MVNum];                        // 记录顶点vi和vj之间的最短路径长度
 
+void ShortestPath_Floyd(AMGraph G);
+
+void DisplayPath_(AMGraph G, int begin, int temp);
 
 #endif //TEXTBOOK_SHORTESTPATH_H
