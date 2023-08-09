@@ -13,13 +13,13 @@ int InitList_SSTable(SSTable &L) {
 }
 
 int Insert_SSTable(SSTable &L) {
-    int j = 0;
-    for (int i = 0; i < MAXSIZE; i++) {
+    int j = 1;                          // 空出ST.R[0]的位置
+
+    for (int i = 1; i < MAXSIZE; i++) {
         L.R[i].key = j;
         L.length++;
         j++;
     }
-
     return 1;
 }
 
