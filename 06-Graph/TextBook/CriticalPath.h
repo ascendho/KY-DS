@@ -7,6 +7,7 @@
 #include <iostream>
 
 // 考虑把公共变量如S、topo、indegree存储在公共头文件
+// extern关键字: 
 
 int indegree_[MVNum];                       // 数组indegree存放个顶点的入度
 int ve[BDNum];                              // 事件vi的最早发生时间
