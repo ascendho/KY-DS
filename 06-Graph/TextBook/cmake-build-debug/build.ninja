@@ -304,6 +304,39 @@ build TopologicalSort.exe: CXX_EXECUTABLE_LINKER__TopologicalSort_Debug CMakeFil
   TARGET_IMPLIB = libTopologicalSort.dll.a
   TARGET_PDB = TopologicalSort.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target CriticalPath
+
+
+#############################################
+# Order-only phony target for CriticalPath
+
+build cmake_object_order_depends_target_CriticalPath: phony || CMakeFiles/CriticalPath.dir
+
+build CMakeFiles/CriticalPath.dir/CriticalPath.cpp.obj: CXX_COMPILER__CriticalPath_Debug D$:/data/duotone/repo/06-Graph/TextBook/CriticalPath.cpp || cmake_object_order_depends_target_CriticalPath
+  DEP_FILE = CMakeFiles\CriticalPath.dir\CriticalPath.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\CriticalPath.dir
+  OBJECT_FILE_DIR = CMakeFiles\CriticalPath.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CriticalPath
+
+
+#############################################
+# Link the executable CriticalPath.exe
+
+build CriticalPath.exe: CXX_EXECUTABLE_LINKER__CriticalPath_Debug CMakeFiles/CriticalPath.dir/CriticalPath.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CriticalPath.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CriticalPath.exe
+  TARGET_IMPLIB = libCriticalPath.dll.a
+  TARGET_PDB = CriticalPath.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -336,6 +369,8 @@ build AdjacencyMatrix: phony AdjacencyMatrix.exe
 
 build BFS: phony BFS.exe
 
+build CriticalPath: phony CriticalPath.exe
+
 build DFS: phony DFS.exe
 
 build Graph: phony Graph.exe
@@ -354,7 +389,7 @@ build TopologicalSort: phony TopologicalSort.exe
 #############################################
 # Folder: D:/data/duotone/repo/06-Graph/TextBook/cmake-build-debug
 
-build all: phony Graph.exe AdjacencyMatrix.exe AdjacencyList.exe DFS.exe BFS.exe MinimumCostSpanningTree.exe ShortestPath.exe TopologicalSort.exe
+build all: phony Graph.exe AdjacencyMatrix.exe AdjacencyList.exe DFS.exe BFS.exe MinimumCostSpanningTree.exe ShortestPath.exe TopologicalSort.exe CriticalPath.exe
 
 # =============================================================================
 # Built-in targets

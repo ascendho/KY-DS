@@ -22,7 +22,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				}
 			],
@@ -44,7 +45,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				}
 			],
@@ -69,6 +71,13 @@
 					"id" : "BFS::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-BFS-Debug-1c08c944231a8193b27c.json",
 					"name" : "BFS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CriticalPath::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CriticalPath-Debug-143aa7c25183d0920666.json",
+					"name" : "CriticalPath",
 					"projectIndex" : 0
 				},
 				{

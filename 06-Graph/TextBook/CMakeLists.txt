@@ -12,4 +12,5 @@ add_executable(BFS BFS.cpp BFS.h)
 add_executable(MinimumCostSpanningTree  MinimumCostSpanningTree.cpp MinimumCostSpanningTree.h)
 add_executable(ShortestPath ShortestPath.cpp ShortestPath.h)
 add_executable(TopologicalSort TopologicalSort.cpp TopologicalSort.h)
+add_executable(CriticalPath CriticalPath.cpp CriticalPath.h)
 

@@ -2,6 +2,7 @@
 #define TEXTBOOK_TOPOLOGICALSORT_H
 
 #include "AdjacencyList.h"
+#include "../../Status/Status.h"
 #include <iostream>
 
 // 顺序栈的定义

@@ -16,7 +16,9 @@ int TopologicalSort(ALGraph G, int topo[]) {
     InitStack(S);                                 // 栈S初始化为空
 
     for (int i = 0; i < G.vexnum; ++i)
-        if (!indegree[i]) Push(S, i);             // 入度为0者进栈
+        if (!indegree[i])
+            Push(S, i);                           // 入度为0者进栈
+
     int m = 0;                                       // 对输出顶点计数，初始为0
 
     // 栈S非空
@@ -35,11 +37,12 @@ int TopologicalSort(ALGraph G, int topo[]) {
     }
 
     if (m < G.vexnum)
-        return ERROR;                              // 该有向图有回路
+        return ERROR;                               // 该有向图有回路
     else
         return OK;
 }
 
+// 求出各顶点的入度存入数组indegree中
 void FindInDegree(ALGraph G) {
     for (int i = 0; i < G.vexnum; i++) {
         int count = 0;
