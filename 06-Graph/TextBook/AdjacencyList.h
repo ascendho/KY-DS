@@ -17,6 +17,7 @@ typedef struct VNode {
 
 typedef struct {
     AdjList vertices;                          // 邻接表
+    AdjList converse_vertices;				   // 逆邻接表
     int vexnum, arcnum;                        // 图的当前顶点数和边数
 } ALGraph;
 

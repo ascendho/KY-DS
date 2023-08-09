@@ -271,6 +271,39 @@ build ShortestPath.exe: CXX_EXECUTABLE_LINKER__ShortestPath_Debug CMakeFiles/Sho
   TARGET_IMPLIB = libShortestPath.dll.a
   TARGET_PDB = ShortestPath.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target TopologicalSort
+
+
+#############################################
+# Order-only phony target for TopologicalSort
+
+build cmake_object_order_depends_target_TopologicalSort: phony || CMakeFiles/TopologicalSort.dir
+
+build CMakeFiles/TopologicalSort.dir/TopologicalSort.cpp.obj: CXX_COMPILER__TopologicalSort_Debug D$:/data/duotone/repo/06-Graph/TextBook/TopologicalSort.cpp || cmake_object_order_depends_target_TopologicalSort
+  DEP_FILE = CMakeFiles\TopologicalSort.dir\TopologicalSort.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\TopologicalSort.dir
+  OBJECT_FILE_DIR = CMakeFiles\TopologicalSort.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TopologicalSort
+
+
+#############################################
+# Link the executable TopologicalSort.exe
+
+build TopologicalSort.exe: CXX_EXECUTABLE_LINKER__TopologicalSort_Debug CMakeFiles/TopologicalSort.dir/TopologicalSort.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\TopologicalSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = TopologicalSort.exe
+  TARGET_IMPLIB = libTopologicalSort.dll.a
+  TARGET_PDB = TopologicalSort.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -311,6 +344,8 @@ build MinimumCostSpanningTree: phony MinimumCostSpanningTree.exe
 
 build ShortestPath: phony ShortestPath.exe
 
+build TopologicalSort: phony TopologicalSort.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -319,7 +354,7 @@ build ShortestPath: phony ShortestPath.exe
 #############################################
 # Folder: D:/data/duotone/repo/06-Graph/TextBook/cmake-build-debug
 
-build all: phony Graph.exe AdjacencyMatrix.exe AdjacencyList.exe DFS.exe BFS.exe MinimumCostSpanningTree.exe ShortestPath.exe
+build all: phony Graph.exe AdjacencyMatrix.exe AdjacencyList.exe DFS.exe BFS.exe MinimumCostSpanningTree.exe ShortestPath.exe TopologicalSort.exe
 
 # =============================================================================
 # Built-in targets
