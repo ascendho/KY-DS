@@ -106,6 +106,39 @@ build Search_Seq.exe: CXX_EXECUTABLE_LINKER__Search_Seq_Debug CMakeFiles/Search_
   TARGET_IMPLIB = libSearch_Seq.dll.a
   TARGET_PDB = Search_Seq.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Search_Bin
+
+
+#############################################
+# Order-only phony target for Search_Bin
+
+build cmake_object_order_depends_target_Search_Bin: phony || CMakeFiles/Search_Bin.dir
+
+build CMakeFiles/Search_Bin.dir/Search_Bin.cpp.obj: CXX_COMPILER__Search_Bin_Debug D$:/data/duotone/repo/07-Searching/TextBook/Search_Bin.cpp || cmake_object_order_depends_target_Search_Bin
+  DEP_FILE = CMakeFiles\Search_Bin.dir\Search_Bin.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Search_Bin.dir
+  OBJECT_FILE_DIR = CMakeFiles\Search_Bin.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Search_Bin
+
+
+#############################################
+# Link the executable Search_Bin.exe
+
+build Search_Bin.exe: CXX_EXECUTABLE_LINKER__Search_Bin_Debug CMakeFiles/Search_Bin.dir/Search_Bin.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Search_Bin.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Search_Bin.exe
+  TARGET_IMPLIB = libSearch_Bin.dll.a
+  TARGET_PDB = Search_Bin.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -134,6 +167,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build SSTable: phony SSTable.exe
 
+build Search_Bin: phony Search_Bin.exe
+
 build Search_Seq: phony Search_Seq.exe
 
 # =============================================================================
@@ -144,7 +179,7 @@ build Search_Seq: phony Search_Seq.exe
 #############################################
 # Folder: D:/data/duotone/repo/07-Searching/TextBook/cmake-build-debug
 
-build all: phony SSTable.exe Search_Seq.exe
+build all: phony SSTable.exe Search_Seq.exe Search_Bin.exe
 
 # =============================================================================
 # Built-in targets

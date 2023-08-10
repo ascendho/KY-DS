@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,7 +33,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -43,6 +45,13 @@
 					"id" : "SSTable::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-SSTable-Debug-c3001252897ac5a220a2.json",
 					"name" : "SSTable",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Search_Bin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Search_Bin-Debug-9ed53328034a6e461c14.json",
+					"name" : "Search_Bin",
 					"projectIndex" : 0
 				},
 				{
