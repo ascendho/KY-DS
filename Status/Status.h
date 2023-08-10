@@ -38,5 +38,6 @@ typedef int VertexType;
 #define MAX_VERTEX_NUM 20
 #define BDNum MVNum * (MVNum - 1)			// 最大边数
 
+typedef int KeyType;
 
 #endif //STATUS_STATUS_H

@@ -4,7 +4,7 @@
 #include "../../Status/Status.h"
 
 typedef struct {
-    int key;                // 关键字域
+    KeyType key;            // 关键字域
     InfoType otherinfo;     // 其他域
 } Data;
 

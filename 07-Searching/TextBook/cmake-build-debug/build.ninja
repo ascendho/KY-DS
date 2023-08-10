@@ -139,6 +139,39 @@ build Search_Bin.exe: CXX_EXECUTABLE_LINKER__Search_Bin_Debug CMakeFiles/Search_
   TARGET_IMPLIB = libSearch_Bin.dll.a
   TARGET_PDB = Search_Bin.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target BlockingSearch
+
+
+#############################################
+# Order-only phony target for BlockingSearch
+
+build cmake_object_order_depends_target_BlockingSearch: phony || CMakeFiles/BlockingSearch.dir
+
+build CMakeFiles/BlockingSearch.dir/BlockingSearch.cpp.obj: CXX_COMPILER__BlockingSearch_Debug D$:/data/duotone/repo/07-Searching/TextBook/BlockingSearch.cpp || cmake_object_order_depends_target_BlockingSearch
+  DEP_FILE = CMakeFiles\BlockingSearch.dir\BlockingSearch.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\BlockingSearch.dir
+  OBJECT_FILE_DIR = CMakeFiles\BlockingSearch.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BlockingSearch
+
+
+#############################################
+# Link the executable BlockingSearch.exe
+
+build BlockingSearch.exe: CXX_EXECUTABLE_LINKER__BlockingSearch_Debug CMakeFiles/BlockingSearch.dir/BlockingSearch.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BlockingSearch.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BlockingSearch.exe
+  TARGET_IMPLIB = libBlockingSearch.dll.a
+  TARGET_PDB = BlockingSearch.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -165,6 +198,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build BlockingSearch: phony BlockingSearch.exe
+
 build SSTable: phony SSTable.exe
 
 build Search_Bin: phony Search_Bin.exe
@@ -179,7 +214,7 @@ build Search_Seq: phony Search_Seq.exe
 #############################################
 # Folder: D:/data/duotone/repo/07-Searching/TextBook/cmake-build-debug
 
-build all: phony SSTable.exe Search_Seq.exe Search_Bin.exe
+build all: phony SSTable.exe Search_Seq.exe Search_Bin.exe BlockingSearch.exe
 
 # =============================================================================
 # Built-in targets

@@ -17,7 +17,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -34,12 +35,20 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "BlockingSearch::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BlockingSearch-Debug-944cb27f328d1e442b97.json",
+					"name" : "BlockingSearch",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "SSTable::@6890427a1f51a3e7e1df",
