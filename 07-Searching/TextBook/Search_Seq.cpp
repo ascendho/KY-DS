@@ -20,7 +20,9 @@ int Search_Seq(SSTable ST, int key) {
 // 时间复杂度: O(n)
 
 int Search_Seq_(SSTable ST, int key) {
-    ST.R[0].key = key;                                      // “监视哨”
-    for (int i = ST.length; ST.R[i].key != key; --i)        // 从后往前找
-        return i;
+    int index = ST.length;
+
+    ST.R[0].key = key;                               // “监视哨”
+    for (; ST.R[index].key != key; --index);         // 从后往前找
+    return index;
 }
