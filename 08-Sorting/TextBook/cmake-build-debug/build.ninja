@@ -106,6 +106,39 @@ build InsertSort.exe: CXX_EXECUTABLE_LINKER__InsertSort_Debug CMakeFiles/InsertS
   TARGET_IMPLIB = libInsertSort.dll.a
   TARGET_PDB = InsertSort.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target BInsertSort
+
+
+#############################################
+# Order-only phony target for BInsertSort
+
+build cmake_object_order_depends_target_BInsertSort: phony || CMakeFiles/BInsertSort.dir
+
+build CMakeFiles/BInsertSort.dir/BInsertSort.cpp.obj: CXX_COMPILER__BInsertSort_Debug D$:/data/duotone/repo/08-Sorting/TextBook/BInsertSort.cpp || cmake_object_order_depends_target_BInsertSort
+  DEP_FILE = CMakeFiles\BInsertSort.dir\BInsertSort.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\BInsertSort.dir
+  OBJECT_FILE_DIR = CMakeFiles\BInsertSort.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BInsertSort
+
+
+#############################################
+# Link the executable BInsertSort.exe
+
+build BInsertSort.exe: CXX_EXECUTABLE_LINKER__BInsertSort_Debug CMakeFiles/BInsertSort.dir/BInsertSort.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BInsertSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BInsertSort.exe
+  TARGET_IMPLIB = libBInsertSort.dll.a
+  TARGET_PDB = BInsertSort.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -132,6 +165,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build BInsertSort: phony BInsertSort.exe
+
 build DataList: phony DataList.exe
 
 build InsertSort: phony InsertSort.exe
@@ -144,7 +179,7 @@ build InsertSort: phony InsertSort.exe
 #############################################
 # Folder: D:/data/duotone/repo/08-Sorting/TextBook/cmake-build-debug
 
-build all: phony DataList.exe InsertSort.exe
+build all: phony DataList.exe InsertSort.exe BInsertSort.exe
 
 # =============================================================================
 # Built-in targets

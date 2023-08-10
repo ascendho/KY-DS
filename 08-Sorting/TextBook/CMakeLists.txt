@@ -5,3 +5,4 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(DataList DataList.cpp DataList.h)
 add_executable(InsertSort InsertSort.cpp InsertSort.h)
+add_executable(BInsertSort BInsertSort.cpp BInsertSort.h)

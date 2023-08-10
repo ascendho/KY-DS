@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,12 +33,20 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "BInsertSort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BInsertSort-Debug-1913a60135934015fd24.json",
+					"name" : "BInsertSort",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "DataList::@6890427a1f51a3e7e1df",
