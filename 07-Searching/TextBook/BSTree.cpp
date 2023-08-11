@@ -5,8 +5,9 @@
 // 在根指针T所指二叉排序树中递归地查找某关键字等于key的数据元素, 若查找成功, 则返回指向该数据元素结点的指针, 否则返回空指针
 
 // 时间复杂度: O(logn)
+// 空间复杂度: O(h)
 
-BSTree SearchBST(BSTree T, KeyType key) {
+BSTNode *SearchBST(BSTree T, KeyType key) {
     if ((!T) || key == T->data.key)
         return T;                               // 查找结束
     else if (key < T->data.key)
@@ -117,4 +118,17 @@ void InOrderTraverse(BSTree &T) {
         Visit(T);
         InOrderTraverse(T->rchild);
     }
+}
+
+// 王道补充算法: 二叉排序树非递归查找
+// 空间复杂度: O(1)
+
+BSTNode *SearchBST_(BSTree T, KeyType key) {
+    while (T != nullptr && key != T->data.key) {  // 树空或者等于根结点值, 则结束循环
+        if (key < T->data.key)
+            T = T->lchild;                        // 小于, 则在左子树上查找
+        else
+            T = T->rchild;                        // 大于, 则在右子树上查找
+    }
+    return T;
 }

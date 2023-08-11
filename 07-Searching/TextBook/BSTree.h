@@ -13,16 +13,18 @@ typedef struct BSTNode {
     BSTNode *lchild, *rchild;    // 左右孩子指针
 } BSTNode, *BSTree;
 
-BSTree SearchBST(BSTree T, char key);
+BSTNode *SearchBST(BSTree T, KeyType key);
 
 void InsertBST(BSTree &T, Data e);
 
 void CreateBST(BSTree &T);
 
-void DeleteBST(BSTree &T, char key);
+void DeleteBST(BSTree &T, KeyType key);
 
 void InOrderTraverse(BSTree &T);
 
 void Visit(BSTree T);
+
+BSTNode *SearchBST_(BSTree T, KeyType key);
 
 #endif //TEXTBOOK_BSTREE_H
