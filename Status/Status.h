@@ -40,4 +40,7 @@ typedef int VertexType;
 
 typedef int KeyType;
 
+#define ENDFLAG '#'
+
+
 #endif //STATUS_STATUS_H

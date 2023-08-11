@@ -172,6 +172,39 @@ build BlockingSearch.exe: CXX_EXECUTABLE_LINKER__BlockingSearch_Debug CMakeFiles
   TARGET_IMPLIB = libBlockingSearch.dll.a
   TARGET_PDB = BlockingSearch.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target BSTree
+
+
+#############################################
+# Order-only phony target for BSTree
+
+build cmake_object_order_depends_target_BSTree: phony || CMakeFiles/BSTree.dir
+
+build CMakeFiles/BSTree.dir/BSTree.cpp.obj: CXX_COMPILER__BSTree_Debug D$:/data/duotone/repo/07-Searching/TextBook/BSTree.cpp || cmake_object_order_depends_target_BSTree
+  DEP_FILE = CMakeFiles\BSTree.dir\BSTree.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\BSTree.dir
+  OBJECT_FILE_DIR = CMakeFiles\BSTree.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BSTree
+
+
+#############################################
+# Link the executable BSTree.exe
+
+build BSTree.exe: CXX_EXECUTABLE_LINKER__BSTree_Debug CMakeFiles/BSTree.dir/BSTree.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BSTree.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BSTree.exe
+  TARGET_IMPLIB = libBSTree.dll.a
+  TARGET_PDB = BSTree.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -198,6 +231,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build BSTree: phony BSTree.exe
+
 build BlockingSearch: phony BlockingSearch.exe
 
 build SSTable: phony SSTable.exe
@@ -214,7 +249,7 @@ build Search_Seq: phony Search_Seq.exe
 #############################################
 # Folder: D:/data/duotone/repo/07-Searching/TextBook/cmake-build-debug
 
-build all: phony SSTable.exe Search_Seq.exe Search_Bin.exe BlockingSearch.exe
+build all: phony SSTable.exe Search_Seq.exe Search_Bin.exe BlockingSearch.exe BSTree.exe
 
 # =============================================================================
 # Built-in targets
