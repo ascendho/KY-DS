@@ -17,7 +17,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -34,7 +35,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -59,6 +61,13 @@
 					"id" : "InsertSort::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-InsertSort-Debug-78a3324b108dc90df7e9.json",
 					"name" : "InsertSort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ShellSort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ShellSort-Debug-0940329918f20115ca67.json",
+					"name" : "ShellSort",
 					"projectIndex" : 0
 				}
 			]

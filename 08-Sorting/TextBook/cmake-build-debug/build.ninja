@@ -139,6 +139,39 @@ build BInsertSort.exe: CXX_EXECUTABLE_LINKER__BInsertSort_Debug CMakeFiles/BInse
   TARGET_IMPLIB = libBInsertSort.dll.a
   TARGET_PDB = BInsertSort.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ShellSort
+
+
+#############################################
+# Order-only phony target for ShellSort
+
+build cmake_object_order_depends_target_ShellSort: phony || CMakeFiles/ShellSort.dir
+
+build CMakeFiles/ShellSort.dir/ShellSort.cpp.obj: CXX_COMPILER__ShellSort_Debug D$:/data/duotone/repo/08-Sorting/TextBook/ShellSort.cpp || cmake_object_order_depends_target_ShellSort
+  DEP_FILE = CMakeFiles\ShellSort.dir\ShellSort.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ShellSort.dir
+  OBJECT_FILE_DIR = CMakeFiles\ShellSort.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ShellSort
+
+
+#############################################
+# Link the executable ShellSort.exe
+
+build ShellSort.exe: CXX_EXECUTABLE_LINKER__ShellSort_Debug CMakeFiles/ShellSort.dir/ShellSort.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ShellSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ShellSort.exe
+  TARGET_IMPLIB = libShellSort.dll.a
+  TARGET_PDB = ShellSort.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -171,6 +204,8 @@ build DataList: phony DataList.exe
 
 build InsertSort: phony InsertSort.exe
 
+build ShellSort: phony ShellSort.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -179,7 +214,7 @@ build InsertSort: phony InsertSort.exe
 #############################################
 # Folder: D:/data/duotone/repo/08-Sorting/TextBook/cmake-build-debug
 
-build all: phony DataList.exe InsertSort.exe BInsertSort.exe
+build all: phony DataList.exe InsertSort.exe BInsertSort.exe ShellSort.exe
 
 # =============================================================================
 # Built-in targets
