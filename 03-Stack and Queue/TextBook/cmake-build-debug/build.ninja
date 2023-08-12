@@ -173,212 +173,68 @@ build LinkQueue.exe: CXX_EXECUTABLE_LINKER__LinkQueue_Debug CMakeFiles/LinkQueue
   TARGET_PDB = LinkQueue.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target TraverseList
+# Object build statements for EXECUTABLE target StackAndRecursion
 
 
 #############################################
-# Order-only phony target for TraverseList
+# Order-only phony target for StackAndRecursion
 
-build cmake_object_order_depends_target_TraverseList: phony || cmake_object_order_depends_target_TraverseListLib
+build cmake_object_order_depends_target_StackAndRecursion: phony || cmake_object_order_depends_target_StackAndRecursionLib
 
-build CMakeFiles/TraverseList.dir/TraverseList.cpp.obj: CXX_COMPILER__TraverseList_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/TextBook/TraverseList.cpp || cmake_object_order_depends_target_TraverseList
-  DEP_FILE = CMakeFiles\TraverseList.dir\TraverseList.cpp.obj.d
+build CMakeFiles/StackAndRecursion.dir/StackAndRecursion.cpp.obj: CXX_COMPILER__StackAndRecursion_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/TextBook/StackAndRecursion.cpp || cmake_object_order_depends_target_StackAndRecursion
+  DEP_FILE = CMakeFiles\StackAndRecursion.dir\StackAndRecursion.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\TraverseList.dir
-  OBJECT_FILE_DIR = CMakeFiles\TraverseList.dir
-
-build CMakeFiles/TraverseList.dir/TraverseList-main.cpp.obj: CXX_COMPILER__TraverseList_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/TextBook/TraverseList-main.cpp || cmake_object_order_depends_target_TraverseList
-  DEP_FILE = CMakeFiles\TraverseList.dir\TraverseList-main.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\TraverseList.dir
-  OBJECT_FILE_DIR = CMakeFiles\TraverseList.dir
+  OBJECT_DIR = CMakeFiles\StackAndRecursion.dir
+  OBJECT_FILE_DIR = CMakeFiles\StackAndRecursion.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target TraverseList
+# Link build statements for EXECUTABLE target StackAndRecursion
 
 
 #############################################
-# Link the executable TraverseList.exe
+# Link the executable StackAndRecursion.exe
 
-build TraverseList.exe: CXX_EXECUTABLE_LINKER__TraverseList_Debug CMakeFiles/TraverseList.dir/TraverseList.cpp.obj CMakeFiles/TraverseList.dir/TraverseList-main.cpp.obj | libTraverseListLib.a || libTraverseListLib.a
+build StackAndRecursion.exe: CXX_EXECUTABLE_LINKER__StackAndRecursion_Debug CMakeFiles/StackAndRecursion.dir/StackAndRecursion.cpp.obj | libStackAndRecursionLib.a || libStackAndRecursionLib.a
   FLAGS = -g
-  LINK_LIBRARIES = libTraverseListLib.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\TraverseList.dir
+  LINK_LIBRARIES = libStackAndRecursionLib.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\StackAndRecursion.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = TraverseList.exe
-  TARGET_IMPLIB = libTraverseList.dll.a
-  TARGET_PDB = TraverseList.exe.dbg
+  TARGET_FILE = StackAndRecursion.exe
+  TARGET_IMPLIB = libStackAndRecursion.dll.a
+  TARGET_PDB = StackAndRecursion.exe.dbg
 
 # =============================================================================
-# Object build statements for STATIC_LIBRARY target TraverseListLib
+# Object build statements for STATIC_LIBRARY target StackAndRecursionLib
 
 
 #############################################
-# Order-only phony target for TraverseListLib
+# Order-only phony target for StackAndRecursionLib
 
-build cmake_object_order_depends_target_TraverseListLib: phony || CMakeFiles/TraverseListLib.dir
+build cmake_object_order_depends_target_StackAndRecursionLib: phony || CMakeFiles/StackAndRecursionLib.dir
 
-build CMakeFiles/TraverseListLib.dir/D_/data/duotone/repo/02-Linear_List/TextBook/LinkList.cpp.obj: CXX_COMPILER__TraverseListLib_Debug D$:/data/duotone/repo/02-Linear$ List/TextBook/LinkList.cpp || cmake_object_order_depends_target_TraverseListLib
-  DEP_FILE = CMakeFiles\TraverseListLib.dir\D_\data\duotone\repo\02-Linear_List\TextBook\LinkList.cpp.obj.d
+build CMakeFiles/StackAndRecursionLib.dir/D_/data/duotone/repo/02-Linear_List/TextBook/LinkList.cpp.obj: CXX_COMPILER__StackAndRecursionLib_Debug D$:/data/duotone/repo/02-Linear$ List/TextBook/LinkList.cpp || cmake_object_order_depends_target_StackAndRecursionLib
+  DEP_FILE = CMakeFiles\StackAndRecursionLib.dir\D_\data\duotone\repo\02-Linear_List\TextBook\LinkList.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\TraverseListLib.dir
-  OBJECT_FILE_DIR = CMakeFiles\TraverseListLib.dir\D_\data\duotone\repo\02-Linear_List\TextBook
+  OBJECT_DIR = CMakeFiles\StackAndRecursionLib.dir
+  OBJECT_FILE_DIR = CMakeFiles\StackAndRecursionLib.dir\D_\data\duotone\repo\02-Linear_List\TextBook
 
 
 # =============================================================================
-# Link build statements for STATIC_LIBRARY target TraverseListLib
+# Link build statements for STATIC_LIBRARY target StackAndRecursionLib
 
 
 #############################################
-# Link the static library libTraverseListLib.a
+# Link the static library libStackAndRecursionLib.a
 
-build libTraverseListLib.a: CXX_STATIC_LIBRARY_LINKER__TraverseListLib_Debug CMakeFiles/TraverseListLib.dir/D_/data/duotone/repo/02-Linear_List/TextBook/LinkList.cpp.obj
+build libStackAndRecursionLib.a: CXX_STATIC_LIBRARY_LINKER__StackAndRecursionLib_Debug CMakeFiles/StackAndRecursionLib.dir/D_/data/duotone/repo/02-Linear_List/TextBook/LinkList.cpp.obj
   LANGUAGE_COMPILE_FLAGS = -g
-  OBJECT_DIR = CMakeFiles\TraverseListLib.dir
+  OBJECT_DIR = CMakeFiles\StackAndRecursionLib.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = libTraverseListLib.a
-  TARGET_PDB = TraverseListLib.a.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target Hanoi
-
-
-#############################################
-# Order-only phony target for Hanoi
-
-build cmake_object_order_depends_target_Hanoi: phony || CMakeFiles/Hanoi.dir
-
-build CMakeFiles/Hanoi.dir/Hanoi.cpp.obj: CXX_COMPILER__Hanoi_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/TextBook/Hanoi.cpp || cmake_object_order_depends_target_Hanoi
-  DEP_FILE = CMakeFiles\Hanoi.dir\Hanoi.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\Hanoi.dir
-  OBJECT_FILE_DIR = CMakeFiles\Hanoi.dir
-
-build CMakeFiles/Hanoi.dir/Hanoi-main.cpp.obj: CXX_COMPILER__Hanoi_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/TextBook/Hanoi-main.cpp || cmake_object_order_depends_target_Hanoi
-  DEP_FILE = CMakeFiles\Hanoi.dir\Hanoi-main.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\Hanoi.dir
-  OBJECT_FILE_DIR = CMakeFiles\Hanoi.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Hanoi
-
-
-#############################################
-# Link the executable Hanoi.exe
-
-build Hanoi.exe: CXX_EXECUTABLE_LINKER__Hanoi_Debug CMakeFiles/Hanoi.dir/Hanoi.cpp.obj CMakeFiles/Hanoi.dir/Hanoi-main.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Hanoi.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = Hanoi.exe
-  TARGET_IMPLIB = libHanoi.dll.a
-  TARGET_PDB = Hanoi.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target Fib
-
-
-#############################################
-# Order-only phony target for Fib
-
-build cmake_object_order_depends_target_Fib: phony || CMakeFiles/Fib.dir
-
-build CMakeFiles/Fib.dir/Fib.cpp.obj: CXX_COMPILER__Fib_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/TextBook/Fib.cpp || cmake_object_order_depends_target_Fib
-  DEP_FILE = CMakeFiles\Fib.dir\Fib.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\Fib.dir
-  OBJECT_FILE_DIR = CMakeFiles\Fib.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Fib
-
-
-#############################################
-# Link the executable Fib.exe
-
-build Fib.exe: CXX_EXECUTABLE_LINKER__Fib_Debug CMakeFiles/Fib.dir/Fib.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Fib.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = Fib.exe
-  TARGET_IMPLIB = libFib.dll.a
-  TARGET_PDB = Fib.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target Fact
-
-
-#############################################
-# Order-only phony target for Fact
-
-build cmake_object_order_depends_target_Fact: phony || CMakeFiles/Fact.dir
-
-build CMakeFiles/Fact.dir/Fact.cpp.obj: CXX_COMPILER__Fact_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/TextBook/Fact.cpp || cmake_object_order_depends_target_Fact
-  DEP_FILE = CMakeFiles\Fact.dir\Fact.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\Fact.dir
-  OBJECT_FILE_DIR = CMakeFiles\Fact.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Fact
-
-
-#############################################
-# Link the executable Fact.exe
-
-build Fact.exe: CXX_EXECUTABLE_LINKER__Fact_Debug CMakeFiles/Fact.dir/Fact.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Fact.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = Fact.exe
-  TARGET_IMPLIB = libFact.dll.a
-  TARGET_PDB = Fact.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target simu
-
-
-#############################################
-# Order-only phony target for simu
-
-build cmake_object_order_depends_target_simu: phony || CMakeFiles/simu.dir
-
-build CMakeFiles/simu.dir/simu.cpp.obj: CXX_COMPILER__simu_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/TextBook/simu.cpp || cmake_object_order_depends_target_simu
-  DEP_FILE = CMakeFiles\simu.dir\simu.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles\simu.dir
-  OBJECT_FILE_DIR = CMakeFiles\simu.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target simu
-
-
-#############################################
-# Link the executable simu.exe
-
-build simu.exe: CXX_EXECUTABLE_LINKER__simu_Debug CMakeFiles/simu.dir/simu.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\simu.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = simu.exe
-  TARGET_IMPLIB = libsimu.dll.a
-  TARGET_PDB = simu.exe.dbg
+  TARGET_FILE = libStackAndRecursionLib.a
+  TARGET_PDB = StackAndRecursionLib.a.dbg
 
 
 #############################################
@@ -406,12 +262,6 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Fact: phony Fact.exe
-
-build Fib: phony Fib.exe
-
-build Hanoi: phony Hanoi.exe
-
 build LinkQueue: phony LinkQueue.exe
 
 build LinkStack: phony LinkStack.exe
@@ -420,11 +270,9 @@ build SqQueue: phony SqQueue.exe
 
 build SqStack: phony SqStack.exe
 
-build TraverseList: phony TraverseList.exe
+build StackAndRecursion: phony StackAndRecursion.exe
 
-build TraverseListLib: phony libTraverseListLib.a
-
-build simu: phony simu.exe
+build StackAndRecursionLib: phony libStackAndRecursionLib.a
 
 # =============================================================================
 # Folder targets.
@@ -434,7 +282,7 @@ build simu: phony simu.exe
 #############################################
 # Folder: D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug
 
-build all: phony SqStack.exe LinkStack.exe SqQueue.exe LinkQueue.exe TraverseList.exe libTraverseListLib.a Hanoi.exe Fib.exe Fact.exe simu.exe
+build all: phony SqStack.exe LinkStack.exe SqQueue.exe LinkQueue.exe StackAndRecursion.exe libStackAndRecursionLib.a
 
 # =============================================================================
 # Built-in targets

@@ -1,11 +1,9 @@
 {
+	"archive" : {},
 	"artifacts" : 
 	[
 		{
-			"path" : "simu.exe"
-		},
-		{
-			"path" : "simu.pdb"
+			"path" : "libStackAndRecursionLib.a"
 		}
 	],
 	"backtrace" : 1,
@@ -13,7 +11,7 @@
 	{
 		"commands" : 
 		[
-			"add_executable"
+			"add_library"
 		],
 		"files" : 
 		[
@@ -27,7 +25,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 26,
+				"line" : 12,
 				"parent" : 0
 			}
 		]
@@ -59,28 +57,9 @@
 			]
 		}
 	],
-	"id" : "simu::@6890427a1f51a3e7e1df",
-	"link" : 
-	{
-		"commandFragments" : 
-		[
-			{
-				"fragment" : "-g",
-				"role" : "flags"
-			},
-			{
-				"fragment" : "",
-				"role" : "flags"
-			},
-			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
-				"role" : "libraries"
-			}
-		],
-		"language" : "CXX"
-	},
-	"name" : "simu",
-	"nameOnDisk" : "simu.exe",
+	"id" : "StackAndRecursionLib::@6890427a1f51a3e7e1df",
+	"name" : "StackAndRecursionLib",
+	"nameOnDisk" : "libStackAndRecursionLib.a",
 	"paths" : 
 	{
 		"build" : ".",
@@ -94,13 +73,6 @@
 			[
 				0
 			]
-		},
-		{
-			"name" : "Header Files",
-			"sourceIndexes" : 
-			[
-				1
-			]
 		}
 	],
 	"sources" : 
@@ -108,14 +80,9 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "simu.cpp",
+			"path" : "D:/data/duotone/repo/02-Linear List/TextBook/LinkList.cpp",
 			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "simu.h",
-			"sourceGroupIndex" : 1
 		}
 	],
-	"type" : "EXECUTABLE"
+	"type" : "STATIC_LIBRARY"
 }

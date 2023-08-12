@@ -8,19 +8,6 @@ add_executable(LinkStack LinkStack.cpp LinkStack.h)
 add_executable(SqQueue SqQueue.cpp SqQueue.h)
 add_executable(LinkQueue LinkQueue.cpp LinkQueue.h)
 
-# TraverseList
-add_executable(TraverseList TraverseList.cpp TraverseList.h TraverseList-main.cpp)
-add_library(TraverseListLib "../../02-Linear List/TextBook/LinkList.cpp")
-target_link_libraries(TraverseList TraverseListLib)
-
-# Hanoi
-add_executable(Hanoi Hanoi.cpp Hanoi.h Hanoi-main.cpp)
-
-# Fib
-add_executable(Fib Fib.cpp Fib.h)
-
-# Fact
-add_executable(Fact Fact.cpp Fact.h)
-
-# simu
-add_executable(simu simu.cpp simu.h)
+add_executable(StackAndRecursion StackAndRecursion.cpp StackAndRecursion.h)
+add_library(StackAndRecursionLib "../../02-Linear List/TextBook/LinkList.cpp")
+target_link_libraries(StackAndRecursion StackAndRecursionLib)

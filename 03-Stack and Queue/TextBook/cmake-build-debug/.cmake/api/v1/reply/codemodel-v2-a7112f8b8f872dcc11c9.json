@@ -20,11 +20,7 @@
 						2,
 						3,
 						4,
-						5,
-						6,
-						7,
-						8,
-						9
+						5
 					]
 				}
 			],
@@ -44,37 +40,12 @@
 						2,
 						3,
 						4,
-						5,
-						6,
-						7,
-						8,
-						9
+						5
 					]
 				}
 			],
 			"targets" : 
 			[
-				{
-					"directoryIndex" : 0,
-					"id" : "Fact::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Fact-Debug-95c7adb9a88483a02f70.json",
-					"name" : "Fact",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "Fib::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Fib-Debug-1a88d464c7032ec70137.json",
-					"name" : "Fib",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "Hanoi::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Hanoi-Debug-0d596132c1fe130a849b.json",
-					"name" : "Hanoi",
-					"projectIndex" : 0
-				},
 				{
 					"directoryIndex" : 0,
 					"id" : "LinkQueue::@6890427a1f51a3e7e1df",
@@ -105,23 +76,16 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "TraverseList::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TraverseList-Debug-b770bbace6908404d3cb.json",
-					"name" : "TraverseList",
+					"id" : "StackAndRecursion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-StackAndRecursion-Debug-88bd9fd5eca00d3280b3.json",
+					"name" : "StackAndRecursion",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "TraverseListLib::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TraverseListLib-Debug-c8ec1e727f559c533b61.json",
-					"name" : "TraverseListLib",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "simu::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-simu-Debug-a9478d4d70ab239b7a17.json",
-					"name" : "simu",
+					"id" : "StackAndRecursionLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-StackAndRecursionLib-Debug-9868cc949b60c7ec964b.json",
+					"name" : "StackAndRecursionLib",
 					"projectIndex" : 0
 				}
 			]
