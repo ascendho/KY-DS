@@ -2,5 +2,6 @@ D:/data/duotone/repo/08-Sorting/TextBook/cmake-build-debug/CMakeFiles/DataList.d
 D:/data/duotone/repo/08-Sorting/TextBook/cmake-build-debug/CMakeFiles/InsertSort.dir
 D:/data/duotone/repo/08-Sorting/TextBook/cmake-build-debug/CMakeFiles/BInsertSort.dir
 D:/data/duotone/repo/08-Sorting/TextBook/cmake-build-debug/CMakeFiles/ShellSort.dir
+D:/data/duotone/repo/08-Sorting/TextBook/cmake-build-debug/CMakeFiles/BubbleSort.dir
 D:/data/duotone/repo/08-Sorting/TextBook/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/data/duotone/repo/08-Sorting/TextBook/cmake-build-debug/CMakeFiles/rebuild_cache.dir

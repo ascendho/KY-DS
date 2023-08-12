@@ -172,6 +172,39 @@ build ShellSort.exe: CXX_EXECUTABLE_LINKER__ShellSort_Debug CMakeFiles/ShellSort
   TARGET_IMPLIB = libShellSort.dll.a
   TARGET_PDB = ShellSort.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target BubbleSort
+
+
+#############################################
+# Order-only phony target for BubbleSort
+
+build cmake_object_order_depends_target_BubbleSort: phony || CMakeFiles/BubbleSort.dir
+
+build CMakeFiles/BubbleSort.dir/BubbleSort.cpp.obj: CXX_COMPILER__BubbleSort_Debug D$:/data/duotone/repo/08-Sorting/TextBook/BubbleSort.cpp || cmake_object_order_depends_target_BubbleSort
+  DEP_FILE = CMakeFiles\BubbleSort.dir\BubbleSort.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\BubbleSort.dir
+  OBJECT_FILE_DIR = CMakeFiles\BubbleSort.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BubbleSort
+
+
+#############################################
+# Link the executable BubbleSort.exe
+
+build BubbleSort.exe: CXX_EXECUTABLE_LINKER__BubbleSort_Debug CMakeFiles/BubbleSort.dir/BubbleSort.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BubbleSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BubbleSort.exe
+  TARGET_IMPLIB = libBubbleSort.dll.a
+  TARGET_PDB = BubbleSort.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -200,6 +233,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build BInsertSort: phony BInsertSort.exe
 
+build BubbleSort: phony BubbleSort.exe
+
 build DataList: phony DataList.exe
 
 build InsertSort: phony InsertSort.exe
@@ -214,7 +249,7 @@ build ShellSort: phony ShellSort.exe
 #############################################
 # Folder: D:/data/duotone/repo/08-Sorting/TextBook/cmake-build-debug
 
-build all: phony DataList.exe InsertSort.exe BInsertSort.exe ShellSort.exe
+build all: phony DataList.exe InsertSort.exe BInsertSort.exe ShellSort.exe BubbleSort.exe
 
 # =============================================================================
 # Built-in targets

@@ -18,7 +18,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -36,7 +37,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -47,6 +49,13 @@
 					"id" : "BInsertSort::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-BInsertSort-Debug-1913a60135934015fd24.json",
 					"name" : "BInsertSort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BubbleSort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BubbleSort-Debug-e17c0dbfad748d0281c0.json",
+					"name" : "BubbleSort",
 					"projectIndex" : 0
 				},
 				{
