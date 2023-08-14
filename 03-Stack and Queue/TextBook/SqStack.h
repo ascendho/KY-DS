@@ -24,4 +24,8 @@ SElemType GetTop(SqStack S);
 
 Status StackEmpty(SqStack S);
 
+Status DestroySqStack(SqStack& S);
+
+Status ClearSqStack(SqStack& S);
+
 #endif //INC_03_STACK_AND_QUEUE_SQSTACK_H

@@ -65,3 +65,26 @@ Status StackEmpty(SqStack S) {
         return OK;
     return ERROR;
 }
+
+Status DestroySqStack(SqStack &S) {
+    if (StackEmpty(S))
+        return ERROR;
+
+    free(S.base);
+
+    S.base = nullptr;
+    S.top = nullptr;
+    S.size = 0;
+
+    return OK;
+}
+
+Status ClearSqStack(SqStack &S) {
+    if (&S == nullptr || (S).base == nullptr) {
+        return ERROR;
+    }
+
+    S.top = S.base;
+
+    return OK;
+}
