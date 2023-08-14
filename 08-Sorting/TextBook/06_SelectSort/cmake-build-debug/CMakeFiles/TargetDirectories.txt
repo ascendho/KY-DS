@@ -1,0 +1,3 @@
+D:/data/duotone/repo/08-Sorting/TextBook/06_SelectSort/cmake-build-debug/CMakeFiles/SelectSort.dir
+D:/data/duotone/repo/08-Sorting/TextBook/06_SelectSort/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/data/duotone/repo/08-Sorting/TextBook/06_SelectSort/cmake-build-debug/CMakeFiles/rebuild_cache.dir
