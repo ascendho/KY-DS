@@ -1,0 +1,3 @@
+D:/data/duotone/repo/08-Sorting/TextBook/07_TournamentSort/cmake-build-debug/CMakeFiles/TournamentSort.dir
+D:/data/duotone/repo/08-Sorting/TextBook/07_TournamentSort/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/data/duotone/repo/08-Sorting/TextBook/07_TournamentSort/cmake-build-debug/CMakeFiles/rebuild_cache.dir
