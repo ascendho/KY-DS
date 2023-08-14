@@ -4,11 +4,7 @@ typora-copy-images-to: ./img
 
 ## 为什么 Why
 
-- **基础源码**(数据结构的基本操作)将会以`class`的形式给出，一个`.cpp`文件和一个`.h`文件，在*ipad*上下
-
-  载**GitHub**应用软件，零散时间可快速打开温习代码，**习题解答**和**应用案例**会另给出一个`main.cpp`文件用
-
-  于测试
+- **基础源码**(数据结构的基本操作)将会以`class`的形式给出，一个`.cpp`文件和一个`.h`文件，在*ipad*上下载**GitHub**应用软件，零散时间可快速打开温习代码，**习题解答**和**应用案例**会另给出一个`main.cpp`文件用于测试
 
 - 每个章节里面一般包含3个文件`TextBook`，`Applied Case`和`Exercise`，分别包括**基础源码**(数据结构
 
@@ -105,7 +101,7 @@ git clone https://github.com/ascendho/KY-DS.git
 | :-------------------------: | :------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |       数据结构双色版        | 严蔚敏、李冬梅 | ![数据结构（C语言版）（第2版）](img/2110398aa6025c417e71.jpeg) | <a href="https://www.ryjiaoyu.com/book/details/45170">人邮教育</a> |
 | 数据结构习题解析与实验指导  |     李冬梅     | ![数据结构习题解析与实验指导](img/2204c1aa113663e88ab9.png)  | <a href="https://www.ryjiaoyu.com/book/details/43313">人邮教育</a> |
-|      数据结构(C语言版)      | 严蔚敏、吴伟民 | ![002368-07-1691942097716-2](img/002368-07-1691942097716-2.jpg) | <a href="http://www.tup.tsinghua.edu.cn/booksCenter/book_00236807.html">清华大学出版社</a> |
+|      数据结构(C语言版)      | 严蔚敏、吴伟民 | ![image-20230814130235606](img/image-20230814130235606.png)  | <a href="http://www.tup.tsinghua.edu.cn/booksCenter/book_00236807.html">清华大学出版社</a> |
 | 数据结构（C++语言版 第3版） |     邓俊辉     |      ![数据结构（C++语言版 第3版）](img/s28064419.jpg)       | <a href="https://dsa.cs.tsinghua.edu.cn/~deng/ds/dsacpp/index.htm">DSACPP</a> |
 |  2024数据结构考研复习指导   |    王道论坛    | ![image-20230619194511434](img/image-20230619194511434.png)  |                              /                               |
 
