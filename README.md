@@ -103,6 +103,8 @@ git clone https://github.com/ascendho/KY-DS.git
 | 数据结构（C++语言版 第3版） |     邓俊辉     |      ![数据结构（C++语言版 第3版）](img/s28064419.jpg)       | <a href="https://dsa.cs.tsinghua.edu.cn/~deng/ds/dsacpp/index.htm">DSACPP</a> |
 |  2024数据结构考研复习指导   |    王道论坛    | ![image-20230619194511434](img/image-20230619194511434.png)  |                              /                               |
 
+**注**：数据结构（C++语言版 第3版）的作者邓俊辉**免费开源**了其教材及其配套习题集的高清pdf，如有需要，可前往表中的资源链接获取及更多的配套资源
+
 ------
 
 
