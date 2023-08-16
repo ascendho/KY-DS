@@ -42,5 +42,11 @@ typedef int KeyType;
 
 #define ENDFLAG '#'
 
+typedef char KeysType;					//定义关键字类型为字符型
+typedef int InfoType;					//定义其它数据项的类型
+#define MAXNUM_KEY 8                	//关键字项数的最大值
+#define RADIX 10                        //关键字基数，此时是十进制整数的基数
+#define MAX_SPACE 10000
+
 
 #endif //STATUS_STATUS_H
