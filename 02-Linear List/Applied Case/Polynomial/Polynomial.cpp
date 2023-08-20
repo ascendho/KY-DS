@@ -46,49 +46,49 @@ void AddPolyn(Polynomial &Pa, Polynomial &Pb) {
     Polynomial r, p1, p2, p3;
     float sum;
 
-    //p1和p2初值分别指向Pa和Pb的第一个结点
+    // p1和p2初值分别指向Pa和Pb的第一个结点
     p1 = Pa->next;
     p2 = Pb->next;
 
-    //p3指向和多项式的当前结点，初值为Pa
+    // p3指向和多项式的当前结点，初值为Pa
     p3 = Pa;
 
     //p1和p2均非空
     while (p1 && p2) {
-        if (p1->expn == p2->expn)      //指数相等
+        if (p1->expn == p2->expn)      // 指数相等
         {
-            sum = p1->coef + p2->coef; //sum保存两项的系数和
-            if (sum != 0)              //系数和不为0
+            sum = p1->coef + p2->coef; // sum保存两项的系数和
+            if (sum != 0)              // 系数和不为0
             {
-                p1->coef = sum;        //修改Pa当前结点p1的系数值为两项系数的和
+                p1->coef = sum;        // 修改Pa当前结点p1的系数值为两项系数的和
                 p3->next = p1;
-                p3 = p1;               //将修改后的Pa当前结点p1链接在p3之后，p3指向p1
-                p1 = p1->next;         //p1指向后一项
+                p3 = p1;               // 将修改后的Pa当前结点p1链接在p3之后，p3指向p1
+                p1 = p1->next;         // p1指向后一项
                 r = p2;
                 p2 = p2->next;
-                delete r;              //删除Pb当前结点r
-            } else                     //系数和为0
+                delete r;              // 删除Pb当前结点r
+            } else                     // 系数和为0
             {
                 r = p1;
                 p1 = p1->next;
-                delete r;               //删除Pb当前结点p1,p1指向后一项
+                delete r;               // 删除Pb当前结点p1,p1指向后一项
 
                 r = p2;
                 p2 = p2->next;
-                delete r;               //删除Pb当前结点p2,p2指向后一项
+                delete r;               // 删除Pb当前结点p2,p2指向后一项
             }
-        } else if (p1->expn < p2->expn) //Pa当前结点p1的指数值小
+        } else if (p1->expn < p2->expn) // Pa当前结点p1的指数值小
         {
-            p3->next = p1;              //将p1链在p3之后
-            p3 = p1;                    //p3指向p1
-            p1 = p1->next;              //p1指向后一项
-        } else                          //Pa当前结点p2的指数值小
+            p3->next = p1;              // 将p1链在p3之后
+            p3 = p1;                    // p3指向p1
+            p1 = p1->next;              // p1指向后一项
+        } else                          // Pa当前结点p2的指数值小
         {
-            p3->next = p2;              //将p2链接在p3之后
-            p3 = p2;                    //p3指向p2
-            p2 = p2->next;              //p2指向后一项
+            p3->next = p2;              // 将p2链接在p3之后
+            p3 = p2;                    // p3指向p2
+            p2 = p2->next;              // p2指向后一项
         }
     }
-    p3->next = p1 ? p1 : p2;            //插入非空多项式的剩余段
-    delete Pb;                          //释放Pb的头结点
+    p3->next = p1 ? p1 : p2;            // 插入非空多项式的剩余段
+    delete Pb;                          // 释放Pb的头结点
 }
