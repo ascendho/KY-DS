@@ -99,7 +99,7 @@ git clone https://github.com/ascendho/KY-DS.git
 | :-------------------------: | :------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |       数据结构双色版        | 严蔚敏、李冬梅 | ![数据结构（C语言版）（第2版）](img/2110398aa6025c417e71.jpeg) | <a href="https://www.ryjiaoyu.com/book/details/45170">人邮教育</a> |
 | 数据结构习题解析与实验指导  |     李冬梅     | ![数据结构习题解析与实验指导](img/2204c1aa113663e88ab9.png)  | <a href="https://www.ryjiaoyu.com/book/details/43313">人邮教育</a> |
-|      数据结构(C语言版)      | 严蔚敏、吴伟民 | ![image-20230814130235606](img/image-20230814130235606.png)  | <a href="http://www.tup.tsinghua.edu.cn/booksCenter/book_00236807.html">清华大学出版社</a> |
+|      数据结构(C语言版)      | 严蔚敏、吴伟民 | ![image-20230820155935596](img/image-20230820155935596.png)  | <a href="http://www.tup.tsinghua.edu.cn/booksCenter/book_00236807.html">清华大学出版社</a> |
 | 数据结构（C++语言版 第3版） |     邓俊辉     |      ![数据结构（C++语言版 第3版）](img/s28064419.jpg)       | <a href="https://dsa.cs.tsinghua.edu.cn/~deng/ds/dsacpp/index.htm">DSACPP</a> |
 |  2024数据结构考研复习指导   |    王道论坛    | ![image-20230619194511434](img/image-20230619194511434.png)  |                              /                               |
 
