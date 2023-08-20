@@ -1,0 +1,3 @@
+D:/data/duotone/repo/02-Linear List/TextBook/05_Union/cmake-build-debug/CMakeFiles/Union.dir
+D:/data/duotone/repo/02-Linear List/TextBook/05_Union/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/data/duotone/repo/02-Linear List/TextBook/05_Union/cmake-build-debug/CMakeFiles/rebuild_cache.dir

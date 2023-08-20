@@ -5,10 +5,9 @@
 
 void UnionList(LinkList &LA, LinkList LB) {
     LNode *p = LB->next;
-    int e;
 
     while (p != nullptr) {
-        e = p->data;
+        int e = p->data;
         if (!ElemIsInLinkList(LA, e))        // LA中不存在和e相同的数据元素，则插入之
             LinkListInsert(LA, 1, e);     // 插入到开头，提高效率
 
@@ -27,8 +26,8 @@ void UnionList(SqList &LA, SqList LB) {
     int e;
 
     for (int i = 1; i <= LB_len; i++) {
-        GetSqListElem(LB, i, e);                //取LB中第i个数据元素赋给e
-        if (!ElemIsInSqList(LA, e))                //LA中不存在和e相同的数据元素，则插入之
-            SqListInsert(LA, ++LA_len, e);      //将e插在LA的最后
+        GetSqListElem(LB, i, e);                // 取LB中第i个数据元素赋给e
+        if (!ElemIsInSqList(LA, e))                // LA中不存在和e相同的数据元素，则插入之
+            SqListInsert(LA, ++LA_len, e);      // 将e插在LA的最后
     }
 }
