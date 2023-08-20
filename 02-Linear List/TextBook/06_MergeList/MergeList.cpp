@@ -1,14 +1,13 @@
 #include "MergeList.h"
 
 // 算法2.16 顺序有序表的合并
-// 已知顺序有序表LA和LB的元素按值非递减排序
-// 归并LA和LB得到新的顺序有序表LC的元素也按值非递减排序
+// 已知顺序有序表LA和LB的元素按值非递减排序, 归并LA和LB得到新的顺序有序表LC的元素也按值非递减排序
 
 // 时间复杂度：O(m+n)
 // 空间复杂度：O(m+n)
 
 void MergeList_Sq(SqList LA, SqList LB, SqList &LC) {
-    //新表长度为待合并两表的长度之和
+    // 新表长度为待合并两表的长度之和
     LC.elem = new ElemType[LA.length + LB.length];
 
     ElemType *pa = LA.elem;
@@ -30,8 +29,7 @@ void MergeList_Sq(SqList LA, SqList LB, SqList &LC) {
 }
 
 // 算法2.17 链式有序表的合并
-// 已知单链表LA和LB的元素按值非递减排序
-// 归并LA和LB得到新的单链表LC的元素也按值非递减排序
+// 已知单链表LA和LB的元素按值非递减排序, 归并LA和LB得到新的单链表LC的元素也按值非递减排序
 
 // 时间复杂度：O(m+n)
 // 空间复杂度：O(1)
