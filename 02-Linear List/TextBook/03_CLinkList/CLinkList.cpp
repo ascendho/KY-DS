@@ -1,9 +1,15 @@
 #include "CLinkList.h"
+#include <iostream>
 
 // 初始化一个循环单链表
 Status InitCList(CLinkList &L) {
     L = new CLNode;
+
     // 内存可能不足，分配失败
+    if (!L)
+        exit(ERROR);
+
+    // 指向自己以构成环
     L->next = L;
 
     return OK;

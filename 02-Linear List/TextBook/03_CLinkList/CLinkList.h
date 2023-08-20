@@ -1,8 +1,8 @@
 #ifndef INC_02_LINEAR_LIST_CLINKLIST_H
 #define INC_02_LINEAR_LIST_CLINKLIST_H
 
-#include "../../Status/Status.h"
-#include "LinkList.h"
+#include "../../../Status/Status.h"
+#include "../02_LinkList/LinkList.h"
 
 typedef LinkList CLinkList;
 typedef LNode CLNode;
