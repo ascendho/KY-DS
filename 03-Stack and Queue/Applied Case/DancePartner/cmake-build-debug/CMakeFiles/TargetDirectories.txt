@@ -1,3 +1,0 @@
-D:/data/duotone/repo/03-Stack and Queue/Applied Case/DancePartner/cmake-build-debug/CMakeFiles/DancePartner.dir
-D:/data/duotone/repo/03-Stack and Queue/Applied Case/DancePartner/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/data/duotone/repo/03-Stack and Queue/Applied Case/DancePartner/cmake-build-debug/CMakeFiles/rebuild_cache.dir
