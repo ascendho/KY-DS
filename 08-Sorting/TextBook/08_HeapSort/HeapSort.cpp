@@ -31,7 +31,7 @@ void HeapAdjust(DataList &L, int s, int m) {
         L.r[s] = L.r[j];
         s = j;
     }
-    L.r[s] = rc;                                    //插入
+    L.r[s] = rc;                                        // 插入
 }
 
 // 用算法8.8 建初堆

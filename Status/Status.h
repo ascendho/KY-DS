@@ -22,8 +22,8 @@ typedef int AtomType;
 typedef int TElemType;
 
 
-#define MaxInt INT_MAX                    	// 表示极大值，即∞
-#define MVNum 100                       	// 最大顶点数
+#define MaxInt INT_MAX                        // 表示极大值，即∞
+#define MVNum 100                        // 最大顶点数
 
 typedef char VerTexType;                    // 假设顶点的数据类型为字符型
 typedef int ArcType;                        // 假设边的权值类型为整型
@@ -36,17 +36,22 @@ typedef int InfoType;
 typedef int VertexType;
 
 #define MAX_VERTEX_NUM 20
-#define BDNum MVNum * (MVNum - 1)			// 最大边数
+#define BDNum MVNum * (MVNum - 1)            // 最大边数
 
 typedef int KeyType;
 
 #define ENDFLAG '#'
 
-typedef char KeysType;					//定义关键字类型为字符型
-typedef int InfoType;					//定义其它数据项的类型
-#define MAXNUM_KEY 8                	//关键字项数的最大值
+typedef char KeysType;                    //定义关键字类型为字符型
+typedef int InfoType;                    //定义其它数据项的类型
+#define MAXNUM_KEY 8                    //关键字项数的最大值
 #define RADIX 10                        //关键字基数，此时是十进制整数的基数
 #define MAX_SPACE 10000
 
+#define FALSE 0
+#define TRUE 1
+#define OK 1
+#define m 3                        // B-树的阶，暂设为3
+typedef int Record;
 
 #endif //STATUS_STATUS_H
