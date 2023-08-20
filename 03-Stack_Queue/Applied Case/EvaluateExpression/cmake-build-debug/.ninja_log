@@ -1,0 +1,6 @@
+# ninja log v5
+10	544	7129397731020184	CMakeFiles/EvaluateExpressionLib.dir/D_/data/duotone/repo/03-Stack_and_Queue/TextBook/LinkStack.cpp.obj	d8766f2a2fd539
+5	593	7129397731501980	CMakeFiles/EvaluateExpression.dir/EvaluateExpression-main.cpp.obj	5da8c945bf6899ed
+1	611	7129397731690953	CMakeFiles/EvaluateExpression.dir/EvaluateExpression.cpp.obj	8f199d5c32b42ce8
+549	645	7129397732038401	libEvaluateExpressionLib.a	3c4603d0a9d92977
+645	810	7129397733647767	EvaluateExpression.exe	8d9c60663ef9b6db

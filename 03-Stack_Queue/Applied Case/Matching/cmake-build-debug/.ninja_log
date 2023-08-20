@@ -1,0 +1,7 @@
+# ninja log v5
+3	174	7129396403438904	build.ninja	27ade5b9e4cab682
+6	512	7129396408941653	CMakeFiles/Matching.dir/Matching.cpp.obj	23d04a119b862ff
+1	542	7129396409240248	CMakeFiles/Matching.dir/Matching-main.cpp.obj	68c2797ac3a52d00
+11	557	7129396409390387	CMakeFiles/MatchingLib.dir/D_/data/duotone/repo/03-Stack_and_Queue/TextBook/LinkStack.cpp.obj	8028bf967a918d73
+557	646	7129396410282913	libMatchingLib.a	da6d62150a0bb44
+646	815	7129396411944481	Matching.exe	35db16b1d76e43a2

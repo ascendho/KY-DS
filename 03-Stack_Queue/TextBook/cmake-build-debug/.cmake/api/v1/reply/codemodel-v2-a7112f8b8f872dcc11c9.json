@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "03_Stack_and_Queue",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "LinkQueue::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LinkQueue-Debug-6ac7c32ed31a534a6ec3.json",
+					"name" : "LinkQueue",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LinkStack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LinkStack-Debug-be9f4125c043603a20b7.json",
+					"name" : "LinkStack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SqQueue::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SqQueue-Debug-625db5a47b7b996bb11c.json",
+					"name" : "SqQueue",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SqStack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SqStack-Debug-6f0b84df562c25789a25.json",
+					"name" : "SqStack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "StackAndRecursion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-StackAndRecursion-Debug-88bd9fd5eca00d3280b3.json",
+					"name" : "StackAndRecursion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "StackAndRecursionLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-StackAndRecursionLib-Debug-9868cc949b60c7ec964b.json",
+					"name" : "StackAndRecursionLib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/data/duotone/repo/03-Stack and Queue/TextBook/cmake-build-debug",
+		"source" : "D:/data/duotone/repo/03-Stack and Queue/TextBook"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

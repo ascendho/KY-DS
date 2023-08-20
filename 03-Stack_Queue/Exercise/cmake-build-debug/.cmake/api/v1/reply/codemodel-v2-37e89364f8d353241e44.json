@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Exercise",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "DblStack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DblStack-Debug-abf4fd24324ce74f5c19.json",
+					"name" : "DblStack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Deque::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Deque-Debug-a62b3299a9c90da77128.json",
+					"name" : "Deque",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "IsPalindrome::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-IsPalindrome-Debug-2a53349b348446a1cb3e.json",
+					"name" : "IsPalindrome",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "IsPalindromeLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-IsPalindromeLib-Debug-99b1566a399183779a04.json",
+					"name" : "IsPalindromeLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Postfix::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Postfix-Debug-3d8445e6cd0823ccee16.json",
+					"name" : "Postfix",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PostfixLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PostfixLib-Debug-65814937a2092cee6961.json",
+					"name" : "PostfixLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SqQueueWithTag::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SqQueueWithTag-Debug-e23d76ba20ddac149002.json",
+					"name" : "SqQueueWithTag",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/data/duotone/repo/03-Stack and Queue/Exercise/cmake-build-debug",
+		"source" : "D:/data/duotone/repo/03-Stack and Queue/Exercise"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
