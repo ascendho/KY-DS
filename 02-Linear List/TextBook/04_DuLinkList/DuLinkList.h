@@ -6,12 +6,12 @@
 
 using namespace std;
 
-#include "../../Status/Status.h"
+#include "../../../Status/Status.h"
 
 typedef struct DuLNode {
-    ElemType data;         //数据域
-    struct DuLNode *prior; //直接前驱
-    struct DuLNode *next;  //直接后继
+    ElemType data;         // 数据域
+    struct DuLNode *prior; // 直接前驱
+    struct DuLNode *next;  // 直接后继
 } DuLNode, *DuLinkList;
 
 string head_1, head_2, head_3;
