@@ -3,7 +3,7 @@
 
 // 链队的基本操作
 
-#include "../../Status/Status.h"
+#include "../../../Status/Status.h"
 
 // 队列的链式存储结构
 typedef struct QNode {
@@ -12,8 +12,8 @@ typedef struct QNode {
 } QNode, *QueuePtr;
 
 typedef struct {
-    QueuePtr front;   //队头指针
-    QueuePtr rear;    //队尾指针
+    QueuePtr front;   // 队头指针
+    QueuePtr rear;    // 队尾指针
 } LinkQueue;
 
 Status InitQueue(LinkQueue &Q);
