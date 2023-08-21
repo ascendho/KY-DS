@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Matching",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Matching::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Matching-Debug-42efb198947c763d0efd.json",
+					"name" : "Matching",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MatchingLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MatchingLib-Debug-40853158f88b77ba291e.json",
+					"name" : "MatchingLib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/data/duotone/repo/03-Stack_Queue/Applied Case/Matching/cmake-build-debug",
+		"source" : "D:/data/duotone/repo/03-Stack_Queue/Applied Case/Matching"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
