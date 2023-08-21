@@ -1,0 +1,4 @@
+D:/data/duotone/repo/03-Stack_Queue/TextBook/03_StackAndRecursion/cmake-build-debug/CMakeFiles/StackAndRecursion.dir
+D:/data/duotone/repo/03-Stack_Queue/TextBook/03_StackAndRecursion/cmake-build-debug/CMakeFiles/StackAndRecursionLib.dir
+D:/data/duotone/repo/03-Stack_Queue/TextBook/03_StackAndRecursion/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/data/duotone/repo/03-Stack_Queue/TextBook/03_StackAndRecursion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
