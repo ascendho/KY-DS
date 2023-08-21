@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "2_8_DeleteMinMax",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "DeleteMinMax::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DeleteMinMax-Debug-c1b827814dcd9cbc8f41.json",
+					"name" : "DeleteMinMax",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DeleteMinMaxLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DeleteMinMaxLib-Debug-9f39a187ce20d356986e.json",
+					"name" : "DeleteMinMaxLib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/data/duotone/repo/02-Linear List/Exercise/2.8_DeleteMinMax/cmake-build-debug",
+		"source" : "D:/data/duotone/repo/02-Linear List/Exercise/2.8_DeleteMinMax"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

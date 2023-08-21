@@ -1,0 +1,4 @@
+D:/data/duotone/repo/02-Linear List/Exercise/2.8_DeleteMinMax/cmake-build-debug/CMakeFiles/DeleteMinMax.dir
+D:/data/duotone/repo/02-Linear List/Exercise/2.8_DeleteMinMax/cmake-build-debug/CMakeFiles/DeleteMinMaxLib.dir
+D:/data/duotone/repo/02-Linear List/Exercise/2.8_DeleteMinMax/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/data/duotone/repo/02-Linear List/Exercise/2.8_DeleteMinMax/cmake-build-debug/CMakeFiles/rebuild_cache.dir
