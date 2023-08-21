@@ -28,7 +28,7 @@
 					[
 						0
 					],
-					"name" : "EvaluateExpression",
+					"name" : "Conversion",
 					"targetIndexes" : 
 					[
 						0,
@@ -40,16 +40,16 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "EvaluateExpression::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-EvaluateExpression-Debug-282992e9054351cf12df.json",
-					"name" : "EvaluateExpression",
+					"id" : "Conversion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Conversion-Debug-a49288f6fda6569319d1.json",
+					"name" : "Conversion",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "EvaluateExpressionLib::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-EvaluateExpressionLib-Debug-8966fcc6993a4d1ae9f7.json",
-					"name" : "EvaluateExpressionLib",
+					"id" : "ConversionLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ConversionLib-Debug-656423b27dbc03e27793.json",
+					"name" : "ConversionLib",
 					"projectIndex" : 0
 				}
 			]
@@ -58,8 +58,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/data/duotone/repo/03-Stack and Queue/Applied Case/EvaluateExpression/cmake-build-debug",
-		"source" : "D:/data/duotone/repo/03-Stack and Queue/Applied Case/EvaluateExpression"
+		"build" : "D:/data/duotone/repo/03-Stack_Queue/Applied Case/Conversion/cmake-build-debug",
+		"source" : "D:/data/duotone/repo/03-Stack_Queue/Applied Case/Conversion"
 	},
 	"version" : 
 	{

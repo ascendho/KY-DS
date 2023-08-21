@@ -149,8 +149,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "D:/data/duotone/repo/03-Stack and Queue/Applied Case/EvaluateExpression/cmake-build-debug",
-		"source" : "D:/data/duotone/repo/03-Stack and Queue/Applied Case/EvaluateExpression"
+		"build" : "D:/data/duotone/repo/03-Stack_Queue/Applied Case/Conversion/cmake-build-debug",
+		"source" : "D:/data/duotone/repo/03-Stack_Queue/Applied Case/Conversion"
 	},
 	"version" : 
 	{

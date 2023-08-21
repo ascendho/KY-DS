@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/data/duotone/repo/03-Stack and Queue/Applied Case/EvaluateExpression/cmake-build-debug"
+			"value" : "d:/data/duotone/repo/03-Stack_Queue/TextBook/LineEdit/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/data/duotone/repo/03-Stack and Queue/Applied Case/EvaluateExpression/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "D:/data/duotone/repo/03-Stack_Queue/TextBook/LineEdit/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/data/duotone/repo/03-Stack and Queue/Applied Case/EvaluateExpression"
+			"value" : "D:/data/duotone/repo/03-Stack_Queue/TextBook/LineEdit"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/EvaluateExpression"
+			"value" : "C:/Program Files (x86)/LineEdit"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -875,7 +875,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "EvaluateExpression"
+			"value" : "LineEdit"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1254,7 +1254,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "EvaluateExpression_BINARY_DIR",
+			"name" : "LineEdit_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1263,10 +1263,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/data/duotone/repo/03-Stack and Queue/Applied Case/EvaluateExpression/cmake-build-debug"
+			"value" : "D:/data/duotone/repo/03-Stack_Queue/TextBook/LineEdit/cmake-build-debug"
 		},
 		{
-			"name" : "EvaluateExpression_IS_TOP_LEVEL",
+			"name" : "LineEdit_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1278,7 +1278,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "EvaluateExpression_SOURCE_DIR",
+			"name" : "LineEdit_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1287,7 +1287,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/data/duotone/repo/03-Stack and Queue/Applied Case/EvaluateExpression"
+			"value" : "D:/data/duotone/repo/03-Stack_Queue/TextBook/LineEdit"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
