@@ -1,0 +1,4 @@
+D:/data/duotone/repo/03-Stack_Queue/Exercise/3.4_Postfix/cmake-build-debug/CMakeFiles/Postfix.dir
+D:/data/duotone/repo/03-Stack_Queue/Exercise/3.4_Postfix/cmake-build-debug/CMakeFiles/PostfixLib.dir
+D:/data/duotone/repo/03-Stack_Queue/Exercise/3.4_Postfix/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/data/duotone/repo/03-Stack_Queue/Exercise/3.4_Postfix/cmake-build-debug/CMakeFiles/rebuild_cache.dir

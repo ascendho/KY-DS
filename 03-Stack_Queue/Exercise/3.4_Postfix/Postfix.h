@@ -1,8 +1,8 @@
 #ifndef EXERCISE_POSTFIX_H
 #define EXERCISE_POSTFIX_H
 
-#include "../../Status/Status.h"
-#include "../TextBook/SqStack.h"
+#include "../../../Status/Status.h"
+#include "../../TextBook/01_SqStack/SqStack.h"
 
 double Postfix( );
 

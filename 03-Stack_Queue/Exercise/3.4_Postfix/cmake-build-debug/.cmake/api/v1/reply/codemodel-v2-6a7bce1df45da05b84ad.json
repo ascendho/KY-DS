@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "3_4_Postfix",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Postfix::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Postfix-Debug-03357588a5ce369a753c.json",
+					"name" : "Postfix",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PostfixLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PostfixLib-Debug-865659cd4db3a1a5be37.json",
+					"name" : "PostfixLib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/data/duotone/repo/03-Stack_Queue/Exercise/3.4_Postfix/cmake-build-debug",
+		"source" : "D:/data/duotone/repo/03-Stack_Queue/Exercise/3.4_Postfix"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
