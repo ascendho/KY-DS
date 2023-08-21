@@ -1,7 +1,7 @@
-/* 链栈实现表达式求值 */
-
 #include "EvaluateExpression.h"
 #include<iostream>
+
+/* 链栈实现表达式求值 */
 
 // 支持的运算符和界限符
 const char oper[] = {'+', '-', '*', '/', '(', ')', '#'};

@@ -5,5 +5,5 @@ set(CMAKE_CXX_STANDARD 20)
 
 # EvaluateExpression
 add_executable(EvaluateExpression EvaluateExpression.cpp EvaluateExpression.h EvaluateExpression-main.cpp)
-add_library(EvaluateExpressionLib "../../TextBook/LinkStack.cpp")
+add_library(EvaluateExpressionLib "../../TextBook/02_LinkStack/LinkStack.h" "../../TextBook/02_LinkStack/LinkStack.cpp")
 target_link_libraries(EvaluateExpression EvaluateExpressionLib)

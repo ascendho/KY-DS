@@ -2,7 +2,7 @@
 #define INC_03_STACK_AND_QUEUE_EVALUATEEXPRESSION_H
 
 #include "../../../Status/Status.h"
-#include "../../TextBook/LinkStack.h"
+#include "../../TextBook/02_LinkStack/LinkStack.h"
 
 bool In(char ch);
 
