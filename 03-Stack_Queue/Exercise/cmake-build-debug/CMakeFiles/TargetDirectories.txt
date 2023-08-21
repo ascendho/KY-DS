@@ -1,9 +1,0 @@
-D:/data/duotone/repo/03-Stack and Queue/Exercise/cmake-build-debug/CMakeFiles/IsPalindrome.dir
-D:/data/duotone/repo/03-Stack and Queue/Exercise/cmake-build-debug/CMakeFiles/IsPalindromeLib.dir
-D:/data/duotone/repo/03-Stack and Queue/Exercise/cmake-build-debug/CMakeFiles/Postfix.dir
-D:/data/duotone/repo/03-Stack and Queue/Exercise/cmake-build-debug/CMakeFiles/PostfixLib.dir
-D:/data/duotone/repo/03-Stack and Queue/Exercise/cmake-build-debug/CMakeFiles/DblStack.dir
-D:/data/duotone/repo/03-Stack and Queue/Exercise/cmake-build-debug/CMakeFiles/SqQueueWithTag.dir
-D:/data/duotone/repo/03-Stack and Queue/Exercise/cmake-build-debug/CMakeFiles/Deque.dir
-D:/data/duotone/repo/03-Stack and Queue/Exercise/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/data/duotone/repo/03-Stack and Queue/Exercise/cmake-build-debug/CMakeFiles/rebuild_cache.dir
