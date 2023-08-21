@@ -4,7 +4,9 @@
 // 创建队列
 Status InitQueue(SqQueueWithTag &Q) {
     Q.base = new QElemType[MAXQSIZE];
-    if (!Q.base) return OVERFLOW;
+
+    if (!Q.base)
+        return OVERFLOW;
 
     Q.front = Q.rear = 0;
     return OK;
