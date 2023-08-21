@@ -1,0 +1,14 @@
+# ninja log v5
+1	115	7143245665466086	CMakeFiles/IsPalindrome.dir/IsPalindrome.cpp.obj	ad3e105c9178fd11
+11	524	7143245669545554	CMakeFiles/IsPalindromeLib.dir/D_/data/duotone/repo/03-Stack_Queue/TextBook/01_SqStack/SqStack.cpp.obj	8ddb53dd871a6049
+10	126	7143245935514003	libIsPalindromeLib.a	c226d9f6fafed941
+4	85	7143246392206115	CMakeFiles/IsPalindrome.dir/IsPalindrome.cpp.obj	ad3e105c9178fd11
+9	504	7143246396396321	CMakeFiles/IsPalindrome.dir/IsPalindrome-main.cpp.obj	757c451e68dda1b1
+14	517	7143246396508519	CMakeFiles/IsPalindromeLib.dir/D_/data/duotone/repo/03-Stack_Queue/TextBook/01_SqStack/SqStack.cpp.obj	8ddb53dd871a6049
+517	598	7143246397342973	libIsPalindromeLib.a	c226d9f6fafed941
+598	773	7143246399025897	IsPalindrome.exe	709269ebfb95d513
+4	88	7143247037503402	CMakeFiles/IsPalindrome.dir/IsPalindrome.cpp.obj	ad3e105c9178fd11
+9	496	7143247041576647	CMakeFiles/IsPalindrome.dir/IsPalindrome-main.cpp.obj	757c451e68dda1b1
+13	501	7143247041617399	CMakeFiles/IsPalindromeLib.dir/D_/data/duotone/repo/03-Stack_Queue/TextBook/01_SqStack/SqStack.cpp.obj	8ddb53dd871a6049
+501	580	7143247042426752	libIsPalindromeLib.a	c226d9f6fafed941
+581	746	7143247044045133	IsPalindrome.exe	709269ebfb95d513

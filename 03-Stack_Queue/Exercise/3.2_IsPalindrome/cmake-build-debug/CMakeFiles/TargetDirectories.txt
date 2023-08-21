@@ -1,0 +1,4 @@
+D:/data/duotone/repo/03-Stack_Queue/Exercise/3.2_IsPalindrome/cmake-build-debug/CMakeFiles/IsPalindrome.dir
+D:/data/duotone/repo/03-Stack_Queue/Exercise/3.2_IsPalindrome/cmake-build-debug/CMakeFiles/IsPalindromeLib.dir
+D:/data/duotone/repo/03-Stack_Queue/Exercise/3.2_IsPalindrome/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/data/duotone/repo/03-Stack_Queue/Exercise/3.2_IsPalindrome/cmake-build-debug/CMakeFiles/rebuild_cache.dir

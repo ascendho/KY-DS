@@ -51,7 +51,8 @@ typedef int InfoType;                    //定义其它数据项的类型
 #define FALSE 0
 #define TRUE 1
 #define OK 1
-#define m 3                        // B-树的阶，暂设为3
+//#define m 3                        // B-树的阶，暂设为3
+
 typedef int Record;
 
 #define NULLKEY 0                 			//单元为空的标记
