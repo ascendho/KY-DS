@@ -1,4 +1,4 @@
-D:/data/duotone/repo/03-Stack and Queue/Applied Case/Conversion/cmake-build-debug/CMakeFiles/Conversion.dir
-D:/data/duotone/repo/03-Stack and Queue/Applied Case/Conversion/cmake-build-debug/CMakeFiles/ConversionLib.dir
-D:/data/duotone/repo/03-Stack and Queue/Applied Case/Conversion/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/data/duotone/repo/03-Stack and Queue/Applied Case/Conversion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/data/duotone/repo/03-Stack_Queue/Applied Case/Conversion/cmake-build-debug/CMakeFiles/Conversion.dir
+D:/data/duotone/repo/03-Stack_Queue/Applied Case/Conversion/cmake-build-debug/CMakeFiles/ConversionLib.dir
+D:/data/duotone/repo/03-Stack_Queue/Applied Case/Conversion/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/data/duotone/repo/03-Stack_Queue/Applied Case/Conversion/cmake-build-debug/CMakeFiles/rebuild_cache.dir

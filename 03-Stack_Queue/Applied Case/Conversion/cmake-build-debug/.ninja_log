@@ -1,7 +1,6 @@
 # ninja log v5
 0	529	7129392589957870	CMakeFiles/Conversion.dir/Conversion.cpp.obj	6d63f94669e04176
-3	183	7129393917460084	build.ninja	ae917bb7c016bfa7
+3	183	7143237132611589	build.ninja	ae917bb7c016bfa7
 9	506	7129393771353565	CMakeFiles/Conversion.dir/Conversion-main.cpp.obj	2156e77dd14e9e4e
-5	517	7129393771449717	CMakeFiles/ConversionLib.dir/D_/data/duotone/repo/03-Stack_and_Queue/TextBook/LinkStack.cpp.obj	8385c5ebf0c3e892
 517	923	7129393775530597	libConversionLib.a	d32b671e52f7fedc
 924	1096	7129393777226821	Conversion.exe	7daf05ede4e73ace

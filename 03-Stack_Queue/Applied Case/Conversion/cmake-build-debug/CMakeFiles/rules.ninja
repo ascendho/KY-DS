@@ -61,7 +61,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "D:\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"D:\data\duotone\repo\03-Stack and Queue\Applied Case\Conversion" -B"D:\data\duotone\repo\03-Stack and Queue\Applied Case\Conversion\cmake-build-debug"
+  command = "D:\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"D:\data\duotone\repo\03-Stack_Queue\Applied Case\Conversion" -B"D:\data\duotone\repo\03-Stack_Queue\Applied Case\Conversion\cmake-build-debug"
   description = Re-running CMake...
   generator = 1
 

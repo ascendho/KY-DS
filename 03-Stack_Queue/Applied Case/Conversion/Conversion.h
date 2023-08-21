@@ -2,7 +2,7 @@
 #define INC_03_STACK_AND_QUEUE_CONVERSION_H
 
 #include "../../../Status/Status.h"
-#include "../../TextBook/LinkStack.h"
+#include "../../TextBook/02_LinkStack/LinkStack.h"
 
 void Conversion(int N, int base);
 
