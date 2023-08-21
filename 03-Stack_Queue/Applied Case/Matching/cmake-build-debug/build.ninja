@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/data/duotone/repo/03-Stack$ and$ Queue/Applied$ Case/Matching/cmake-build-debug/
+cmake_ninja_workdir = D$:/data/duotone/repo/03-Stack_Queue/Applied$ Case/Matching/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target Matching
 
@@ -49,13 +49,13 @@ cmake_ninja_workdir = D$:/data/duotone/repo/03-Stack$ and$ Queue/Applied$ Case/M
 
 build cmake_object_order_depends_target_Matching: phony || cmake_object_order_depends_target_MatchingLib
 
-build CMakeFiles/Matching.dir/Matching.cpp.obj: CXX_COMPILER__Matching_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/Applied$ Case/Matching/Matching.cpp || cmake_object_order_depends_target_Matching
+build CMakeFiles/Matching.dir/Matching.cpp.obj: CXX_COMPILER__Matching_Debug D$:/data/duotone/repo/03-Stack_Queue/Applied$ Case/Matching/Matching.cpp || cmake_object_order_depends_target_Matching
   DEP_FILE = CMakeFiles\Matching.dir\Matching.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
   OBJECT_DIR = CMakeFiles\Matching.dir
   OBJECT_FILE_DIR = CMakeFiles\Matching.dir
 
-build CMakeFiles/Matching.dir/Matching-main.cpp.obj: CXX_COMPILER__Matching_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/Applied$ Case/Matching/Matching-main.cpp || cmake_object_order_depends_target_Matching
+build CMakeFiles/Matching.dir/Matching-main.cpp.obj: CXX_COMPILER__Matching_Debug D$:/data/duotone/repo/03-Stack_Queue/Applied$ Case/Matching/Matching-main.cpp || cmake_object_order_depends_target_Matching
   DEP_FILE = CMakeFiles\Matching.dir\Matching-main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
   OBJECT_DIR = CMakeFiles\Matching.dir
@@ -88,11 +88,11 @@ build Matching.exe: CXX_EXECUTABLE_LINKER__Matching_Debug CMakeFiles/Matching.di
 
 build cmake_object_order_depends_target_MatchingLib: phony || CMakeFiles/MatchingLib.dir
 
-build CMakeFiles/MatchingLib.dir/D_/data/duotone/repo/03-Stack_and_Queue/TextBook/LinkStack.cpp.obj: CXX_COMPILER__MatchingLib_Debug D$:/data/duotone/repo/03-Stack$ and$ Queue/TextBook/LinkStack.cpp || cmake_object_order_depends_target_MatchingLib
-  DEP_FILE = CMakeFiles\MatchingLib.dir\D_\data\duotone\repo\03-Stack_and_Queue\TextBook\LinkStack.cpp.obj.d
+build CMakeFiles/MatchingLib.dir/D_/data/duotone/repo/03-Stack_Queue/TextBook/02_LinkStack/LinkStack.cpp.obj: CXX_COMPILER__MatchingLib_Debug D$:/data/duotone/repo/03-Stack_Queue/TextBook/02_LinkStack/LinkStack.cpp || cmake_object_order_depends_target_MatchingLib
+  DEP_FILE = CMakeFiles\MatchingLib.dir\D_\data\duotone\repo\03-Stack_Queue\TextBook\02_LinkStack\LinkStack.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
   OBJECT_DIR = CMakeFiles\MatchingLib.dir
-  OBJECT_FILE_DIR = CMakeFiles\MatchingLib.dir\D_\data\duotone\repo\03-Stack_and_Queue\TextBook
+  OBJECT_FILE_DIR = CMakeFiles\MatchingLib.dir\D_\data\duotone\repo\03-Stack_Queue\TextBook\02_LinkStack
 
 
 # =============================================================================
@@ -102,7 +102,7 @@ build CMakeFiles/MatchingLib.dir/D_/data/duotone/repo/03-Stack_and_Queue/TextBoo
 #############################################
 # Link the static library libMatchingLib.a
 
-build libMatchingLib.a: CXX_STATIC_LIBRARY_LINKER__MatchingLib_Debug CMakeFiles/MatchingLib.dir/D_/data/duotone/repo/03-Stack_and_Queue/TextBook/LinkStack.cpp.obj
+build libMatchingLib.a: CXX_STATIC_LIBRARY_LINKER__MatchingLib_Debug CMakeFiles/MatchingLib.dir/D_/data/duotone/repo/03-Stack_Queue/TextBook/02_LinkStack/LinkStack.cpp.obj
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles\MatchingLib.dir
   POST_BUILD = cd .
@@ -115,7 +115,7 @@ build libMatchingLib.a: CXX_STATIC_LIBRARY_LINKER__MatchingLib_Debug CMakeFiles/
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "D:\data\duotone\repo\03-Stack and Queue\Applied Case\Matching\cmake-build-debug" && "D:\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "D:\data\duotone\repo\03-Stack_Queue\Applied Case\Matching\cmake-build-debug" && "D:\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -126,7 +126,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "D:\data\duotone\repo\03-Stack and Queue\Applied Case\Matching\cmake-build-debug" && "D:\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"D:\data\duotone\repo\03-Stack and Queue\Applied Case\Matching" -B"D:\data\duotone\repo\03-Stack and Queue\Applied Case\Matching\cmake-build-debug""
+  COMMAND = cmd.exe /C "cd /D "D:\data\duotone\repo\03-Stack_Queue\Applied Case\Matching\cmake-build-debug" && "D:\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"D:\data\duotone\repo\03-Stack_Queue\Applied Case\Matching" -B"D:\data\duotone\repo\03-Stack_Queue\Applied Case\Matching\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -146,7 +146,7 @@ build MatchingLib: phony libMatchingLib.a
 # =============================================================================
 
 #############################################
-# Folder: D:/data/duotone/repo/03-Stack and Queue/Applied Case/Matching/cmake-build-debug
+# Folder: D:/data/duotone/repo/03-Stack_Queue/Applied Case/Matching/cmake-build-debug
 
 build all: phony Matching.exe libMatchingLib.a
 
@@ -157,14 +157,14 @@ build all: phony Matching.exe libMatchingLib.a
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake D$:/data/duotone/repo/03-Stack$ and$ Queue/Applied$ Case/Matching/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake D$:/data/duotone/repo/03-Stack_Queue/Applied$ Case/Matching/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake D$:/data/duotone/repo/03-Stack$ and$ Queue/Applied$ Case/Matching/CMakeLists.txt: phony
+build CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake D$:/CLion$ 2023.1.1/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake D$:/data/duotone/repo/03-Stack_Queue/Applied$ Case/Matching/CMakeLists.txt: phony
 
 
 #############################################

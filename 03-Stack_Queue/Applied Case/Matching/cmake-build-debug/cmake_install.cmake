@@ -1,4 +1,4 @@
-# Install script for directory: D:/data/duotone/repo/03-Stack and Queue/Applied Case/Matching
+# Install script for directory: D:/data/duotone/repo/03-Stack_Queue/Applied Case/Matching
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/data/duotone/repo/03-Stack and Queue/Applied Case/Matching/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/data/duotone/repo/03-Stack_Queue/Applied Case/Matching/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
