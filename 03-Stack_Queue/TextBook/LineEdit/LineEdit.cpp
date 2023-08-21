@@ -1,5 +1,5 @@
 #include "LineEdit.h"
-#include "../SqStack.h"
+#include "../01_SqStack/SqStack.h"
 #include <iostream>
 
 // 算法3.2
