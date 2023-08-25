@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "02_Index_BF",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Index_BF::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Index_BF-Debug-52a0a1eec96fb188d23b.json",
+					"name" : "Index_BF",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Index_BFLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Index_BFLib-Debug-f0a7ce017d5e41f4c342.json",
+					"name" : "Index_BFLib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/data/duotone/repo/04-String_ Array_Generalized List/TextBook/02_Index_BF/cmake-build-debug",
+		"source" : "D:/data/duotone/repo/04-String_ Array_Generalized List/TextBook/02_Index_BF"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

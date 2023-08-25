@@ -1,0 +1,4 @@
+D:/data/duotone/repo/04-String_ Array_Generalized List/TextBook/02_Index_BF/cmake-build-debug/CMakeFiles/Index_BF.dir
+D:/data/duotone/repo/04-String_ Array_Generalized List/TextBook/02_Index_BF/cmake-build-debug/CMakeFiles/Index_BFLib.dir
+D:/data/duotone/repo/04-String_ Array_Generalized List/TextBook/02_Index_BF/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/data/duotone/repo/04-String_ Array_Generalized List/TextBook/02_Index_BF/cmake-build-debug/CMakeFiles/rebuild_cache.dir

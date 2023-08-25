@@ -1,0 +1,3 @@
+D:/data/duotone/repo/04-String_ Array_Generalized List/TextBook/01_SString/cmake-build-debug/CMakeFiles/SString.dir
+D:/data/duotone/repo/04-String_ Array_Generalized List/TextBook/01_SString/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/data/duotone/repo/04-String_ Array_Generalized List/TextBook/01_SString/cmake-build-debug/CMakeFiles/rebuild_cache.dir

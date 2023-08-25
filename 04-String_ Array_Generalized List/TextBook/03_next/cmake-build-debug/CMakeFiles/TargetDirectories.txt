@@ -1,0 +1,3 @@
+D:/data/duotone/repo/04-String_ Array_Generalized List/TextBook/03_next/cmake-build-debug/CMakeFiles/next.dir
+D:/data/duotone/repo/04-String_ Array_Generalized List/TextBook/03_next/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/data/duotone/repo/04-String_ Array_Generalized List/TextBook/03_next/cmake-build-debug/CMakeFiles/rebuild_cache.dir
