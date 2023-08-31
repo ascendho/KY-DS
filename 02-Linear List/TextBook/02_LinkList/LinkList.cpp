@@ -1,7 +1,6 @@
 #include <iostream>
 #include "LinkList.h"
 
-
 // 算法2.6 单链表的初始化
 // 构造一个空的单链表L
 
@@ -58,7 +57,7 @@ LNode *LocateLinkListElem(LinkList L, ElemType e) {
 
 Status LinkListInsert(LinkList &L, int i, ElemType e) {
     int j = 0;
-    LinkList p = L, s;
+    LinkList p = L;
 
     // 查找第i-1个结点，p指向该结点
     while (p && j < i - 1) {
@@ -69,10 +68,10 @@ Status LinkListInsert(LinkList &L, int i, ElemType e) {
     // i＞n+1或者i＜1
     if (!p || j > i - 1) return ERROR;
 
-    s = new LNode;        // 生成新结点*s
-    s->data = e;          // 将结点*s的数据域置为e
-    s->next = p->next;    // 将结点*s的指针域指向结点ai
-    p->next = s;          // 将结点*p的指针域指向结点*s
+    LNode *s = new LNode;       // 生成新结点*s
+    s->data = e;                // 将结点*s的数据域置为e
+    s->next = p->next;          // 将结点*s的指针域指向结点ai
+    p->next = s;                // 将结点*p的指针域指向结点*s
 
     return OK;
 }
@@ -84,7 +83,7 @@ Status LinkListDelete(LinkList &L, int i) {
     LinkList p = L, q;
     int j = 0;
 
-    // 查找第i-1个结点，p指向该结点
+    // 查找第i-1个结点，p指向该结点的前驱
     while ((p->next) && (j < i - 1)) {
         p = p->next;
         ++j;
