@@ -149,8 +149,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "D:/data/duotone/repo/05-Tree and Binary Tree/Applied Case/BinaryTreeComputeExp/cmake-build-debug",
-		"source" : "D:/data/duotone/repo/05-Tree and Binary Tree/Applied Case/BinaryTreeComputeExp"
+		"build" : "D:/data/duotone/repo/05-Tree_Binary Tree/Exercise/5.6_LevelOrderTraversal/cmake-build-debug",
+		"source" : "D:/data/duotone/repo/05-Tree_Binary Tree/Exercise/5.6_LevelOrderTraversal"
 	},
 	"version" : 
 	{

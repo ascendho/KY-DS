@@ -2,7 +2,7 @@
 	"entries" : 
 	[
 		{
-			"name" : "BinaryTreeComputeExp_BINARY_DIR",
+			"name" : "5_6_LevelOrderTraversal_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -11,10 +11,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/data/duotone/repo/05-Tree and Binary Tree/Applied Case/BinaryTreeComputeExp/cmake-build-debug"
+			"value" : "D:/data/duotone/repo/05-Tree_Binary Tree/Exercise/5.6_LevelOrderTraversal/cmake-build-debug"
 		},
 		{
-			"name" : "BinaryTreeComputeExp_IS_TOP_LEVEL",
+			"name" : "5_6_LevelOrderTraversal_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -26,7 +26,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "BinaryTreeComputeExp_SOURCE_DIR",
+			"name" : "5_6_LevelOrderTraversal_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -35,7 +35,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/data/duotone/repo/05-Tree and Binary Tree/Applied Case/BinaryTreeComputeExp"
+			"value" : "D:/data/duotone/repo/05-Tree_Binary Tree/Exercise/5.6_LevelOrderTraversal"
 		},
 		{
 			"name" : "CMAKE_ADDR2LINE",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/data/duotone/repo/05-Tree and Binary Tree/Applied Case/BinaryTreeComputeExp/cmake-build-debug"
+			"value" : "d:/data/duotone/repo/05-Tree_Binary Tree/Exercise/5.6_LevelOrderTraversal/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -611,7 +611,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/data/duotone/repo/05-Tree and Binary Tree/Applied Case/BinaryTreeComputeExp/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "D:/data/duotone/repo/05-Tree_Binary Tree/Exercise/5.6_LevelOrderTraversal/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -683,7 +683,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/data/duotone/repo/05-Tree and Binary Tree/Applied Case/BinaryTreeComputeExp"
+			"value" : "D:/data/duotone/repo/05-Tree_Binary Tree/Exercise/5.6_LevelOrderTraversal"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -695,7 +695,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/BinaryTreeComputeExp"
+			"value" : "C:/Program Files (x86)/5_6_LevelOrderTraversal"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -911,7 +911,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "BinaryTreeComputeExp"
+			"value" : "5_6_LevelOrderTraversal"
 		},
 		{
 			"name" : "CMAKE_RANLIB",

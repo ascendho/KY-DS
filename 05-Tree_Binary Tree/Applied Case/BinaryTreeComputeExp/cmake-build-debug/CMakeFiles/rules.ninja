@@ -61,7 +61,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "D:\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"D:\data\duotone\repo\05-Tree and Binary Tree\Applied Case\BinaryTreeComputeExp" -B"D:\data\duotone\repo\05-Tree and Binary Tree\Applied Case\BinaryTreeComputeExp\cmake-build-debug"
+  command = "D:\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"D:\data\duotone\repo\05-Tree_Binary Tree\Applied Case\BinaryTreeComputeExp" -B"D:\data\duotone\repo\05-Tree_Binary Tree\Applied Case\BinaryTreeComputeExp\cmake-build-debug"
   description = Re-running CMake...
   generator = 1
 

@@ -58,8 +58,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/data/duotone/repo/05-Tree and Binary Tree/Applied Case/BinaryTreeComputeExp/cmake-build-debug",
-		"source" : "D:/data/duotone/repo/05-Tree and Binary Tree/Applied Case/BinaryTreeComputeExp"
+		"build" : "D:/data/duotone/repo/05-Tree_Binary Tree/Applied Case/BinaryTreeComputeExp/cmake-build-debug",
+		"source" : "D:/data/duotone/repo/05-Tree_Binary Tree/Applied Case/BinaryTreeComputeExp"
 	},
 	"version" : 
 	{

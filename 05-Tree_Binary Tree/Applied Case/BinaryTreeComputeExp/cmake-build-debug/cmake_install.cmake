@@ -1,4 +1,4 @@
-# Install script for directory: D:/data/duotone/repo/05-Tree and Binary Tree/Applied Case/BinaryTreeComputeExp
+# Install script for directory: D:/data/duotone/repo/05-Tree_Binary Tree/Applied Case/BinaryTreeComputeExp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/data/duotone/repo/05-Tree and Binary Tree/Applied Case/BinaryTreeComputeExp/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/data/duotone/repo/05-Tree_Binary Tree/Applied Case/BinaryTreeComputeExp/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
