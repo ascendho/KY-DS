@@ -1,0 +1,3 @@
+D:/data/duotone/repo/06-Graph/TextBook/Graph/cmake-build-debug/CMakeFiles/Graph.dir
+D:/data/duotone/repo/06-Graph/TextBook/Graph/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/data/duotone/repo/06-Graph/TextBook/Graph/cmake-build-debug/CMakeFiles/rebuild_cache.dir
