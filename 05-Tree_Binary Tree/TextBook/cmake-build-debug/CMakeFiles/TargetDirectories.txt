@@ -1,5 +1,0 @@
-D:/data/duotone/repo/05-Tree and Binary Tree/TextBook/cmake-build-debug/CMakeFiles/BiTree.dir
-D:/data/duotone/repo/05-Tree and Binary Tree/TextBook/cmake-build-debug/CMakeFiles/BiThrTree.dir
-D:/data/duotone/repo/05-Tree and Binary Tree/TextBook/cmake-build-debug/CMakeFiles/DisjointSet.dir
-D:/data/duotone/repo/05-Tree and Binary Tree/TextBook/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/data/duotone/repo/05-Tree and Binary Tree/TextBook/cmake-build-debug/CMakeFiles/rebuild_cache.dir

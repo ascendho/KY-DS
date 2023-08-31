@@ -1,7 +1,7 @@
 #ifndef BINARYTREECOMPUTEEXP_COMPUTEEXPRESSION_H
 #define BINARYTREECOMPUTEEXP_COMPUTEEXPRESSION_H
 
-#include "../../../03-Stack and Queue/TextBook/SqStack.h"
+#include "../../../03-Stack_Queue//TextBook/01_SqStack/SqStack.h"
 #include "BiTreeStack.h"
 
 void InitExpTree(BiTree &T);

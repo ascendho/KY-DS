@@ -1,7 +1,7 @@
 #ifndef BINARYTREECOMPUTEEXP_BITREESTACK_H
 #define BINARYTREECOMPUTEEXP_BITREESTACK_H
 
-#include "../../TextBook/BiNode.h"
+#include "../../TextBook/01_BiTree/BiTree.h"
 #include "../../../Status/Status.h"
 
 // 树栈定义

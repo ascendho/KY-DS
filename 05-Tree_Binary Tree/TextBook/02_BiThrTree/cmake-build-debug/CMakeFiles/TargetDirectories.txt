@@ -1,0 +1,3 @@
+D:/data/duotone/repo/05-Tree_Binary Tree/TextBook/02_BiThrTree/cmake-build-debug/CMakeFiles/BiThrTree.dir
+D:/data/duotone/repo/05-Tree_Binary Tree/TextBook/02_BiThrTree/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/data/duotone/repo/05-Tree_Binary Tree/TextBook/02_BiThrTree/cmake-build-debug/CMakeFiles/rebuild_cache.dir
