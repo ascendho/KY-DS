@@ -1,0 +1,3 @@
+D:/data/duotone/repo/07-Searching/TextBook/SSTable/cmake-build-debug/CMakeFiles/SSTable.dir
+D:/data/duotone/repo/07-Searching/TextBook/SSTable/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/data/duotone/repo/07-Searching/TextBook/SSTable/cmake-build-debug/CMakeFiles/rebuild_cache.dir
