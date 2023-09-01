@@ -21,6 +21,8 @@ typedef char QElemType;
 typedef int AtomType;
 typedef int TElemType;
 
+#define MAX_ARRAY_DIM 8   // 假设数组维数的最大值为8
+
 
 #define MaxInt INT_MAX                        // 表示极大值，即∞
 #define MVNum 100                        // 最大顶点数
