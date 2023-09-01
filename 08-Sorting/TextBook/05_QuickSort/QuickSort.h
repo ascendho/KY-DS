@@ -1,7 +1,7 @@
 #ifndef INC_05_QUICKSORT_QUICKSORT_H
 #define INC_05_QUICKSORT_QUICKSORT_H
 
-#include "../DataList.h"
+#include "../DataList/DataList.h"
 
 void QuickSort(DataList &L);
 

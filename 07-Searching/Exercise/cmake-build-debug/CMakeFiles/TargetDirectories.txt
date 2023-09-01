@@ -1,3 +1,0 @@
-D:/data/duotone/repo/07-Searching/Exercise/cmake-build-debug/CMakeFiles/BinSearch_Cur.dir
-D:/data/duotone/repo/07-Searching/Exercise/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/data/duotone/repo/07-Searching/Exercise/cmake-build-debug/CMakeFiles/rebuild_cache.dir
