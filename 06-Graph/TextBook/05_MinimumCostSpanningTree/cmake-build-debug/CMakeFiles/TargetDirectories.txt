@@ -1,0 +1,3 @@
+D:/data/duotone/repo/06-Graph/TextBook/05_MinimumCostSpanningTree/cmake-build-debug/CMakeFiles/MinimumCostSpanningTree.dir
+D:/data/duotone/repo/06-Graph/TextBook/05_MinimumCostSpanningTree/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/data/duotone/repo/06-Graph/TextBook/05_MinimumCostSpanningTree/cmake-build-debug/CMakeFiles/rebuild_cache.dir
