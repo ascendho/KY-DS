@@ -1,0 +1,3 @@
+D:/data/duotone/repo/02-Linear List/Exercise/2.10_DeleteItem/cmake-build-debug/CMakeFiles/DeleteItem.dir
+D:/data/duotone/repo/02-Linear List/Exercise/2.10_DeleteItem/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/data/duotone/repo/02-Linear List/Exercise/2.10_DeleteItem/cmake-build-debug/CMakeFiles/rebuild_cache.dir

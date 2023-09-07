@@ -53,6 +53,7 @@ typora-copy-images-to: ./img
 | <a href="02-Linear List\Exercise\2.7_Inverse\Inverse.cpp">2.7</a> | <a href="03-Stack_Queue/Exercise/3.7_SqQueueWithTag/SqQueueWithTag.cpp">3.7</a> |                                                              |                                                              |      |                                                              |      |
 | <a href="02-Linear List\Exercise\2.8_DeleteMinMax\DeleteMinMax.cpp">2.8</a> | <a href="03-Stack_Queue/Exercise/3.8_Deque/Deque.cpp">3.8</a> |                                                              |                                                              |      |                                                              |      |
 |                                                              |                                                              |                                                              |                                                              |      |                                                              |      |
+| <a href="02-Linear List/Exercise/2.10_DeleteItem/DeleteItem.cpp">2.10</a> |                                                              |                                                              |                                                              |      |                                                              |      |
 
 ------
 
