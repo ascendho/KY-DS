@@ -1,7 +1,7 @@
 #include "Partition.h"
 #include <iostream>
 
-// 数组A中存储n个整数， 将A中所有正数排在所有负数的前面
+// 数组A中存储n个整数, 将A中所有正数排在所有负数的前面
 void Partition(int A[], int n) {
     int low = 0, high = n - 1;
     while (low < high) {
