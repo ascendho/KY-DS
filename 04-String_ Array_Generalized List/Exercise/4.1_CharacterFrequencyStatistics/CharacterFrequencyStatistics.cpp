@@ -3,11 +3,11 @@
 
 // 统计输入字符串中数字字符和字母字符的个数
 void Count() {
-    int num[LENGTH];
+    int num[LENGTH];     // LENGTH为总长度36(即大写字母个数加数字个数)
     char ch;
 
     // 初始化
-    for (int i = 0; i < LENGTH; i++) {    // LENGTH为总长度36(即大写字母个数加数字个数)
+    for (int i = 0; i < LENGTH; i++) {
         num[i] = 0;
     }
 
