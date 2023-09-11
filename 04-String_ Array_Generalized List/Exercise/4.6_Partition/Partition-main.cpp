@@ -7,8 +7,10 @@ int main() {
     int arr[] = { 1 , 3,-1,-2,8,9,-7,5,-1,2,6,-7,-2 };
     int num = sizeof(arr) / sizeof(arr[0]);     // 获取数组长度
 
-    Partition(arr, num);
+//    Partition(arr, num);
 
+
+    Partition_dp(arr,num);
     Print(arr,num);
 
     return 0;

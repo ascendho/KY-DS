@@ -18,27 +18,26 @@ void Partition(int A[], int n) {
 }
 
 // 双指针法 目前还存在问题
-/*void Partition(int A[], int n) {
+void Partition_dp(int A[], int n){
     int tag1 = 0, tag2 = 0;
-    int NegPointer, PosPointer;
+    int Neg, Pos;                  // 分别指向负数和正数
 
     for (int i = 0, j = 0; i < n && j < n;) {
         if (A[i] < 0 && tag1 == 0) {
-            NegPointer = i;
+            Neg = i;
             tag1 = 1;
         }
 
         if (A[j] > 0 && tag2 == 0) {
-            PosPointer = j;
+            Pos = j;
             tag2 = 1;
         }
 
         if (tag1 == 1 && tag2 == 1) {
-            if (NegPointer < PosPointer) {
-                std::swap(A[NegPointer], A[PosPointer]);
+            if (Neg < Pos) {
+                std::swap(A[Neg], A[Pos]);
                 tag1 = tag2 = 0;
             } else {
-                tag1=0;
                 tag2=0;
             }
         }
@@ -47,5 +46,6 @@ void Partition(int A[], int n) {
         if (tag2 == 0) j++;
     }
 }
- 3, 1, -1, -3, 4, 5, -2
- */
+
+
+// 3, 1, -1, -3, 4, 5, -2
