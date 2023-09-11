@@ -13,7 +13,6 @@ int main() {
     Partition_dp(arr1, length1);
     Print(arr1, length1);
 
-
     Partition_dp(arr2, length2);
     Print(arr2, length2);
 
