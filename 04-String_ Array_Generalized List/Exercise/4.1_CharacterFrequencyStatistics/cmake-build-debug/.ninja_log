@@ -1,0 +1,13 @@
+# ninja log v5
+3	195	7161393697710393	build.ninja	f626b703bd7a78c3
+5	516	7161393703228139	CMakeFiles/CharacterFrequencyStatistics.dir/CharacterFrequencyStatistics.cpp.obj	50c49c7bf00312f1
+4	505	7161393787430089	CMakeFiles/CharacterFrequencyStatistics.dir/CharacterFrequencyStatistics-main.cpp.obj	fa814dcbb1fd11e5
+506	685	7161393789192018	CharacterFrequencyStatistics.exe	adb8b04381ad40df
+4	524	7161395612830072	CMakeFiles/CharacterFrequencyStatistics.dir/CharacterFrequencyStatistics.cpp.obj	50c49c7bf00312f1
+10	534	7161395612935622	CMakeFiles/CharacterFrequencyStatistics.dir/CharacterFrequencyStatistics-main.cpp.obj	fa814dcbb1fd11e5
+534	705	7161395614601429	CharacterFrequencyStatistics.exe	adb8b04381ad40df
+4	511	7161398854295144	CMakeFiles/CharacterFrequencyStatistics.dir/CharacterFrequencyStatistics.cpp.obj	50c49c7bf00312f1
+512	682	7161398855963292	CharacterFrequencyStatistics.exe	adb8b04381ad40df
+9	517	7161400429350422	CMakeFiles/CharacterFrequencyStatistics.dir/CharacterFrequencyStatistics-main.cpp.obj	fa814dcbb1fd11e5
+4	527	7161400429453818	CMakeFiles/CharacterFrequencyStatistics.dir/CharacterFrequencyStatistics.cpp.obj	50c49c7bf00312f1
+527	701	7161400431152003	CharacterFrequencyStatistics.exe	adb8b04381ad40df
