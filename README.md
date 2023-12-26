@@ -35,10 +35,10 @@ typora-copy-images-to: ./img
 
 ## 补充算法
 
-|                            线性表                            |                           栈和队列                           |                       串、数组和广义表                       |                          树和二叉树                          |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <a href="02-Linear List/TextBook/SLinkList/SLinkList.cpp">*静态链表</a> | <a href="03-Stack_Queue/TextBook/LineEdit/LineEdit.cpp">*行编辑</a> | <a href="04-String_ Array_Generalized List/TextBook/Array/Array.cpp">*多维数组</a> | <a href="05-Tree_Binary Tree/TextBook/03_DisjointSet/DisjointSet.cpp">*并查集</a> |
-| <a href="02-Linear List/TextBook/Difference/Difference.cpp">*(A-B)∪(B-A)</a> |                                                              |                                                              |                                                              |
+|                             绪论                             |                            线性表                            |                           栈和队列                           |                       串、数组和广义表                       |                          树和二叉树                          |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| <a href="01-Exordium\TextBook\01_Triplet\Triplet.cpp">三元组</a> | <a href="02-Linear List/TextBook/SLinkList/SLinkList.cpp">静态链表</a> | <a href="03-Stack_Queue/TextBook/LineEdit/LineEdit.cpp">行编辑程序</a> | <a href="04-String_ Array_Generalized List/TextBook/Array/Array.cpp">多维数组</a> | <a href="05-Tree_Binary Tree/TextBook/03_DisjointSet/DisjointSet.cpp">并查集</a> |
+|                                                              | <a href="02-Linear List/TextBook/Difference/Difference.cpp">(A-B)∪(B-A)</a> |                                                              |                                                              |                                                              |
 
 **注**：补充算法多源自紫皮严蔚敏版数据结构
 
