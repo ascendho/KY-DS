@@ -1,11 +1,8 @@
 #ifndef INC_03_STACK_AND_QUEUE_LINKQUEUE_H
 #define INC_03_STACK_AND_QUEUE_LINKQUEUE_H
 
-// 链队的基本操作
-
 #include "../../../Status/Status.h"
 
-// 队列的链式存储结构
 typedef struct QNode {
     QElemType data;
     struct QNode *next;

@@ -1,8 +1,6 @@
 #ifndef INC_03_STACK_AND_QUEUE_SQQUEUE_H
 #define INC_03_STACK_AND_QUEUE_SQQUEUE_H
 
-// 循环队列基本操作
-
 #include "../../../Status/Status.h"
 
 typedef struct {

@@ -66,19 +66,19 @@ void TraverseList(LinkList p) {
 }
 
 // 算法3.10　Hanoi塔问题的递归算法
-// 将塔座A上的n个圆盘按规则搬到C上，B做辅助塔
+// 将塔座A上的n个圆盘按规则搬到C上, B做辅助塔
 
-// 时间复杂度：O(2^n)
-// 空间复杂度：O(n)
+// 时间复杂度: O(2^n)
+// 空间复杂度: O(n)
 
 void Hanoi(int n, char A, char B, char C) {
     // 将编号为1的圆盘从A移到C
     if (n == 1)
         move(A, 1, C);
     else {
-        Hanoi(n - 1, A, C, B);   // 将A上编号为1至n-1的圆盘移到B，C做辅助塔
+        Hanoi(n - 1, A, C, B);   // 将A上编号为1至n-1的圆盘移到B, C做辅助塔
         move(A, n, C);                    // 将编号为n的圆盘从A移到C
-        Hanoi(n - 1, B, A, C);   // 将B上编号为1至n-1的圆盘移到C，A做辅助塔
+        Hanoi(n - 1, B, A, C);   // 将B上编号为1至n-1的圆盘移到C, A做辅助塔
     }
 }
 

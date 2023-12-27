@@ -7,7 +7,7 @@
 const char oper[] = {'+', '-', '*', '/', '(', ')', '#'};
 
 // 算法3.22　表达式求值
-// 算术表达式求值的算符优先算法，设OPTR和OPND分别为运算符栈和操作数栈
+// 算术表达式求值的算符优先算法, 设OPTR和OPND分别为运算符栈和操作数栈
 
 char EvaluateExpression() {
     char ch, theta, a, b, x, top;

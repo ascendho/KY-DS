@@ -17,7 +17,7 @@ void move(char A, int n, char C);
 
 void Hanoi(int n, char A, char B, char C);
 
-//（m是初值为0的全局变量，对搬动计数）
+//（m是初值为0的全局变量, 对搬动计数）
 int k = 0;
 
 void Visit(LinkList p);

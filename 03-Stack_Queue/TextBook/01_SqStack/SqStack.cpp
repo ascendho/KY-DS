@@ -11,7 +11,7 @@ Status InitSqStack(SqStack &S) {
     if (!S.base)
         exit(OVERFLOW);
 
-    // top初始为base，空栈
+    // top初始为base, 空栈
     S.top = S.base;
 
     // size置为栈的最大容量MAXSIZE
@@ -26,7 +26,7 @@ Status Push(SqStack &S, SElemType e) {
     if (S.top - S.base == S.size)
         return ERROR;
 
-    // 元素e压入栈顶，栈顶指针加1
+    // 元素e压入栈顶, 栈顶指针加1
     *(S.top++) = e;
     return OK;
 }
@@ -38,7 +38,7 @@ Status Pop(SqStack &S, SElemType &e) {
     if (S.top == S.base)
         return ERROR;
 
-    // 栈顶指针减1，将栈顶元素赋给e
+    // 栈顶指针减1, 将栈顶元素赋给e
     e = *(--S.top);
     return OK;
 }
@@ -51,33 +51,4 @@ SElemType GetTop(SqStack S) {
         return *(S.top - 1);  // 返回栈顶元素的值，栈顶指针不变
 
     exit(OVERFLOW);
-}
-
-Status StackEmpty(SqStack S) {
-    if (S.top == S.base)
-        return OK;
-    return ERROR;
-}
-
-Status DestroySqStack(SqStack &S) {
-    if (StackEmpty(S))
-        return ERROR;
-
-    free(S.base);
-
-    S.base = nullptr;
-    S.top = nullptr;
-    S.size = 0;
-
-    return OK;
-}
-
-Status ClearSqStack(SqStack &S) {
-    if (&S == nullptr || (S).base == nullptr) {
-        return ERROR;
-    }
-
-    S.top = S.base;
-
-    return OK;
 }

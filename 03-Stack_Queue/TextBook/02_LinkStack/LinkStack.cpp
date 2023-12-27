@@ -2,7 +2,7 @@
 #include "LinkStack.h"
 
 // 算法3.5　链栈的初始化
-// 构造一个空栈 S，栈顶指针置空
+// 构造一个空栈 S, 栈顶指针置空
 
 Status InitStack(LinkStack &S) {
     S = nullptr;
@@ -23,14 +23,14 @@ Status Push(LinkStack &S, SElemType e) {
 }
 
 // 算法3.7　链栈的出栈
-// 删除S的栈顶元素，用e返回其值
+// 删除S的栈顶元素, 用e返回其值
 
 Status Pop(LinkStack &S, SElemType &e) {
     // 栈空
     if (S == nullptr)
         return ERROR;
 
-    //用p临时保存栈顶元素空间，以备释放
+    //用p临时保存栈顶元素空间, 以备释放
     StackNode *p = S;
 
     e = S->data;  // 将栈顶元素赋给e
@@ -40,7 +40,7 @@ Status Pop(LinkStack &S, SElemType &e) {
 }
 
 // 算法3.8　取链栈的栈顶元素
-// 返回S的栈顶元素，不修改栈顶指针
+// 返回S的栈顶元素, 不修改栈顶指针
 
 SElemType GetTop(LinkStack S) {
     // 栈非空
