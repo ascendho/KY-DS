@@ -2,9 +2,9 @@
 #include <iostream>
 
 // 算法2.18 多项式的创建
-// 输入n项的系数和指数，建立表示一个多项式的有序链表P
+// 输入n项的系数和指数, 建立表示一个多项式的有序链表P
 
-// 时间复杂度：O(n^2)(因为是有序)
+// 时间复杂度: O(n^2)(因为是有序)
 
 void CreatPolyn(Polynomial &P, int n) {
     PNode *pre;
@@ -37,10 +37,10 @@ void CreatPolyn(Polynomial &P, int n) {
 }
 
 // 算法2.19 多项式的相加
-// 多项式加法：Pa=Pa+Pb，利用两个多项式的结点构成“和多项式”
+// 多项式加法: Pa=Pa+Pb, 利用两个多项式的结点构成“和多项式”
 
-// 时间复杂度：O(m+n)
-// 空间复杂度：O(1)
+// 时间复杂度: O(m+n)
+// 空间复杂度: O(1)
 
 void AddPolyn(Polynomial &Pa, Polynomial &Pb) {
     Polynomial r, p1, p2, p3;
@@ -53,7 +53,7 @@ void AddPolyn(Polynomial &Pa, Polynomial &Pb) {
     // p3指向和多项式的当前结点，初值为Pa
     p3 = Pa;
 
-    //p1和p2均非空
+    // p1和p2均非空
     while (p1 && p2) {
         if (p1->expn == p2->expn)      // 指数相等
         {
@@ -89,6 +89,7 @@ void AddPolyn(Polynomial &Pa, Polynomial &Pb) {
             p2 = p2->next;              // p2指向后一项
         }
     }
+
     p3->next = p1 ? p1 : p2;            // 插入非空多项式的剩余段
     delete Pb;                          // 释放Pb的头结点
 }

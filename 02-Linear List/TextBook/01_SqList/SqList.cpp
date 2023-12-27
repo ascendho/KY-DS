@@ -21,7 +21,7 @@ Status InitSqList(SqList &L) {
 // 时间复杂度：O(1)
 
 Status GetSqListElem(SqList L, int i, ElemType &e) {
-    // 判断i值是否合理，若不合理，返回ERROR
+    // 判断i值是否合理, 若不合理, 返回ERROR
     if (i < 1 || i > L.length)
         return ERROR;
 
@@ -36,12 +36,12 @@ Status GetSqListElem(SqList L, int i, ElemType &e) {
 // 时间复杂度：O(n) [若有序, O(log)]
 
 int LocateSqElem(SqList L, ElemType e) {
-    // 查找成功，返回序号i+1
+    // 查找成功, 返回序号i+1
     for (int i = 0; i < L.length; i++)
         if (L.elem[i] == e)
             return i + 1;
 
-    // 查找失败，返回0
+    // 查找失败, 返回0
     return 0;
 }
 
@@ -76,7 +76,7 @@ Status SqListInsert(SqList &L, int i, ElemType e) {
 // E: (n-1)/2
 // 时间复杂度: O(n)
 
-// 注：当删除的是表尾的元素时，表尾元素还在内存中，只是在“逻辑上”消失了
+// 注：当删除的是表尾的元素时, 表尾元素还在内存中, 只是在“逻辑上”消失了
 Status SqListDelete(SqList &L, int i, ElemType &e) {
     // i值的合法范围是[1,L.length](已包含L.length==0的情况，故无需再判断)
     if ((i < 1) || (i > L.length))
@@ -94,7 +94,6 @@ Status SqListDelete(SqList &L, int i, ElemType &e) {
     return OK;
 }
 
-/* 王道课程补充算法 */
 
 // 增加动态数组的长度
 // 时间复杂度：O(n)
