@@ -3,7 +3,7 @@
 // 算法4.3　计算next函数值
 // 求模式串T的next函数值并存入数组next
 
-void GetNext(SString T, int next[]) {
+void get_next(SString T, int next[]) {
     int i = 1, j = 0;
     next[1] = 0;
 

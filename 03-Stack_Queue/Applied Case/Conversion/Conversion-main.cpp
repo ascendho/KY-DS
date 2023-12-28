@@ -14,8 +14,11 @@ int main() {
     cout << "输入要转换的进制(2-16):" << endl;
     cin >> base;
 
+    std::cout << "非递归版: ";
     Conversion(N, base);
     cout << endl;
+
+    std::cout << "递归版: ";
     Conversion_Recursive(N, base);
 
     return 0;

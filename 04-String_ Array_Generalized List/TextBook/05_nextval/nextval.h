@@ -3,6 +3,6 @@
 
 #include "../01_SString/SString.h"
 
-void GetNextVal(SString T, int nextval[]);
+void get_nextval(SString T, int nextval[]);
 
 #endif //TEXTBOOK_NEXTVAL_H
