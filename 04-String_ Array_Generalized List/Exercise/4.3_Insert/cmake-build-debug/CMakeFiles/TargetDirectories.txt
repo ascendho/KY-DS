@@ -1,0 +1,3 @@
+D:/data/duotone/repo/04-String_ Array_Generalized List/Exercise/4.3_Insert/cmake-build-debug/CMakeFiles/Insert.dir
+D:/data/duotone/repo/04-String_ Array_Generalized List/Exercise/4.3_Insert/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/data/duotone/repo/04-String_ Array_Generalized List/Exercise/4.3_Insert/cmake-build-debug/CMakeFiles/rebuild_cache.dir
